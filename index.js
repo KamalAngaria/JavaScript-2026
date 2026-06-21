@@ -23,3 +23,26 @@
 // initalization is the proces where we give the 'first value the to variable we decalred in js
 // Example -----
 // var a = 10; // thsi is how we decalre and intialize a variable in js 
+
+// Day 2 of Learning Javascript 
+// Todat topic ---
+// Difference between var,let and const in javascript
+// 1 var =====================================
+//var is the old way of declaring varriable in javascript
+ // 1 we can redeclare the variable which is error prone and cause bugs in the code
+//  Example ---- var a = 10;
+//  var a= 20; this is the example of re declareing the variable using same name with different value which is not good practice in javascript
+// 2 var is the function scoped variable.
+// 3 var is ealiy added to the window object in the browser which can cause issues in the code 
+// 2 let =====================================
+// let is the new way of declaring variable in javascript 
+// let gives error if we try to redeclare the variable with same name which is good practice in javascript 
+// Example-----
+// let a = 10;
+// let a = 20; // this will give error because we are trying to redeclare the variable with some name which is not allowed in javascript
+// 3 const=======================================
+// const is the way of declaring variable in javascript 
+// const is the variable which cannot be redeclared and cannot be reassigned a new value
+// Example-----
+// const age = 21;
+// age = 22; // Error
