@@ -57,3 +57,22 @@
 // 3 Block scope============================
 // Block scope is the scope which is accessible only whith in th block of the code 
  
+// Today topic No. 3-----
+// Temproal Dead Zone in javascript
+// Temporal Dead Zone (TDZ) is the period from entering a scope until a let or const variable is declared, 
+// during which accessing that variable throws a ReferenceError.
+// Example -----------
+// let b = 10;
+// console.log(b); // ✅
+
+// console.log(a); // ❌
+
+
+
+
+ // look all these space this is tdz conslole knows that a is exeisted but it cannot be accsed  before initialization
+
+
+
+
+// let a = "Kamal";
