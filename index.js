@@ -25,8 +25,8 @@
 // var a = 10; // thsi is how we decalre and intialize a variable in js 
 
 // Day 2 of Learning Javascript 
-// Todat topic ---
-// Difference between var,let and const in javascript
+// Today topic ---
+// Difference between var,let and co`   nst in javascript
 // 1 var =====================================
 //var is the old way of declaring varriable in javascript
  // 1 we can redeclare the variable which is error prone and cause bugs in the code
@@ -46,3 +46,14 @@
 // Example-----
 // const age = 21;
 // age = 22; // Error
+
+// Today topic No. 2-----
+//Scope in javascript
+// There are three types of scopes in javascript 
+// 1 Global Scope===========================
+// Global scope is the scope which is accessible from anywhere in the code 
+// 2 Locla Scope===========================
+// Local scope is the scope which is accesible only whith in the function
+// 3 Block scope============================
+// Block scope is the scope which is accessible only whith in th block of the code 
+ 
