@@ -76,3 +76,5 @@
 
 
 // let a = "Kamal";
+
+Day 3 of Learning Javascript
