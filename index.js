@@ -77,4 +77,18 @@
 
 // let a = "Kamal";
 
-Day 3 of Learning Javascript
+// Day 3 of Learning Javascript
+// Today topic-------
+// Hoisting  in javascript
+// Hoisting JavaScript ka behavior hai jisme declarations
+// (variables aur functions) ko execution se pehle memory me register kar diya jata hai.
+// Example -----------
+// console.log(a); // undefined
+
+// var a = 10;
+// ---------------------------------------------
+// var a;          // memory me pehle place mil gaya and it gives undefined because it is not initialized yet
+
+// console.log(a); // undefined
+
+// a = 10;
