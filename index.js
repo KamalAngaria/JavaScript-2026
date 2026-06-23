@@ -92,3 +92,5 @@
 // console.log(a); // undefined
 
 // a = 10;
+// ---------------------------------------------
+// Day 4 of Learning Javascript
