@@ -93,4 +93,51 @@
 
 // a = 10;
 // ---------------------------------------------
+
+
 // Day 4 of Learning Javascript
+// Practice section of =================================================
+// var, let, const
+// Scope (global, function, block)
+// Reassignment & redeclaration
+// Temporal Dead Zone (TDZ)
+// Hoisting 
+//                                Level 1 — Basic
+
+// Q1
+
+// console.log(a);
+//  var a = 10; 
+// Answer = undefined  
+
+// Q2
+
+// console.log(b);
+// let b = 10;
+// Answer i thik this is litle trick but my answer is undefined and refrence error  because if we use 
+// let b ; this is undefined  at this time
+// console.log(b);
+// b =10;  so in console undefined occur cause in hoisting every 
+// varible devide in two parts and declartion part is always goes at top most of code this is my reason 
+// but my final answer is ReferenceError
+
+//Q3
+
+// console.logc(c);
+// const c = 10;
+//Answer = same as Q2 
+
+// Q4
+
+// var a = 10;
+// var a = 20;
+// console.log(a);
+// Answer = 20
+
+// Q5
+
+// let a = 10 ;
+// let a = 20;
+// console.log(a);
+// Answer= indetifier a is already declared 
+
