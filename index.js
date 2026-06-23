@@ -209,3 +209,37 @@
 //   let a = 20;
 // }
 //  Answer - cannot acess a before innitialization
+
+//                           Level 4 — Hoisting
+// Q13
+
+// var a;
+// console.log(a);
+// a = 50;
+// Answer = undefined 
+
+// Q14
+
+// let a;
+// console.log(a);
+// a = 50;
+// Answer = undefined 
+
+// Q15
+
+// function test() {
+//   console.log(a);
+//   var a = 100;
+// }
+// test();
+// Answer = undefined  i dont know the reason of thi because i am not familure with functions 
+
+// Q16
+
+// function test() {
+//   console.log(a);
+//   let a = 100;
+// }
+// test();
+
+// again not familure with function 
