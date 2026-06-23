@@ -179,3 +179,33 @@
 // }
 // console.log(a);
 //Answer = 200 i  want to know the reason why 
+
+//                                Level 3 — TDZ
+
+// Q10
+
+// { 
+//   console.log(a);
+
+//   let a = 10;
+// }
+// Answer - cannot acess a before innitialization
+
+// Q11
+
+// {
+//   let a = 10;
+
+//   console.log(a);
+// }
+//Answer - 10 
+
+// Q12
+
+// let a = 10;
+// {
+//   console.log(a);
+
+//   let a = 20;
+// }
+//  Answer - cannot acess a before innitialization
