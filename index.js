@@ -141,3 +141,41 @@
 // console.log(a);
 // Answer= indetifier a is already declared 
 
+//                             Level 2 — Scope
+
+// Q6
+
+// {
+//   let a = 10;
+// }
+// console.log(a);
+// Answer = refence error because let is in the  block and let is the block scope variable can only acces under the block if its 
+//  in the blcok 
+
+// Q7
+
+// {
+//   var a = 10;
+// }
+// console.log(a);
+// Asnwer = 10 ,because var have global acces and did not respect the blocks
+
+// Q8
+
+// let a = 100;
+
+// {
+//   let a = 200;
+//   console.log(a);
+// }
+
+// console.log(a);
+// //Answer = 200 then  100
+
+// Q9
+// var a = 100;
+// {
+//   var a = 200;
+// }
+// console.log(a);
+//Answer = 200 i  want to know the reason why 
