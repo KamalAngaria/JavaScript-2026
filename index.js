@@ -237,9 +237,28 @@
 
 // again not familure with function
 
-//                       Day 5 of Learning Javascript 
+//                       Day 5 of Learning Javascript
 // Data Type  + Type System
 // Data types are Devided in to 2 catograies
 // 1 Primitive Data Type
 // 2 Refrence Data Type
- 
+
+//                      Primitives Data Type
+// Primitive Defination------
+// Primitive data types are basic data types that store a single value and are not objects.
+// Example Type ----
+// 1 string
+// 2 number
+// 3 boolean
+// 4 undefined
+// 5 null
+// 6 bigint
+// 7 symbol
+
+//                         Reference Data Type
+// Reference Definition-------
+// A reference is a value that points to the location of an object in memory rather than containing the object itself.
+// Example Type ----
+// 1 Object
+// 2 function
+// 3 array
