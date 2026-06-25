@@ -278,3 +278,19 @@
 // console.log(value);         // Hello
 // console.log(typeof value);  // string
 
+// Topic 2------------------
+
+// Type coercion------
+// Type coercion is the automatic or explicit conversion of a value from one data type to another.
+// Example 1
+// console.log("5" + 2);
+// Output:
+// "52"
+// Why?
+// "5" is a string.
+// + with a string performs string concatenation.
+// JavaScript converts 2 → "2".
+// So it becomes:
+// "5" + "2"
+// Result:
+// "52"
