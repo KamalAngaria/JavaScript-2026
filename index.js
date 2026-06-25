@@ -318,7 +318,7 @@
 // 6 ternary
 
 
-//                              1. Arithmetic Operators
+//                          1. Arithmetic Operators
 
 // Used for mathematical calculations.
 
@@ -335,3 +335,28 @@
 
 // console.log(x + y * 2 - 4 / 2);
 // 10+6-2
+
+//                            2. Comparison Operators
+
+// Comparison operators compare two values and return a boolean value: either true or false.
+// | Operator | Meaning                | Example     | Result  |
+// | -------- | ---------------------- | ----------- | ------- |
+// | `==`     | Equal (loose equality) | `5 == "5"`  | `true`  |
+// | `===`    | Strict equal           | `5 === "5"` | `false` |
+// | `!=`     | Not equal              | `5 != "5"`  | `false` |
+// | `!==`    | Strict not equal       | `5 !== "5"` | `true`  |
+// | `>`      | Greater than           | `10 > 5`    | `true`  |
+// | `<`      | Less than              | `5 < 10`    | `true`  |
+// | `>=`     | Greater than or equal  | `10 >= 10`  | `true`  |
+// | `<=`     | Less than or equal     | `5 <= 10`   | `true`  |
+
+//                         Practice Sestion 
+// Part 1: Basic Comparisons
+let a = 20;
+let b = 15; 
+// console.log(a>b); true
+// console.log(a<b);false
+// console.log(a==b); false
+// console.log(a != b); true
+// console.log(a<=b);false
+// console.log(a>=b); false
