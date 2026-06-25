@@ -265,7 +265,7 @@
 
 //                       Day 6 of Learning Javascript
 
-// Dynamic typing in javascript?
+//                      Dynamic typing in javascript?
 // In JavaScript, a variable can hold any type of value, and its type can change while the program is running.
 // Example------- 
 // let value = 10;
@@ -280,7 +280,7 @@
 
 // Topic 2------------------
 
-// Type coercion------
+//                              Type coercion   
 // Type coercion is the automatic or explicit conversion of a value from one data type to another.
 // Example 1
 // console.log("5" + 2);
@@ -294,3 +294,25 @@
 // "5" + "2"
 // Result:
 // "52"
+
+//  Topic 3----------------
+
+//                              Operatores
+
+// What are operators in JavaScript?
+// Operators are special symbols or keywords that perform operations on values (operands) and produce a result.
+// For example:
+// let sum = 10 + 5;
+// Here:
+// 10 → operand
+// 5 → operand
+// + → operator
+// The + operator adds the two operands and returns 15.
+
+// Type of Operators in Javascript-
+// 1 Arithmetic
+// 2 comaparison 
+// 3 logical
+// 4 assignment
+// 5 unary 
+// 6 ternary
