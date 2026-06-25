@@ -262,3 +262,19 @@
 // 1 Object
 // 2 function
 // 3 array
+
+//                       Day 6 of Learning Javascript
+
+// Dynamic typing in javascript?
+// In JavaScript, a variable can hold any type of value, and its type can change while the program is running.
+// Example------- 
+// let value = 10;
+
+// console.log(value);         // 10
+// console.log(typeof value);  // number
+
+// value = "Hello";
+
+// console.log(value);         // Hello
+// console.log(typeof value);  // string
+
