@@ -297,7 +297,7 @@
 
 //  Topic 3----------------
 
-//                              Operatores
+//                              Operators
 
 // What are operators in JavaScript?
 // Operators are special symbols or keywords that perform operations on values (operands) and produce a result.
@@ -316,3 +316,22 @@
 // 4 assignment
 // 5 unary 
 // 6 ternary
+
+
+//                              1. Arithmetic Operators
+
+// Used for mathematical calculations.
+
+// Operator	Meaning	Example	Result
+// +	Addition	5 + 2	7
+// -	Subtraction	5 - 2	3
+// *	Multiplication	5 * 2	10
+// /	Division	10 / 2	5
+// %	Modulus (remainder)	10 % 3	1
+// **	Exponent	2 ** 3	8
+
+// let x = 10;
+// let y = 3;
+
+// console.log(x + y * 2 - 4 / 2);
+// 10+6-2
