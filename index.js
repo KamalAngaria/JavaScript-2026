@@ -360,3 +360,19 @@ let b = 15;
 // console.log(a != b); true
 // console.log(a<=b);false
 // console.log(a>=b); false
+
+
+//                       Day 7 of Learning Javascript
+
+//                          Assignment Operator
+// An assignment operator is used to assign a value to a variable.
+// | Operator | Meaning              | Example   |
+// | -------- | -------------------- | --------- |
+// | `=`      | Assign               | `x = 10`  |
+// | `+=`     | Add and assign       | `x += 5`  |
+// | `-=`     | Subtract and assign  | `x -= 5`  |
+// | `*=`     | Multiply and assign  | `x *= 5`  |
+// | `/=`     | Divide and assign    | `x /= 5`  |
+// | `%=`     | Remainder and assign | `x %= 5`  |
+// | `**=`    | Exponent and assign  | `x **= 2` |
+
