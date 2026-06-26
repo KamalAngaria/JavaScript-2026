@@ -376,3 +376,14 @@ let b = 15;
 // | `%=`     | Remainder and assign | `x %= 5`  |
 // | `**=`    | Exponent and assign  | `x **= 2` |
 
+
+
+//                        Logical  Operator
+// Logical operators are used to combine or modify boolean (true/false) values.
+// 1. Logical AND (&&)
+// Returns true only if both conditions are true.
+// 2. Logical OR (||)
+// Returns true if at least one condition is true.
+// 3. Logical NOT (!)   
+// Reverses a boolean value. convert true to flase and false to true
+
