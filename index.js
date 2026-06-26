@@ -387,3 +387,39 @@ let b = 15;
 // 3. Logical NOT (!)   
 // Reverses a boolean value. convert true to flase and false to true
 
+//                      Unary and Ternary Operator
+// What is a Unary Operator?
+// A unary operator is an operator that works on only one operand (one value or one variable).
+
+// Q1--------------
+// let count = 10 ;
+// console.log(++count);  Answer = 11
+// Q2--------------
+// let lives = 5;
+// console.log(--lives);; Answer = 4
+// Q3---------------
+// let age = "21"
+// console.log(+age); done
+// Q4--------------
+// let amount = "500";
+// console.log(-amount); done
+// Q5--------------
+// let isLoggedIn = true;
+// console.log(!isLoggedIn); done 
+// Q6----------------
+// let city = "Shimla";
+// console.log(typeof city); string 
+// Q7-----------
+// let x = 10;
+// console.log(x++); 10
+// console.log(x); 11
+// let y = 10;
+// console.log(++y); 11
+// console.log(y); 11
+// Q8--------------
+// let age = 21;
+// let status = age;
+// (status>=21) ?console.log("Adult"):consolele.log("Minor"); done 
+// Q9-------------
+// let marks = 35 ;
+// (marks >= 33) ?console.log("pass") : console.log("fail"); done
