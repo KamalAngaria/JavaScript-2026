@@ -267,7 +267,7 @@
 
 //                      Dynamic typing in javascript?
 // In JavaScript, a variable can hold any type of value, and its type can change while the program is running.
-// Example------- 
+// Example-------
 // let value = 10;
 
 // console.log(value);         // 10
@@ -280,7 +280,7 @@
 
 // Topic 2------------------
 
-//                              Type coercion   
+//                              Type coercion
 // Type coercion is the automatic or explicit conversion of a value from one data type to another.
 // Example 1
 // console.log("5" + 2);
@@ -311,10 +311,10 @@
 
 // Type of Operators in Javascript-
 // 1 Arithmetic
-// 2 comaparison 
+// 2 comaparison
 // 3 logical
 // 4 assignment
-// 5 unary 
+// 5 unary
 // 6 ternary
 
 
@@ -350,10 +350,10 @@
 // | `>=`     | Greater than or equal  | `10 >= 10`  | `true`  |
 // | `<=`     | Less than or equal     | `5 <= 10`   | `true`  |
 
-//                         Practice Sestion 
+//                         Practice Sestion
 // Part 1: Basic Comparisons
-let a = 20;
-let b = 15; 
+// let a = 20;
+// let b = 15;
 // console.log(a>b); true
 // console.log(a<b);false
 // console.log(a==b); false
@@ -384,7 +384,7 @@ let b = 15;
 // Returns true only if both conditions are true.
 // 2. Logical OR (||)
 // Returns true if at least one condition is true.
-// 3. Logical NOT (!)   
+// 3. Logical NOT (!)
 // Reverses a boolean value. convert true to flase and false to true
 
 //                      Unary and Ternary Operator
@@ -405,10 +405,10 @@ let b = 15;
 // console.log(-amount); done
 // Q5--------------
 // let isLoggedIn = true;
-// console.log(!isLoggedIn); done 
+// console.log(!isLoggedIn); done
 // Q6----------------
 // let city = "Shimla";
-// console.log(typeof city); string 
+// console.log(typeof city); string
 // Q7-----------
 // let x = 10;
 // console.log(x++); 10
@@ -419,7 +419,52 @@ let b = 15;
 // Q8--------------
 // let age = 21;
 // let status = age;
-// (status>=21) ?console.log("Adult"):consolele.log("Minor"); done 
+// (status>=21) ?console.log("Adult"):consolele.log("Minor"); done
 // Q9-------------
 // let marks = 35 ;
 // (marks >= 33) ?console.log("pass") : console.log("fail"); done
+
+
+//                       Day 8 of Learning Javascript
+// Q1
+// let score = 49 ;
+// console.log(++score); done
+
+
+// Q2
+// let balance = 1000;
+// console.log(--balance); doen
+
+// Q3
+// let number = "250";
+// console.log(+ number );
+// console.log(typeof +number);
+// console.log(typeof number);  u did not mention which typeof
+
+// Q4
+// let tempreature = "35";
+// console.log(- tempreature); done
+
+// Q5
+// let isOnline = false ;
+// console.log(! isOnline);
+
+// Q6
+// let age = 17 ;
+// let personType =(age>=18) ? "Adult" : "Minor";
+// console.log(personType)
+
+// Q7 
+// let marks = 91 ;
+// let result = (marks>=90) ? "Excelent": " Keep Improving";
+// console.log(result);
+
+// Q8
+// let number = 25 ;
+// let result = number % 2 === 0 ? "even" : "odd" ;
+// console.log(result);
+
+// Q9
+// let username= " kamal";
+// let message = username === " kamal" ? " welecome" : " acess denied" ;
+// console.log(message);
