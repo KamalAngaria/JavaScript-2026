@@ -519,3 +519,37 @@
 // : "Fail";
 // console.log(result);
 
+//                      Level 2 (Comparison + Logical)
+
+// Q5
+// let age = 22 ;
+// let hasLicense = true ;
+// let Drive = age>=18  &&  hasLicense 
+// ? "Eligible to Drive"
+// : "Eligible to Drive";
+// console.log(Drive);
+
+// Q6
+// let username = "Kamal";
+// let password = "12345";
+// let login = username === "Kamal" && password === "12345"
+// ? "Login Successful"
+// : "Invalid Credentials" ;
+// console.log(login);
+
+// Q7
+// let salary = 45000;
+// let income = salary>=50000 
+// ? "High Income"
+// : "Average Income";
+// console.log(income);
+
+// Q8
+// let number = 19 ;
+// let term = number % 2 === 0
+// ? "even"
+// : "odd";
+// console.log(term);
+
+
+
