@@ -589,3 +589,30 @@
 // ? "login allow"
 // : " phone no wrong";
 // console.log(login);
+
+//                      Level 4 (Developer Thinking)
+
+// Q13
+// let username = "Kamal";
+// let isAdmin = false;
+// let loginSucsses = username==="Kamal" && isAdmin===!false
+// ? "Welcome Admin"
+// : "Access Restricted";
+// console.log(loginSucsses);
+
+// Q14 
+// let marks = 91;
+// let result = marks>=90 ? "Excellent"
+// : marks>=75 ? "Good"
+// : marks>=50 ? "Average"
+// : "fail";
+// console.log(result);
+
+// Q15
+// let age = 25;
+// let hasLicense = true;
+// let helmet = false;
+// let eligbility = age>=18 && hasLicense === true && helmet ===!false
+// ? " can ride "
+// : "cannot ride";
+// console.log(eligbility);
