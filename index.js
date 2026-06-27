@@ -468,3 +468,22 @@
 // let username= " kamal";
 // let message = username === " kamal" ? " welecome" : " acess denied" ;
 // console.log(message);
+
+// Q10 
+// let salary = 28000;
+// let Tax = salary >= 30000 ? "Tax Applicable" : "No Tax" ;
+// console.log(Tax);
+
+// Q11
+// let age = 22 ;
+// let hasLicense = false ;
+// let police = age >=18 && hasLicense ? " can drive" : "cannot drive"
+// console.log(police);
+
+// Q12
+// let username ="Kamal";
+// let paswword = "12345";
+// let login = username === "Kamal" && paswword === "12345"
+// ? "Login Successful" 
+// : "Invalid Credentials";
+// console.log(login);
