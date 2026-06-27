@@ -552,4 +552,40 @@
 // console.log(term);
 
 
+//                      Level 3 (Real Thinking)
 
+// Q9
+// let english = 70;
+// let maths = 80;
+// let science = 60;
+// let total = english + maths + science ;
+// console.log (total);
+// let average = total/3 ;
+// let result = average>=40 
+// ? "Pass" 
+// : "Fail"
+// console.log(result);
+
+// Q10
+// let price = 1200;
+// let discount = 20;
+// let DiscountAmount = price*discount/100
+// console.log(DiscountAmount);
+// let FinalPrice =price -DiscountAmount 
+// console.log(FinalPrice);
+
+// Q11
+// let wallet = 5000;
+// let phonePrice = 6500;
+// let purchase = wallet>=6500
+// ? " can buy"
+// : "cannot buy"
+// console.log(purchase);
+
+// Q12
+// let email = true;
+// let phone = false;
+// let login = email===true && phone===true
+// ? "login allow"
+// : " phone no wrong";
+// console.log(login);
