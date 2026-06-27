@@ -487,3 +487,35 @@
 // ? "Login Successful" 
 // : "Invalid Credentials";
 // console.log(login);
+
+//                 chatgpt practice question chaleng 
+//                      Level 1 (Warm-up)
+
+// Q1
+// let num1 = 25;
+// let num2 = 15;
+// console.log(num1+num2);
+// console.log(num1-num2);
+// console.log(num1*num2);
+// console.log(num1/num2);
+// console.log(num1%num2);
+
+// Q2
+// let score = 80 ;
+// console.log(++score); 81 
+// console.log(--score); 79
+
+// Q3
+// let age =20;
+// let voter = age>=18 
+// ? "Adult" 
+// : "Minor";
+// console.log(voter);
+
+// Q4
+// let marks = 70 ;
+// let result = marks>=33 
+// ? "Pass"
+// : "Fail";
+// console.log(result);
+
