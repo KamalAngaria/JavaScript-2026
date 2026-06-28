@@ -616,3 +616,16 @@
 // ? " can ride "
 // : "cannot ride";
 // console.log(eligbility);
+
+//                       Day 9 of Learning Javascript
+
+//                              Control Flow
+
+// Topic----- Control Flow
+    // ├── if
+    // ├── if...else
+    // ├── else if
+    // ├── switch
+    // └── early return
+    
+
