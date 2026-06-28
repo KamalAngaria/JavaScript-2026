@@ -823,3 +823,17 @@
 // else{
 //     console.log("login unsuccesful");
 // }
+
+//                  ⭐ Challenge (Developer Thinking)
+
+// let balance = 15000;
+// let withdrawAmount = 2000;
+// let pinCorrect = true;
+// balance -= withdrawAmount;
+// if(balance>=0.1 && pinCorrect=== true){
+//     console.log("Withdrawal Successful");
+//     console.log("Remaining Balance:" +balance);
+// }else{
+//     console.log("You don't Have Inof Balance");
+// }
+ 
