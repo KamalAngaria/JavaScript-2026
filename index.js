@@ -837,3 +837,15 @@
 //     console.log("You don't Have Inof Balance");
 // }
  
+//                  ⭐ Challenge 2 - Shopping
+
+// let price = 5000;
+// let discount = 10;
+// let wallet = 4800;
+// let discountAmount =(price*discount)/100
+// let finalprice = price -discountAmount;
+// if (wallet>=4500 && finalprice>=4500) {
+//     console.log("Purchase Successful");
+// }else{
+//     console.log("Insufficient Money");
+// }
