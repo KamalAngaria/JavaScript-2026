@@ -648,3 +648,30 @@
 //     balance -= withdraw;
 //     console.log(balance);
 // }
+
+//                          🟡 Section B - if...else
+
+// Q4
+// let temperature = 32;
+// if(temperature>=30){
+//     console.log("Hot");
+// }else{
+//     console.log("Normal")
+// }
+
+// Q5
+// let number = 25;
+// if (number % 2 === 0){
+//     console.log("even");
+// }else{
+//     console.log("odd");
+// }
+
+// Q6
+// let username ="Kamal";
+// let password ="12345";
+// if ( username === "Kamal" && password === "12345"){
+//     console.log("login succesful");
+// }else{
+//     console.log("invalid credentials");
+// }
