@@ -849,3 +849,25 @@
 // }else{
 //     console.log("Insufficient Money");
 // }
+
+//                           🔥 Final Boss
+
+// let english = 90;
+// let maths = 80;
+// let science = 70;
+// let attendance = 78;
+// let TotalMarks = english+maths+science;
+// let average = TotalMarks /3;
+// if (attendance<75){
+//     console.log("Result Withheld")
+// } else if (average >= 90) {
+//     console.log("A");
+// } else if (average >= 75) {
+//     console.log("B");
+// } else if (average >= 60) {
+//     console.log("C");
+// } else if (average >= 45) {
+//     console.log("D");
+// } else {
+//     console.log("Fail");
+// }
