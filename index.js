@@ -627,5 +627,24 @@
     // ├── else if
     // ├── switch
     // └── early return
-    
 
+//                          🟢 Section A - if
+// Q1
+// let age = 20;
+// if(age>=18){
+//     console.log("you are eligible to vote");
+// }
+
+// Q2
+// let  marks =25;
+// if(marks>=33){
+//     console.log("Pass");
+// }
+
+// Q3
+// let balance = 5000;
+// let withdraw = 3000;
+// if (balance>=5000){
+//     balance -= withdraw;
+//     console.log(balance);
+// }
