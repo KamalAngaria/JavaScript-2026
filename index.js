@@ -675,3 +675,39 @@
 // }else{
 //     console.log("invalid credentials");
 // }
+
+//                          🟠 Section C - else if
+
+// Q7
+// let marks = 92;
+// if (marks >= 90){
+//     console.log("A Grade");
+// }else if(marks >=75){
+//     console.log("B Grade");
+// }else if (marks >= 50){
+//     console.log(" C Grade");
+// }else{
+//     console.log("Fail");
+// }
+
+// Q8
+// let salary = 65000;
+// if (salary >= 70000) {
+//     console.log("High Income");
+// }else if(salary >=40000){
+//     console.log("Medium Income")
+// }else{
+//     console.log("Low Income");
+// }
+
+// Q9
+// let age = 67;
+// if (age<13) {
+//     console.log("Child");
+// }else if (age < 20){
+//     console.log("Teenager");
+// }else if( age < 60){
+//        console.log("Adult");
+// } else {
+//     console.log("Senior Citizen");
+// }
