@@ -771,3 +771,55 @@
 //         console.log("Invalid Grade");
 
 // }
+
+//                   🔴 Mixed Practice (Real Thinking)
+
+// Q13
+// let age = 24;
+// let hasLicense = true;
+// let helmet = true;
+// if (age>=18 && hasLicense ===  true && helmet=== true) {
+//     console.log("Can ride")
+// } else {
+//     console.log("Cannot ride")
+// }
+
+// Q14
+// let english = 75;
+// let maths = 82;
+// let science = 69;
+// let total = english + maths + science;
+// let average = total/3;
+// if (average>=90) {
+//     console.log("A Grade");
+// }
+// else if(average>=70){
+//     console.log("B Grade");
+// }
+// else if(average>=35){
+//     console.log("C Grade");
+// }
+// else{
+//     console.log("Fail");
+// }
+
+// Q15
+// let wallet = 1200;
+// let itemPrice = 900;
+// if (wallet -= itemPrice){
+//     console.log(wallet);
+// }
+// else{
+//     console.log("Insufficient Balance");
+// }
+
+// Q16
+// let username = "Kamal";
+// let password = "12345";
+// let otpVerified = true;
+// if (username=== "Kamal" && password==="12345" && otpVerified=== true){
+//     console.log("Login Successful");
+// }
+// else{
+//     console.log("login unsuccesful");
+// }
