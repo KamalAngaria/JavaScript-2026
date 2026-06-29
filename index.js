@@ -871,3 +871,34 @@
 // } else {
 //     console.log("Fail");
 // }
+
+
+//                      Day 10 of learning Javasscript
+
+// Q1
+// for(let i = 1 ; i<=10 ; i++){
+//     console.log(i);
+// }
+
+// Q2
+// let i = 10;
+// while (i>0) {
+//     console.log(i);
+//     i--
+// }
+
+// Q3
+// for(let i = 1; i<=20 ; i++){
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
+
+// Q4
+// let i = 1;
+// while (i<=15) {
+//  if (i % 2===1) {
+//     console.log(i);
+//  }   
+//  i++;
+// }
