@@ -1040,3 +1040,55 @@
 // for(let i = 20 ; i>=1; i--){
 //     console.log(i);
 // }
+
+//                         🟠 Level 3
+
+// Q11
+// for(let i = 1; i<101; i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+// }
+
+// Q12
+// let english = 75 ;
+// let maths = 82;
+// let science = 64;
+// let attendance = 81;
+// let total = english+maths+science;
+// let Average = total/3;
+// console.log(`Total Marks ${total}`);
+// console.log(`Average Marks  ${Average}`);
+// console.log(`Attedance : ${attendance}%`);
+
+// Q13
+// let day = 6;
+// if(day===6 || day === 7){
+//     console.log("Weekend");
+// }else if(day>=1 && day<=5){
+//     console.log("Weekday");
+// }else{
+//     console.log("Invalid Day");
+// }
+
+// Q14
+// for(let i = 1; i < 101 ; i ++){
+//     if(i%5===0){
+//         console.log("Buzz");
+//     }else {
+//         console.log(i);
+//     }
+// }
+
+// Q15
+// let balance =12000;
+// let withdraw = 4000;
+// let pinCorrect = true;
+// if (pinCorrect && balance >= withdraw) {
+//     balance -= withdraw;
+//     console.log(`Withdrawal successful! Balance left: ${balance}`);
+// } else if (!pinCorrect) {
+//     console.log("Incorrect PIN!");
+// } else {
+//     console.log("Insufficient funds!");
+// }
