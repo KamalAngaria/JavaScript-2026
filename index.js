@@ -902,3 +902,40 @@
 //  }   
 //  i++;
 // }
+
+// Q5
+// for (let i = 1; i < 11; i++) {
+//    console.log(`5 * ${i} = ${5*i}`);
+// }
+
+// Q6
+// let sum = 0;
+// for(let i = 1; i<=100; i++){
+//     sum = sum +i ;
+// }
+// console.log(`${sum}`);
+
+// Q7
+// for(let i = 1; i <51; i++){
+//     if(i % 3 === 0){
+//         console.log(i);
+//     }
+// }
+
+// Q8
+// let val =prompt("Please Entre a Number");
+// for(let i = 1; i<=val; i++){
+//     if(i%2===0){
+//         console.log(`${i} is even`);
+//     }
+//     else{
+//         console.log(`${i} is odd`);
+//     }
+// }
+
+// Q9
+// for(let i = 1; i <101; i++){
+//     if(i % 3  === 0 && i % 5 ===0){
+//         console.log(i);
+//     }
+// }
