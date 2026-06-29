@@ -989,3 +989,54 @@
 //     console.log("Insufficient funds. Purchase not possible.");
 // }
 
+//                         🟡 Level 2
+
+// Q6
+// for(let i = 1; i<=50; i++){
+//     if(i%3===0){
+//         console.log(`Number Divisble By 3 Are ${i}`)
+//     }
+// }
+
+// Q7
+// let username = "Kamal";
+// let password = "12345";
+// let otpVerified = true;
+
+// if (username === "Kamal" && password === "12345" && otpVerified) {
+//     console.log("Login successful.");
+// } else {
+//     console.log("Login failed.");
+// }
+
+// Q8
+// let month = 8;
+// switch(month){
+//     case 1:console.log("January"); break;
+//     case 2:console.log("February");break;
+//     case 3:console.log("March");break;
+//     case 4:console.log("Apirl");break;
+//     case 5:console.log("May");break;
+//     case 6:console.log("June");break;
+//     case 7:console.log("July");break;
+//     case 8:console.log("Agust");break;
+//     case 9:console.log("September");break;
+//     case 10:console.log("October");break;
+//     case 11:console.log("Novmber");break;
+//     case 12:console.log("December");break;
+//     default:console.log("Invalid Month");
+// }
+
+// Q9
+// let  salary = 55000;
+// let experience = 3;
+// if(salary>=50000 && experience===2){
+//     console.log("employee gets a bonus");
+// }else{
+//     console.log("Critera is Not completed");
+// }
+
+// Q10
+// for(let i = 20 ; i>=1; i--){
+//     console.log(i);
+// }
