@@ -939,3 +939,53 @@
 //         console.log(i);
 //     }
 // }
+
+//                          🟢 Level 1 (Easy)
+
+// Q1
+// for(let i = 1; i<= 20 ; i ++){
+//     if(i%2===0){
+//         console.log(`${i} even`)
+//     }
+//     else{
+//          console.log(`${i} odd`)
+//     }
+// }
+
+// Q2
+// let table = 7;
+// for(let i = 1; i<=10; i++){
+//     console.log(`7 * ${i} =${table*i}`);
+// }
+
+// Q3
+// let marks = 82;
+// if(marks>=90){
+//     console.log("Grade A");
+// }else if(marks>=70){
+//     console.log("Grade B");
+// }else if(marks>=50){
+//     console.log("Grade C");
+// }else{
+//     console.log("Fail");
+// }
+
+// Q4
+// let age = 17;
+// let hasID = true;
+// if (age >= 18 && hasID) {
+//     console.log("Allowed to enter the event.");
+// } else {
+//     console.log("Not allowed to enter the event.");
+// }
+
+// // Q5
+// let wallet = 5000;
+// let itemPrice = 3200;
+// if(wallet>=itemPrice){
+//     wallet -= itemPrice;
+//     console.log(`Purchase successful! Remaining balance: ${wallet}`)
+// } else {
+//     console.log("Insufficient funds. Purchase not possible.");
+// }
+
