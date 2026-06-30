@@ -1123,3 +1123,10 @@
 // }
 // fun ();
 
+
+// Topic = 2             Parameter & Arguments
+
+// function print (A , B){
+// console.log(A+B);
+// }
+// print(1,7);
