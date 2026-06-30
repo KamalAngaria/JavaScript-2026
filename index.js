@@ -1092,3 +1092,34 @@
 // } else {
 //     console.log("Insufficient funds!");
 // }
+
+
+//                  Day 11 of Learning Javascript
+
+//                 ---------------Function-------------
+// Topic= 1 _ Function Declaration ,expression and arrow Functions
+
+
+//                     ============ Function Statment
+
+// function firstfunction (){
+//     console.log(`Hello world`);         
+// }
+// firstfunction();
+
+
+//                      ============ Function Expression
+
+// let fun = function (){
+//     console.log(`Hello World`);    
+// }
+// fun();
+
+
+//                          ============Fat Arrow Function
+
+// let fun =() =>{
+//     console.log(` hello world`);
+// }
+// fun ();
+
