@@ -1129,4 +1129,21 @@
 // function print (A , B){
 // console.log(A+B);
 // }
-// print(1,7);
+// print(1,7);  
+
+//                  Day 12 of Learning Javascript
+
+//               Default ,rest and spread Parameters
+
+// function add(v1= 0,v2 = 0){
+// console.log(v1+v2);
+// }
+// add(1,7);
+
+//                             Rest Parameter
+
+// function sum(...numbers){
+// console.log(numbers);
+// }
+
+// sum(1,1,1,1,1,1);
