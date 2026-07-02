@@ -1223,3 +1223,41 @@
 // }
 // Name("Rahul");
 
+//              Level 2 – Parameters & Arguments.
+
+// Q1
+
+// function add(v1,v2){
+//    return v1+v2;
+// }
+// console.log(add(10,20));
+
+// Q2
+
+// function multiply(a,b,c){
+//     return a*b*c;
+// }
+// console.log(multiply(2,3,4));
+
+// Q3
+
+// function introduce(name, age, city) {
+//     return ` Hi, I'm ${name}.\n I'm${age} years old. \n I Live in ${city}.`;
+// }
+
+// console.log(introduce("Rahul",22,"Delhi"));
+
+// Q4
+
+// function isEven(number){
+//     return number%2===0;
+// }
+// console.log(isEven(10)); // true
+// console.log(isEven(7));  // false
+
+// Q5
+
+// function findLargest(a,b){
+//     return a > b ? a: b;
+// }
+// console.log(findLargest(50,80));
