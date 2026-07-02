@@ -1147,3 +1147,38 @@
 // }
 
 // sum(1,1,1,1,1,1);
+
+//              Return values and early return
+ 
+// function jet(a){
+//    return 12+a ;
+// }
+
+
+
+// let jetfire =jet(12);
+// console.log(jetfire);
+
+
+//                  Day 13 of Learning Javascript
+
+//                   Revision of Function From Basic----
+// function add ( a,b){
+//     console.log(a-b);
+// }
+// add(10,5);
+// add(33,1); 
+
+// function add (...a){
+//     console.log(a);
+
+// }
+// add(1,1,1,1,1,1,1,1,1);
+
+// function add (a,b){
+//     return a+b;
+// }
+
+
+// let val = add(10,20);
+// console.log(val);
