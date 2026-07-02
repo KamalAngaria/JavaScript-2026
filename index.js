@@ -1182,3 +1182,44 @@
 
 // let val = add(10,20);
 // console.log(val);
+
+//              Level 1 – Function Basics (Very Easy)
+
+// Q1
+
+// function FirstFunction (){
+//     console.log(`Hello , JavaScript`);
+// }
+// FirstFunction ();
+
+// Q2
+
+// let SecondFunction = function(){
+//     console.log(`Learning JavaScript`);
+// }
+// SecondFunction();
+
+// Q3
+
+// let ThirdFunction = ()=>{
+// console.log("Welcome!");
+// }
+// ThirdFunction();
+
+// Q4
+// function val(){
+//     console.log("I am 5 time print function");
+// }
+// val();
+// val();
+// val();
+// val();
+// val();
+
+// Q5
+
+// function Name(v1){
+//     console.log(`Hello ${v1}`);
+// }
+// Name("Rahul");
+
