@@ -1261,3 +1261,71 @@
 //     return a > b ? a: b;
 // }
 // console.log(findLargest(50,80));
+
+//                  Day 14 of Learning Javascript
+
+//                  Logic Building Level 1
+
+// Q1 Positive, Negative or Zero
+
+// function checkNumber(number){
+//     if(number >0){
+//         console.log("Positive Number");
+//     }else if(number <0){
+//         console.log("Negative Number")
+//     }
+//     else{
+//         console.log("Zero");
+//     }
+// }
+
+// checkNumber(10);
+// checkNumber(-5);
+// checkNumber(0);
+
+// Q2 Even numbers from 1 to n
+
+// function printEven(n){
+//     for(let i=1;i<=n;i++){
+//         if(i%2===0){
+//             console.log(i);    i take help of google to this but i understand the logic
+//         }
+//     }
+// }
+// printEven(10);
+
+// Q3 - Sum of 1 to n
+
+// function sum(n){
+//     let total = 0;
+//     for (let i = 1; i<=n; i++){
+//         total += i;
+//     }
+//     return total;   honestely i did not even understand this question and i solved it using google but i understand logic but i consider you to test me ok
+// }
+
+// console.log(sum(5));
+
+// Q4 - Multiplication Table
+
+// function table(number){
+//     for(let i = 1; i<=10; i++){
+//         console.log(`5 x ${i} = ${number * i}`);
+//     }
+// }                kudh kiya happy
+// table(5);
+
+// Q5 ⭐ (Logic Building)
+
+// function largest(a,b,c){
+//     if (a>=b && a>=c){
+//         return a;
+//     }
+//     else if (b>=a && b>=c){
+//         return b;
+//     }  
+//     else if(c>=a && c>= b){
+//         return c;            dekh bhai me sirf itna he logic bna paya
+//     }
+// }
+// console.log(largest(10,50,30));
