@@ -1310,10 +1310,10 @@
 
 // function table(number){
 //     for(let i = 1; i<=10; i++){
-//         console.log(`5 x ${i} = ${number * i}`);
+//         console.log(`${number} x ${i} = ${number * i}`);
 //     }
-// }                kudh kiya happy
-// table(5);
+// }                
+// table(18);
 
 // Q5 ⭐ (Logic Building)
 
@@ -1331,7 +1331,7 @@
 // console.log(largest(10,50,30));
 
 
-//                  Day 14 of learning Javascript
+//                  Day 15 of learning Javascript
 
 
 //                  📚 Revision Challenge (2 minutes)
@@ -1358,3 +1358,53 @@
 
 // 5. What is the ternary operator?
 //  condition ? expressionIfTrue : expressionIfFalse; shorten vesion of if else
+
+
+    //                   🟡 Logic Building Level 2
+
+
+ // Q1 ⭐ Count Even Numbers
+
+    // function countEven(n){
+    //     let count =0;
+    //     for(let i =2; i<=n ; i += 2){
+    //      count++;
+    //     }
+    //      return count;    use google to solve this ye repeat test karna mujhe
+       
+    // }
+    // console.log(countEven(10));
+
+// Q2 ⭐ Count Digits
+// mujhe nhi aya kane bro logic bhi nhi bna even
+
+// Q3 ⭐ Reverse a Number
+// smae nhi bna  Math.floor() mujhe ese chize nhi ati abhi bali mujhe asi shortcut ya cizo ke bare me nhi pta hia  
+
+// Q4
+// not solved
+
+// Q5 ⭐⭐⭐ Mini Calculator
+
+// function calculator(a,b,operator){
+//     switch (operator){
+//         case "+" :
+//             return a+b;
+//         case "*" :
+//             return a*b;
+//         case "-" :
+//             return a-b;
+//         case "/":
+//             return a/b;
+//         case "%" :
+//             return a%b;
+//         default :
+//         return " invalid operator"
+//     }
+// }
+// console.log(calculator(10, 5, "+")); // Output: 15
+// console.log(calculator(10, 5, "-")); // Output: 5
+// console.log(calculator(10, 5, "*")); // Output: 50
+// console.log(calculator(10, 5, "/")); // Output: 2
+// console.log(calculator(10, 5, "%")); // Output: 0
+// console.log(calculator(10, 5, "$")); //
