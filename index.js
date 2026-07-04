@@ -1329,3 +1329,32 @@
 //     }
 // }
 // console.log(largest(10,50,30));
+
+
+//                  Day 14 of learning Javascript
+
+
+//                  📚 Revision Challenge (2 minutes)
+
+// 1. Difference between
+// ==    Loose Equality example 5 == "5" true
+
+// and
+
+// === Strict Equality example 5 === "5" false  Recommended for everyday code
+// 2. What does % do?
+
+// Example:
+
+// 10 % 3  this is mode  % operator used to get remandier of two number 
+ 
+// 3. Which operator is AND?
+// This operator is logical AND && operator gives true if both equations are true 
+
+// .4 Which loop runs at least once?
+// for
+// while
+// do...while  this do while
+
+// 5. What is the ternary operator?
+//  condition ? expressionIfTrue : expressionIfFalse; shorten vesion of if else
