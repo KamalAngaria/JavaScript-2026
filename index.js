@@ -1408,3 +1408,51 @@
 // console.log(calculator(10, 5, "/")); // Output: 2
 // console.log(calculator(10, 5, "%")); // Output: 0
 // console.log(calculator(10, 5, "$")); //
+
+
+
+//                  Day 16 of learning Javascript
+
+//              🟢 Practice Set #1 (10 Questions)
+
+// Q1 ⭐ Easy (Functions + Operators)
+
+// function square(number){
+//     return number * number;
+// }
+// console.log(square(7));
+
+// Q2 ⭐ Easy (Functions + if-else)
+
+// function checkAge(age){
+//     if(age<13){
+//         console.log("Child");
+//     }else if(age>=13 && age<=19){
+//         console.log("Teen");
+//     }
+//     else{
+//         console.log("Adult");
+//     }
+// }
+// checkAge(20);
+
+// Q3 ⭐ Easy (Loops)
+
+// function countDown(startNumber) {
+//     for (let i = startNumber; i >= 1; i--) {
+//         console.log(i);
+//     }
+// }
+// countDown(20);
+
+// Q4 ⭐ Easy (Operators)
+
+// function inDivisible(number){
+//     if(number%3===0 && number%5===0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(inDivisible(15));
