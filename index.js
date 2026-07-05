@@ -1456,3 +1456,35 @@
 //     }
 // }
 // console.log(inDivisible(15));
+
+// Q5 ⭐⭐ Medium (Loops
+// function multiples(input,endgoal){
+//     for(let i = input; i <=endgoal ; i+=input){
+//         console.log(i);
+//     }
+// }
+// multiples(5,100)
+
+// Q6 ⭐⭐ Medium (Functions + Return)
+
+// function findSmallest(a,b){
+//     if(a>b){
+//         return a;
+//     }else {
+//         return b;}
+// }
+// console.log(findSmallest(1,5));
+
+// Q7 ⭐⭐ Medium (Loops + if)
+
+// function countMultiplesOf5(n){
+//    let count = 0;
+//    for(let i =1; i<=n; i++){
+//     if(i%5===0){
+//         count++
+//     }
+//    }
+//    return count;
+// }
+
+// console.log(countMultiplesOf5(20));
