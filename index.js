@@ -1488,3 +1488,184 @@
 // }
 
 // console.log(countMultiplesOf5(20));
+
+
+//                      Day 17 of Learning Javascript
+
+// First class Function means treating a fuction as a value and as a parameter
+// and can call inside the function ?
+
+// function first(val){
+//     console.log("Hello");
+// }                           Store a function in a variable
+// let myFunction = first;
+// myFunction();
+
+// function greet(){
+//     console.log("Hello");
+// }
+//                                 Pass a function as an argument
+// function execute(fn){
+//     fn();
+// }
+// execute(greet);
+
+// function greet() {
+//     console.log("Hello");
+// }
+
+// let x = greet();
+// console.log(x);
+
+
+// 🧠 JavaScript Test - Return & First-Class Functions
+
+// Q1
+
+// function greet() {
+//     return "Hello";
+// }
+
+// console.log(greet);
+
+//  Answer Function greet because greet kiya ho jo ki fuction hia agar "greet" hota to ye string hia
+
+// Q2
+
+// function greet() {
+//     return "Hello";
+// }
+
+// console.log(greet());
+
+//  Answer Hello because isme hmne fuction ko hello string rreturn ki jo ki ab fuction me save ya return hui ab jo bhi fuction ko call krke print krva rha hia use hello milega
+
+// Q3
+
+// function greet() {
+//     console.log("Hello");
+// }
+
+// let x = greet;
+
+// x();
+
+// Answer Hello because greet jo ki ek fuction hia ise hmne x variable me sotre kiya so ab hme x ko call kr ke real fuction ka output le sakte hia is term ko store fuction as variablr bhi khate hia
+
+// Q4
+// function greet() {
+//     return "Hello";
+// }
+
+// let x = greet();
+
+// console.log(x);
+
+// Answer Hello because x me hmne fuction dalne ki jgh use call kiya means uska result call kiya 
+// so greet(); hello return tha so hello print hoga na
+
+// Q5
+
+// function greet() {
+//     return "Hello";
+// }
+
+// function test() {
+//     return greet;
+// }
+
+// let x = test();
+
+
+// Answer iska answer mujhe pta nhi lg rha hia smj to aya ki phela ek fuction 
+// bnaya greet usme hello return hia so jo greet ko call karega use hello milega
+// pr 2 fuction me hmne greet yani pura fuction call kiya hia so 
+// ye kuch esa hia dikh rha hia meri imagination me 
+
+// fuction test(){
+//     fuction greet(){
+//         return "hello";
+//     }
+// }
+
+// let x = test();  so test to kuch print nhi kr payega agar krta hia to use pura greet fuction karna padega
+
+// Q6
+// function greet() {
+//     return "Hello";
+// }
+
+// function test() {
+//     return greet();
+// }
+
+// let x = test(); 
+
+// answer hello ho ga pr bp print karan padega na
+
+// Q7
+// function greet() {
+//     console.log("Hello");
+// }
+
+// function execute(fn) {
+//     fn();
+// }
+
+// execute(greet);
+
+// answer hello because  
+// function greet() {
+//     console.log("Hello");
+// }   ye hello print karta jb ise call kre hmne pura fuciton as a argument pass kr diya 
+// dusare fuction ko in fn parameter aur fn pagameter me to pura greet hia puction hia jise call kr diya hia fu(); kr kre
+
+// Q8
+
+// function greet() {
+//     console.log("Hello");
+// }
+
+// function execute(fn) {
+//     fn();
+// }
+
+// execute(greet);
+
+// greet(); === fn();
+
+
+// Q9
+
+// Kaunsa statement First-Class Function ko prove karta hai?
+
+// A)
+
+// Functions can be stored in variables.
+
+// B)
+
+// Functions can be passed as arguments.
+
+// C)
+
+// Functions can be returned from other functions.
+
+// D)
+
+// All of the abov  shi
+
+
+// Q10 ⭐ Final Boss
+// function hello() {
+//     return "Hi";
+// }
+
+// let a = hello;
+// let b = hello();
+
+// console.log(a);
+// console.log(b);
+// Answer
+// Function hello
+// Hi
