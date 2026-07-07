@@ -1669,3 +1669,42 @@
 // Answer
 // Function hello
 // Hi
+
+//                  Day 18 of Learning Jvascipt
+
+//                           Arrays
+
+let arr =[1,2,3,8,9,10,4,5,6,7];
+// arr[2] = 8;  modifiying the array
+
+
+//                              Array Methods
+// arr.reverse();
+// let sr=arr.sort(function(a,b){
+//     return b-a;   Methode use to arrange the numbers in the assending and desnding order
+// });
+
+// arr.forEach( function (val){
+//     console.log(val + 2);
+// });
+
+// let ne =arr.map(function (val){
+//     if(val >= 2){
+//         return val+2;
+//     }
+//     else{
+//         return val;
+//     }
+// });
+
+// let abc = arr.filter(function (val){
+// if(val > 4)  return true;
+// });
+
+// let ans = arr.reduce(function(Add,val){
+//     return Add + val ;
+// },0);
+
+// let va =arr.find(function (val){
+//     return val === 4;
+// });
