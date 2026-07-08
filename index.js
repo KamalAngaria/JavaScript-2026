@@ -1804,3 +1804,48 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // arr2.push(4);
 // console.log(arr1);
 // Answer === (4) [1,2,3,4]
+
+//                 Level 3 (Primitive vs Non-Primitive)
+
+// Question 13
+// if ("Hello") {
+//     console.log("Yes");
+// }
+// Answer yes and its return
+
+// Question 14
+// if ("") {
+//     console.log("Yes");
+// } else {
+//     console.log("No");
+// }
+
+// Question 15
+// if ([]) {
+//     console.log("Array");
+// }
+// Answer === Array
+
+// Question 16 
+// if ({}) {
+//     console.log("Object");
+// }
+// // Answer === Object
+
+// Question 17
+// if (0) {
+//     console.log("Yes");
+// } else {
+//     console.log("No");
+// }
+// Answer === NO because it 0 is falsy
+
+// Question 18
+// console.log(Boolean(" "));
+// console.log(Boolean("0"));
+// console.log(Boolean(0));
+// console.log(Boolean(NaN));
+// Answer === true
+//            true
+//            false
+//            false
