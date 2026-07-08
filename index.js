@@ -1755,3 +1755,26 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // Answer === object
 //            object
 //            function
+
+//                  Level 2 (Dynamic Typing)
+
+// Question 8
+// let data = 10;
+// console.log(typeof data);
+// data = "Hello";
+// console.log(typeof data);
+// data = true;
+// console.log(typeof data);
+// // Answer === number
+//               "string"
+//               boolean
+
+// Question 9
+// let value = null;
+// console.log(typeof value);
+// value = [];
+// console.log(typeof value);
+// Answer === object 
+//            object
+
+
