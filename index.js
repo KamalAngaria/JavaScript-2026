@@ -1778,3 +1778,29 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 //            object
 
 
+//                 Level 3 (Primitive vs Non-Primitive)
+
+// Question 10
+// let a = 10;
+// let b = a;
+// b = 50;
+// console.log(a);
+// console.log(b);
+// Answer === 10
+//            50
+
+// Question 11
+// let obj1 = {
+//     name : "Rahul"
+// };
+// let obj2 = obj1;
+// obj2.name = "Aman";
+// console.log(obj1.name);
+// Answer === Aman
+
+// Question 12
+// let arr1 = [1,2,3];
+// let arr2 = arr1;
+// arr2.push(4);
+// console.log(arr1);
+// Answer === (4) [1,2,3,4]
