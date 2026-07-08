@@ -1708,3 +1708,50 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // let va =arr.find(function (val){
 //     return val === 4;
 // });
+
+//                   Day 19 of Learning JavaScript
+
+//                       Level 1 (Very Easy)
+
+
+
+// Question 1
+// let name = "Rahul"
+// console.log(typeof name);
+// Answer === "string"
+
+// Question 2
+// let age = 22 ;
+// console.log(typeof age);
+// Answer === number
+
+// Question 3
+// let isStudent = false;
+// console.log(typeof isStudent);
+// Answer === boolean
+
+// Question 4
+// let city;
+// console.log(city);
+// console.log(typeof city);
+// Answer === undefined
+// undefined
+
+// Question 5
+// let user = null;
+// console.log(typeof user);
+// Answer === object
+
+// Question 6
+// console.log(typeof NaN);
+// console.log(typeof Infinity);
+// Answer === number 
+// number 
+
+// Question 7
+// console.log(typeof []);  
+// console.log(typeof {});  
+// console.log(typeof function(){}); 
+// Answer === object
+//            object
+//            function
