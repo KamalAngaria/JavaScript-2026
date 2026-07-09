@@ -1989,3 +1989,88 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // console.log(score || 100);
 // console.log(score ?? 100);
 // I dont get it bro easy explain karna
+
+//          JavaScript Practice – Set 2 (10 Questions)
+
+// Question 1 ⭐ (Type Coercion)
+// console.log(1 + "2"); 12
+// console.log("2" + 1); 21
+// console.log(1 + 2 + "3"); 33
+// console.log("1" + 2 + 3); 123
+
+// Question 2 ⭐⭐ (Arithmetic + String)
+// console.log("10" - 5); 5
+// console.log("10" * 2); 20
+// console.log("10" / 2); 5
+// console.log("10" % 3); 1
+// console.log("10" + 2); 102
+
+// Question 3 ⭐⭐ (Boolean Conversion)
+// console.log(Boolean([])); true 
+// console.log(Boolean({})); true
+// console.log(Boolean("")); false 
+// console.log(Boolean("0")); true 
+// console.log(Boolean(0)); false 
+// console.log(Boolean(-1)); true 
+// console.log(Boolean(NaN)); false
+
+// Question 4 ⭐⭐⭐ (== vs ===)
+// console.log(false == 0);  true 
+// console.log(false === 0); false 
+// console.log(null == undefined); false 
+// console.log(null === undefined); true 
+// console.log("5" == 5); true 
+// console.log("5" === 5); false 
+
+// Question 5 ⭐⭐⭐ (Logical Operators)
+// console.log(true && false); false because && finding both true so first is true so it moves to next and next is false so its print true only when both are true
+// console.log(true || false); true because OR ignore false when at least one contdition true
+// console.log(!true); false ! not operatore change false value in true and true change into false
+// console.log(10 && 20); 20 same as first bro because isne true check kiya next 20 hia jo ki abhi is condition me as a false hia 
+// console.log(0 && 20); 0 because 0 is a falsy value
+// console.log(0 || 20); 20 0 is falsy and 20 true according to rule bro true print so 20
+// console.log(10 || 20); 10  prit 10 because its stop when it find true
+//
+
+// Question 6 ⭐⭐⭐⭐ (Short-Circuit)
+// let a = 5;
+// console.log(a > 2 && "Passed");  Passed
+// console.log(a < 2 && "Passed"); false
+// console.log(a > 2 || "Failed"); true
+// console.log(a < 2 || "Failed");  Failed
+
+// Question 7 ⭐⭐⭐⭐ (Operator Precedence)
+// console.log(2 + 3 * 4); 14
+// console.log((2 + 3) * 4); 20
+// console.log(10 - 5 + 2); 7
+// console.log(10 - (5 + 2));3
+
+// Question 8 ⭐⭐⭐⭐ (Unary Operators)
+
+// let a = "10";
+// console.log(+a); 10
+// console.log(-a); -10
+// let b = true;
+// console.log(+b); 1
+// let c = false;
+// console.log(+c); 0
+
+// Question 9 ⭐⭐⭐⭐⭐ (Tricky)
+// let x = 10;
+// console.log(x++ + ++x);
+// 22 because 10 but x++ make it 11 pr print nhi krta kuki x ab ek 11 hia and samne bala bhi 11 hia isliye 22
+
+// Question 10 ⭐⭐⭐⭐⭐ (Interview Favorite)
+// let name = "";
+// console.log(name || "Guest"); "Guest"
+// console.log(name ?? "Guest"); blank ku ki ue sirf undefined and null dekhta hia aur tbhi print kargega
+// name = null;
+// console.log(name || "Guest"); "Guest"
+// console.log(name ?? "Guest"); "Guest"
+
+// Bonus Challenge (⭐⭐⭐⭐⭐)
+// console.log([] == false); true 
+// console.log([] === false); false
+// console.log("" == 0); true
+// console.log("0" == 0); true
+// console.log(null == 0); false
