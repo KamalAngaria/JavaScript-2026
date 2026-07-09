@@ -2017,8 +2017,8 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // Question 4 ⭐⭐⭐ (== vs ===)
 // console.log(false == 0);  true 
 // console.log(false === 0); false 
-// console.log(null == undefined); false 
-// console.log(null === undefined); true 
+// console.log(null == undefined); true
+// console.log(null === undefined); false
 // console.log("5" == 5); true 
 // console.log("5" === 5); false 
 
