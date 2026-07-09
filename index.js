@@ -1849,3 +1849,143 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 //            true
 //            false
 //            false
+
+//              Day 20 Of learning Javascript
+
+
+//              JavaScript Practice - Set 1 (10 Questions)
+
+//                          Topics Covered:
+
+// Data Types
+// typeof
+// Dynamic Typing
+// Primitive vs Reference
+// Truthy/Falsy
+// Hoisting
+// TDZ
+// Operators (Arithmetic, Assignment, Comparison, Logical)
+
+// Question 1 ⭐
+// let a = 10;
+// let b = "10";
+// console.log(a==b); true
+// console.log(a===b) false
+// console.log(a!=b) false
+// console.log(a!==b) true
+
+// Question 2 ⭐⭐
+// console.log(typeof null); Object
+// console.log(typeof NaN); Number
+// console.log(typeof []); Object
+// console.log(typeof {}); Object
+// console.log(typeof function (){}); function
+
+// Question 3 ⭐⭐
+// let x = 5;
+// console.log(x++);5
+// console.log(++x);7
+// console.log(x--);7
+// console.log(--x);5
+
+// Question 4 ⭐⭐⭐
+// let value = "";
+// if(value){
+//     console.log("A");
+// }else{
+//     console.log("B");
+// }
+// B
+
+// let value = [];
+// if(value){
+//     console.log("A");
+// }else {
+//     console.log("B");;
+// }
+// A 
+
+// let value = {};
+// if(value){
+//     console.log("A");
+// }else {
+//     console.log("B");;
+// }
+// A
+
+// let value = " ";
+// if(value){
+//     console.log("A");
+// }else {
+//     console.log("B");;
+// }
+// A
+
+// let value = 0;
+// if(value){
+//     console.log("A");
+// }else {
+//     console.log("B");;
+// }
+// B
+
+// let value = "false";
+// if(value){
+//     console.log("A");
+// }else {
+//     console.log("B");;
+// }
+// A 
+
+// Question 5 ⭐⭐⭐
+// let a = 10;
+// let b = a;
+// b += 20;
+// console.log(a);
+// console.log(b);
+// 10
+// 30 Why?  simple bro a =10 then b = a menas b =10 now b += 20 means 10 += 20 = 30
+// so a=10 ,b=30
+
+// Question 6 ⭐⭐⭐
+// let person1 ={
+//     name : "Rahul"
+// };
+// let person2 =person1;
+// person2.name = "Aman";
+// console.log(person1.name);
+// console.log(person2.name);
+// Aman 
+// Aman why? simple because look the code first we creat a variable with person1 and initialized the object in it
+// now we create a another variable and used assignement operator to assign the person1 menory addres to person 2 
+// because its refrence if i chnage person 2 cange in person 1 also like 1 tv 2 remotes 
+
+// Question 7 ⭐⭐⭐⭐ (Hoisting)
+// console.log(a)
+// var a =100;
+// console.log(a);
+// undefined
+// 100
+
+// Question 8 ⭐⭐⭐⭐ (TDZ)
+// console.log(age);
+// let age = 20;
+// refrence error 
+// age is not initialized 
+// because in js on let TDZ apply js ne kbhi let ko koi value nhi di like var ise pta hia age varible hia but koi value use nhi krta hia jb tk tdz ktm na ho
+// Temproral Dead Zone
+
+// Question 9 ⭐⭐⭐⭐ (Mixed)
+// let a = "5";
+// let b = 2;
+// console.log(a + b); "25" "string" concetination
+// console.log(a - b); 3 number Type coercion 
+// console.log(a * b); 10   number Type coercion 
+// console.log(a / b); 2.5  number Type coercion 
+// console.log(a % b); 1    number Type coercion 
+
+// Question 10 ⭐⭐⭐⭐⭐ (Interview Favorite)
+// let score = 0;
+// console.log(score || 100);
+// console.log(score ?? 100);
+// I dont get it bro easy explain karna
