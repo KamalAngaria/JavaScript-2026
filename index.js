@@ -2074,3 +2074,99 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // console.log("" == 0); true
 // console.log("0" == 0); true
 // console.log(null == 0); false
+
+
+//                  Day 21 Of Learning Javascript 
+
+//                  Set 3 – JavaScript WTF Questions.
+
+// Question 1 ⭐
+// console.log([] + []); "" + "" = ""
+// console.log([] + {}); "" +"[object object]" = "[object object]"
+// console.log({} + []); "[object object]" +"" = "[object object]"
+// console.log({} + {}); "[object object]" +"[object object]" ="[object object][object object]"
+// Why = simple because these are all non primitive value and its sum nothing we cant add car + bike
+// so js convert it to primitive value first its chek valueof if smae return it use typeof to
+// converte into primitve value [] = "" and {} "[object object]" then i used concetination to merge together
+
+// Question 2 ⭐⭐
+// console.log(+[]); 0
+// console.log(+{}); NaN
+// console.log(+""); 0 
+// console.log(+"100");  100
+// console.log(+"Hello");  NaN 
+// Why ? because there we are using type conversion and unary operator both together
+// look [] = "" ,+"" =0 and {}= object is obejct is nas no sense to convert in no SO NaN
+// Same  in "Hello" We are not able to convert this is no nor js so its Nan
+
+// Question 3 ⭐⭐
+// console.log(![]); false
+// console.log(!{}); false
+// console.log(!![]); true
+// console.log(!!{}); true
+// console.log(!!""); false →
+// Why ? ! → Bollean → true / false depends on expresion example "" this is false but if we
+// do !"" → true now !! ! → Bollean → true / false → false ko true and reverse
+
+// Question 4 ⭐⭐⭐
+// console.log([] == false); true
+// console.log("" == false); true
+// console.log(0 == false); true 
+// console.log("0" == false); true
+// console.log(null == false); false 
+// why ? because look bollean which is false is convert in 0 and is left side if we convert sting to number and object to string and aslo convert again string to number cause the == did not check correct it only chek that there is same thing or not
+// and null thbhi true hota hia jb same undefined hotha hia
+
+// Question 5 ⭐⭐⭐
+// console.log(5 + true); 6 
+// console.log(5 + false); 5
+// console.log(5 - true); 4 
+// console.log(5 - false); 5 
+// console.log(true + true); 2 
+// console.log(false + false); 0
+// why ? simple false = 0 and true = 1 
+
+// Question 6 ⭐⭐⭐⭐
+// console.log("5" - -"2"); 7 why? -"2" convert in no = -2 and - kbhi concate nhi krta hia so "5" no me gaya now 5 -(-2)=7
+// console.log("5" + +"2");52 concetination simple 
+// console.log("5" + -"2");5-2 again concetination 
+
+// Question 7 ⭐⭐⭐⭐
+// let a = 10;
+// console.log(a++ + a++); 10 + 11 = 21  post increment 
+// let b = 10; 
+// console.log(++b + ++b); 11 + 12 = 23 pre increment
+
+// Question 8 ⭐⭐⭐⭐
+// console.log(NaN == NaN); false  NaN is not = to itself
+// console.log(NaN === NaN); false type coesion not avilable in NaN
+// console.log(typeof NaN); number  trying to make a no but its not valid so NaN
+// console.log(Number("Hello")); NaN   trying to make "Hello" in no and fail so NaN
+
+// Question 9 ⭐⭐⭐⭐⭐
+// let x = null;
+// let y = undefined;
+// let z = 0;
+// console.log(x || 100);  100
+// console.log(x ?? 100); 100
+// console.log(y || 100); 100
+// console.log(y ?? 100); 10
+// console.log(z || 100); 100
+// console.log(z ?? 100); 0
+
+// ?? is left side null undefined then right side return if left is not null or undefiined return left
+// || if it always reture true value
+
+// Question 10 ⭐⭐⭐⭐⭐ (Interview Favorite)
+// console.log(typeof null); object 
+// console.log(typeof undefined); undefined
+// console.log(null == undefined); true
+// console.log(null === undefined); false 
+// console.log(typeof []); object 
+// console.log(typeof function(){}); function
+// console.log(typeof NaN); Number
+
+// 🔥 Bonus Challenge (Interview Level)
+// let a = "10";
+// console.log(a++);  10  post increment and have rule to change the in number first
+// console.log(a);  11
