@@ -31,7 +31,7 @@
 //var is the old way of declaring varriable in javascript
 // 1 we can redeclare the variable which is error prone and cause bugs in the code
 //  Example ---- var a = 10;
-//  var a= 20; this is the example of re declareing the variable using same name with different value which is not good practice in javascript
+//  var a= 20; this is the example of re declareing the variable using same name with different value which is Not good practice in javascript
 // 2 var is the function scoped variable.
 // 3 var is ealiy added to the window object in the browser which can cause issues in the code
 // 2 let =====================================
@@ -1674,7 +1674,7 @@
 
 //                           Arrays
 
-let arr =[1,2,3,8,9,10,4,5,6,7];
+// let arr =[1,2,3,8,9,10,4,5,6,7];
 // arr[2] = 8;  modifiying the array
 
 
@@ -2170,3 +2170,132 @@ let arr =[1,2,3,8,9,10,4,5,6,7];
 // let a = "10";
 // console.log(a++);  10  post increment and have rule to change the in number first
 // console.log(a);  11
+
+// Question 1 ⭐
+// let num = -5;
+// if(num > 0){
+//     console.log("Positive Number");
+// }else{
+//     console.log("Negative Number");
+// }
+
+// Question 2 ⭐
+// let number = 7;
+// if(number%2===0){
+//     console.log("Even");
+// }else{
+//     console.log("Odd");
+// }
+
+// Question 3 ⭐
+// let age = 17;
+// if(age >= 18){
+//     console.log("Eligible");
+// }else{
+//     console.log("Not Eligible");
+// }
+
+// Question 4 ⭐⭐
+// let a = 20;
+// let b = 35;
+// if(a>b){
+//     console.log(a);
+// }else{
+//     console.log(b);
+// }
+
+// Question 5 ⭐⭐
+// let a = 10;
+// let b = 50;
+// let c = 25;
+// if(a>=b && a>=c){
+//     console.log(`${a} is largest`);
+// }else if (b>=a && b>=c){
+//     console.log(`${b} is largest`);
+// }else{
+//     console.log(`${c} is largest`);
+// }
+
+// Question 6 ⭐⭐
+// let year = 2024;
+// if((year%4===0 && year%100 !==0) || year % 400 ===0){
+//     console.log("Leap Year");
+// }
+// else{
+//     console.log("Not a Leap Year");
+// }
+
+// Question 7 ⭐⭐⭐
+// let marks = 84;
+// if(marks >= 90){
+//     console.log("Grade A");
+// }else if(marks>=80 && marks <= 89){
+//     console.log("Grade B");
+// }else if(marks>=70 && marks <= 79){
+//     console.log("Grade B");
+// }else if(marks>=60 && marks <= 69){
+//     console.log("Grade B");
+// }else{
+//     console.log("Fail");
+// }
+
+// Question 8 ⭐⭐⭐
+// let  a = 20;
+// let  b = 10;
+// let operator = "*";
+// switch(operator){
+//     case "+": 
+//     console.log(a+b);
+//     break;
+//     case "-": 
+//     console.log(a-b);
+//     break;
+//     case "*": 
+//     console.log(a*b);
+//     break;
+//     case "/": 
+//     console.log(a/b);
+//     break;
+//     case "%": 
+//     console.log(a%b);
+//     break;
+//     default:
+//         console.log("invalid input");
+// }
+
+// Question 9 ⭐⭐⭐
+// let username = "Rahul";
+// let password = "12345";
+// (username === "Rahul" && password === "12345")
+// ? console.log("Login Successful")
+// : console.log(" Invalid Credentials");
+
+// Question 10 ⭐⭐⭐⭐ (Interview)
+// let age = 65;
+// if(age < 5){
+//     console.log("Ticket Price = Free");
+// }else if(age >=5 && age <=17){
+//     console.log("Ticket Price = ₹100");
+// }else if(age >=18 && age <=59){
+//     console.log("Ticket Price = ₹200");
+// }else if(age >=60){
+//     console.log("Ticket Price = ₹150");
+// }else{
+//     console.log("Please Entre Your Age");
+// }
+
+// let a = 10;
+// let b = 25;
+// let c = 18;
+// let d = 7;
+
+// if(a>=b && a>=b && a>=c && a>=d){
+//     console.log(`Largest No Is ${a}`);
+// }else if(b>=a && b>=c && b>=d ){
+//     console.log(`Largest No Is ${b}`);
+// }else if(c>=a && c>=b && c>=d ){
+//     console.log(`Largest No Is ${c}`);
+// }else{
+//     console.log(`Largest No Is ${d}`);
+// }
+
