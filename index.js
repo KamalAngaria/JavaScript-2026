@@ -2173,10 +2173,12 @@
 
 // Question 1 ⭐
 // let num = -5;
-// if(num > 0){
-//     console.log("Positive Number");
-// }else{
-//     console.log("Negative Number");
+// if (num > 0) {
+//     console.log("Positive");
+// } else if (num < 0) {
+//     console.log("Negative");
+// } else {
+//     console.log("Zero");
 // }
 
 // Question 2 ⭐
@@ -2226,15 +2228,15 @@
 // }
 
 // Question 7 ⭐⭐⭐
-// let marks = 84;
+// let marks = 70;
 // if(marks >= 90){
 //     console.log("Grade A");
 // }else if(marks>=80 && marks <= 89){
 //     console.log("Grade B");
 // }else if(marks>=70 && marks <= 79){
-//     console.log("Grade B");
+//     console.log("Grade C");
 // }else if(marks>=60 && marks <= 69){
-//     console.log("Grade B");
+//     console.log("Grade D");
 // }else{
 //     console.log("Fail");
 // }
@@ -2289,13 +2291,55 @@
 // let c = 18;
 // let d = 7;
 
-// if(a>=b && a>=b && a>=c && a>=d){
-//     console.log(`Largest No Is ${a}`);
-// }else if(b>=a && b>=c && b>=d ){
-//     console.log(`Largest No Is ${b}`);
-// }else if(c>=a && c>=b && c>=d ){
-//     console.log(`Largest No Is ${c}`);
+// if(a>=b && a>=c && a>=d){
+//     console.log(`${a} Is Largest No`);
+// }else if(b>=c && b>=d){
+//     console.log(`${b} Is Largest No`);
+// }else if( c>=d){
+//     console.log(`${c} Is Largest NO`);
 // }else{
-//     console.log(`Largest No Is ${d}`);
+//     console.log(`${d} Is Largest NO`);
 // }
 
+
+// if(a<=b && a<=c && a<=d){
+//     console.log(`${a} Is Smallest No`);
+// }else if(b<=c && b<=d){
+//     console.log(`${b} Is Smallest No`);
+// }else if( c<=d){
+//     console.log(`${c} Is Smallest No`);
+// }else{
+//     console.log(`${d} Is Smallest No`);
+// }
+
+// let largest = a;
+
+// if (b > largest) {
+//     largest = b;
+// }
+
+// if (c > largest) {
+//     largest = c;
+// }
+
+// if (d > largest) {
+//     largest = d;
+// }
+
+// console.log(largest);
+
+// let Smallest = a;
+
+// if (b < Smallest) {
+//     Smallest = b;
+// }
+
+// if (c < Smallest) {
+//     Smallest = c;
+// }
+
+// if (d < Smallest) {
+//     Smallest = d;
+// }
+
+// console.log(`${Smallest} Is Smallest Number`);
