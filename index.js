@@ -2448,3 +2448,157 @@
 //     bonus += 5000;
 // }
 // console.log(`${bonus}`);  google se dekha bro 
+
+//                  🧠 Round 3 – 10 Logic Questions
+
+// Question 1 ⭐⭐⭐ (Online Exam)
+// let marks = 80;
+// let attendance = 70;
+
+// if(marks>=33){
+//     if(attendance>=75){
+//         console.log("Pass");
+//     }else{
+//         console.log("Failed due to low attendance");
+//     }
+// }else{console.log("Failed due to low marks");}
+
+// Question 2 ⭐⭐⭐ (Hospital)
+// let age  = 30;
+// let temperature  = 104;
+// let oxygen = 95;
+// if(age>=60 || temperature >= 103 || oxygen < 90){
+//     console.log("Emergency Ward");
+// }else{
+//     console.log("General Ward");
+// }
+
+// Question 3 ⭐⭐⭐⭐ (Shopping Website)
+// let amount = 6000;
+// let premium = true;
+
+// if (amount >= 5000 && premium === true) {
+//     console.log("30% Discount");
+// } else if (amount >= 3000) {
+//     console.log("15% Discount");
+// } else if (amount >= 1000) {
+//     console.log("5% Discount");
+// } else {
+//     console.log("No Discount");
+// } mujhe ata tha fir bhi mujhe google pe dekhna pda tum consfuse kr deta ho question metyumne urce and variable amount diya hia
+
+// Question 4 ⭐⭐⭐⭐ (Company Bonus)
+// let experience = 7;
+// let rating = 5;
+// let salary;
+// let bonus = 10000;
+// if(experience>=10){ salary = 50000;}
+// else if(experience >= 5){ salary = 25000;}
+// else if(experience >= 2){salary = 10000;}
+// else{salary = 0;}
+
+// if(rating===5){
+//     salary = salary + bonus;
+// }
+// console.log(salary);
+
+// Question 5 ⭐⭐⭐⭐ (Traffic Signal)
+// let signal = "Yellow";
+// (signal==="Red") ? console.log("Stop"):
+// (signal==="Yellow") ? console.log("Ready"):
+// (signal==="Green") ? console.log("Go"):
+// console.log("Invalid Signal");
+
+// switch se  bhi 
+// let signal  = "Yellow";
+// switch(true){
+//     case( signal=== "Red"):
+//     console.log("Stop");
+//     break;
+//     case( signal=== "Yellow"):
+//     console.log("Ready");
+//     break;
+//     case( signal=== "Green"):
+//     console.log("Go");
+//     break;
+//     default:
+//         console.log("Invalid Signal");
+// }
+
+// Question 6 ⭐⭐⭐⭐⭐ (Restaurant Bill)
+// let item = "Pizza";
+// let quantity = 3;
+// let price = 0;
+// switch (item) {
+//     case "Pizza":
+//         price = 300;
+//         break;
+//     case "Burger":
+//         price = 150;
+//         break;
+//     case "Pasta":
+//         price = 250;
+//         break;
+//     default:
+//         console.log("Item not available in menu");
+// }
+
+// if (price > 0) {
+//     let total = price * quantity;
+//     console.log(`Item  : ${item}\nPrice : ${price} \nTotal : ${total}`);
+// }
+
+// Question 7 ⭐⭐⭐⭐⭐ (University Admission)
+// let boardMarks = 82;
+// let entrance = 70;
+// (boardMarks>=75 && entrance>=80)? console.log("Admission Confirmed"):
+// (boardMarks>=75 || entrance>=80)? console.log("Waiting List"):
+// console.log("Rejected");
+
+// Question 8 ⭐⭐⭐⭐⭐ (Bank Account)
+// let balance = -200;
+// (balance < 0)  ? console.log("Account Blocked"):
+// (balance < 500) ? console.log("Low Balance Warning"):
+// console.log("Normal Account");
+
+// Question 9 ⭐⭐⭐⭐⭐ (Interview Logic)
+// let age = 27;
+// let degree = true;
+// let experience = 0;
+// (age>=18 && age<=30 && degree === true && experience >= 1)
+// ? console.log("Eligible")
+// : console.log("Not Eligible");
+
+// Question 10 ⭐⭐⭐⭐⭐⭐ (Boss Level)
+// let show = "Night";
+// let weekend = true;
+// let student = true;
+// let weekendPrice = 50;
+// let discount = 20;
+// let price;
+// switch(show){
+//     case "Morning":
+//         price = 150;
+//         break;
+//     case "Afternoon":
+//         price = 200;
+//         break;
+//     case "Night":
+//         price = 300;
+//         break;
+
+// }
+// if(weekend=== true && student === true){
+//     price = price + weekendPrice;
+//     let finalprice = price - (price*discount) /100
+//     console.log(`Show : ${show}\nWeekendPrice: ${weekendPrice} Rs\nDiscount : ${discount}%\nFinalPrice : ${finalprice} Rs`)
+// }
+
+// 🔥 Bonus Challenge (Interview)
+// let age = 23;
+// let hasLicense = true;
+// let helmet = false;
+
+// if(age>=18 && hasLicense === true && helmet === true){
+//     console.log("Can Ride");
+// }else{console.log("Cannot Ride");}
