@@ -2343,3 +2343,108 @@
 // }
 
 // console.log(`${Smallest} Is Smallest Number`);
+
+// 🚀 Question 1 – ATM Machine ⭐⭐
+// let balance = 5000;
+// let withdraw = 2000;
+// (withdraw<=balance)
+// ? console.log("Transaction Successful")
+// : console.log("Insufficient Balance");
+
+// 🚀 Question 2 – Bank Loan ⭐⭐⭐
+// let age = 24 ;
+// let salary = 30000;
+// let creditScore =720;
+// (age>=21 && salary>= 25000 && creditScore>=700)
+// ? console.log("Loan Approved")
+// : console.log("Loan Rejected");
+
+// 🚀 Question 3 – Student Scholarship ⭐⭐⭐
+// let marks = 91;
+// let attendance = 78;
+// (marks>=90 && attendance>=80)
+// ?console.log("Scholarship")
+// :console.log("No Scholarship");
+
+// 🚀 Question 4 – E-commerce Discount ⭐⭐⭐⭐
+// let amount = 3500;
+// if(amount>=5000) {console.log(`20% Discount`);}
+// else if(amount>=3000) {console.log(`10% Discount`);}
+// else{console.log("No Discount");}
+
+// 🚀 Question 5 – Login System ⭐⭐⭐⭐
+
+// let username = "Rahul";
+// let password = "12345";
+// if(username === "Rahul"){
+//         if(password === "12345"){
+//              console.log("Login Successful");
+//         } else {
+//         console.log("Invalid Password");
+//     }
+// }else {
+//     console.log("Invalid Username");  google help li thi
+// }
+
+// 🚀 Question 6 – Electricity Bill ⭐⭐⭐⭐
+// let unit = 250;
+// if(unit<=100){console.log(`${unit * 5}`);}
+// else if(unit<=300){console.log(`${unit*7}`);}
+// else {console.log(`${unit*10}`);}
+
+// 🚀 Question 7 – Movie Ticket ⭐⭐⭐⭐⭐
+// let age = 0;
+// let isStudent = true;
+// let price;
+// let discount = 20;
+// if(age<5){price = 0;}
+// else if (age <=17){price = 100;}
+// else if(age <=59){price =200;}
+// else { price = 150;}
+
+// if(isStudent && price>0){
+//     price = price - (price*discount) /100;
+// }
+// console.log(`Movie Ticket  Rs : ${price}`);
+
+// 🚀 Question 8 – BMI Calculator ⭐⭐⭐⭐⭐
+// let weight = 70;
+// let height = 1.75;
+
+// let bmi = weight /(height**2);
+// console.log("BMI:",bmi.toFixed(2));
+// if(bmi < 18.5){console.log("Underweight");}
+// else if(bmi <=24.9){console.log("Normal");}
+// else if(bmi <=29.9){console.log("Overweight");}
+// else{console.log("Obese");}
+
+// 🚀 Question 9 – Password Strength ⭐⭐⭐⭐⭐
+// let password = "Rahul12356";
+// if(password.length<8){console.log("Weak Password");}
+// else if (password.length<=11){console.log("Medium Password");}
+// else{console.log("Strong Password");}
+// .length ka use nhi pta tha mujhe so google kiya and lga pta hia ki ye charchter lenght dekhta hia 
+
+// 🚀 Question 10 – Interview Question ⭐⭐⭐⭐⭐
+// let experience = 12;
+// let rating = 5;
+// let bonus;
+
+// switch(true){
+//     case(experience < 2):
+//     bonus = 0;
+//     break;
+//     case(experience <=5):
+//     bonus = 10000;
+//     break;
+//     case(experience <=10):
+//     bonus = 25000;
+//     break;
+//     default:
+//         bonus = 50000;
+// }
+
+// if(rating === 5){
+//     bonus += 5000;
+// }
+// console.log(`${bonus}`);  google se dekha bro 
