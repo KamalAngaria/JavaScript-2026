@@ -2602,3 +2602,111 @@
 // if(age>=18 && hasLicense === true && helmet === true){
 //     console.log("Can Ride");
 // }else{console.log("Cannot Ride");}
+
+//              🏆 Final Round – 10 Questions
+
+// Question 1 ⭐⭐⭐⭐⭐ (ATM 2.0)
+// let balance = 5000;
+// let withdraw = 3000;
+// let dailyLimit = 4000;
+
+// if(withdraw> dailyLimit)
+// {console.log(`Daily Limit Exceeded`);}
+// else if(withdraw>balance)
+// {console.log(`Insufficient Balance`);}
+// else{console.log(`Transaction Successful`);}
+
+// Question 2 ⭐⭐⭐⭐⭐ (Company Hiring)
+// let age = 25;
+// let degree = true;
+// let experience = 3;
+// let english = true;
+// (age>=21 && age <=30 && degree===true && experience >=2)
+// ?console.log("Selected")
+// :console.log("Rejected");
+
+// Question 3 ⭐⭐⭐⭐⭐ (Netflix)
+
+// let memeberShip = "Standard";
+// let pictureQuality ;
+
+// switch(memeberShip){
+//     case "Free" :
+//         pictureQuality = "480p";
+//         break;
+//     case "Standard" :
+//         pictureQuality = "1080p";
+//         break;
+//     case "Premium" :
+//         pictureQuality = "4K";
+//         break;
+//     default:
+//         console.log("Invalid Plan");
+// }
+
+// console.log(`MemeberShip : ${memeberShip}\nPictureQuality : ${pictureQuality}`);
+
+// Question 4 ⭐⭐⭐⭐⭐ (Restaurant)
+// let item = "Pizza";
+// let quantity = 2;
+// let coupon = true;
+// let discount = 20
+// let price;
+
+// switch(item){
+//     case "Pizza" :
+//         price = 300;
+//         break;
+//     case "Pizza" :
+//         price = 300;
+//         break;
+//     case "Pizza" :
+//         price = 300;
+//         break;
+//     case "Pizza" :
+//         price = 300;
+//         break;
+//     default:
+//         console.log(" Item Not Avilable");
+// }
+// if(price > 0 && coupon=== true){
+//     let Finalprice= price - (price*discount) /100;
+//     console.log(`Item : ${item}\nPrice : ${price} Rs\nDiscount : ${discount}%\nFinal Amount : ${Finalprice} Rs`)
+// }
+
+// Question 5 ⭐⭐⭐⭐⭐ (Student Result)
+// let marks = 70;
+// let attendance = 78;
+// let practical = true;
+// if(marks>=33 && attendance>=75 && practical===true)
+// {console.log("Pass");}
+// else if(practical !== true)
+// {console.log("Failed in Practical");}
+// else if(attendance<75)
+// {console.log("Low Attendance");}
+// else{console.log("Failed in Theory");}
+
+// Question 6 ⭐⭐⭐⭐⭐⭐ (Salary)
+// let salary = 50000;
+// let experience = 6;
+// let rating = 5;
+
+// let oldSalary = salary;
+// let incrementAmount = 0;
+// let finalSalary = salary;
+
+// // Rule 1: Pehle Experience check karke 10% Increment apply karo
+// if (experience >= 5) {
+//     incrementAmount = (salary * 10) / 100; // ₹5000
+//     finalSalary = salary + incrementAmount; // ₹55000
+// }
+
+// // Rule 2: Uske baad rating check karke finalSalary par extra 5% apply karo
+// if (rating === 5) {
+//     let extraBonusAmount = (finalSalary * 5) / 100; // ₹2750
+//     finalSalary = finalSalary + extraBonusAmount;  // ₹57750
+// }
+
+// console.log(`Old Salary : ${oldSalary} Rs`);
+// console.log(`Incremented Base : ${oldSalary + incrementAmount} Rs`);
+// console.log(`Final Salary : ${finalSalary} Rs`);
