@@ -2913,3 +2913,58 @@
 //     console.log(i);
 // }
 // 10 time i just answer it by mistake i count on mey fingure 1st fingure 5 last 50
+
+//                          While Loop
+
+// Practice Set 1 (Output Prediction)
+
+// Q1
+// let i = 1;
+
+// while(i <= 5){
+//     console.log(i);
+//     i++;
+// }
+// 1 2 3 4 5
+
+// Q2
+// let i = 5;
+
+// while(i >= 1){
+//     console.log(i);
+//     i--;
+// }5 4 3 2 1
+
+// Q3
+// let i = 2;
+
+// while(i <= 10){
+//     console.log(i);
+//     i += 2;
+// }
+// 2 4 6 7 8 10
+
+// Q4
+// let sum = 0;
+// let i = 1;
+
+// while(i <= 5){
+//     sum += i;
+//     i++;
+// }
+
+// console.log(sum); 15 because loop ke bhar hia so final answer print hoga
+// sum = 1 i = 1
+// sum = 3 i = 2
+// sum = 6 i = 3
+// sum = 10 i = 4
+// sum = 15 i = 5
+
+// Q5
+// let x = 10;
+
+// while(x > 0){
+//     console.log(x);
+//     x -= 3;
+// }
+// 10 7 4 1
