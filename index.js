@@ -2710,3 +2710,71 @@
 // console.log(`Old Salary : ${oldSalary} Rs`);
 // console.log(`Incremented Base : ${oldSalary + incrementAmount} Rs`);
 // console.log(`Final Salary : ${finalSalary} Rs`);
+
+//              Day 23 of Learning Javascript
+
+// 🟢 for Loop Practice Set 1 (Beginner → Easy)
+
+// Question 1 ⭐
+// for(let i = 1; i <= 5; i++){
+//     console.log(i);
+// }  1 2 3 4 5
+
+// Question 2 ⭐
+// for(let i = 5; i >= 1; i--){
+//     console.log(i);
+// }5 4 3 2 1
+
+// Question 3 ⭐
+// for(let i = 2; i <= 10; i += 2){
+//     console.log(i);
+// }2 4 6 7 8 10
+
+// Question 4 ⭐⭐
+// for(let i = 1; i < 10; i += 3){
+//     console.log(i);
+// }1 4 7
+
+// Question 5 ⭐⭐
+// for(let i = 10; i >0; i -= 2){
+//     console.log(i);
+// }10 8 6 4 2 
+
+// Question 6 ⭐⭐
+// for(let i = 1; i <= 5; i++){
+//     console.log(i * 2);
+// }2 4 6 7 8 10
+
+// Question 7 ⭐⭐⭐
+// let sum = 0;
+// for(let i = 1; i <= 5; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+// 15
+
+// Question 8 ⭐⭐⭐
+// let x = 1;
+// for(let i = 1; i <= 4; i++){
+//     x = x * 2;
+// }
+// console.log(x);
+// 16
+
+// Question 9 ⭐⭐⭐
+// for(let i = 1; i <= 5; i++){
+//     console.log("JavaScript " + i);
+// }
+// JavaScript 1
+//  JavaScript 2
+//  JavaScript 3
+//  JavaScript 4
+//  JavaScript 5
+
+// Question 10 ⭐⭐⭐⭐ (Logic)
+// let total = 0;
+// for(let i = 1; i <= 5; i++){
+//     total = total + i;
+//     console.log(total);
+// }
+// 1 3 6 10 15
