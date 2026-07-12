@@ -2942,7 +2942,7 @@
 //     console.log(i);
 //     i += 2;
 // }
-// 2 4 6 7 8 10
+// 2 4 6 8 10
 
 // Q4
 // let sum = 0;
@@ -2968,3 +2968,47 @@
 //     x -= 3;
 // }
 // 10 7 4 1
+
+//              🟡 while Loop - Set 2 (Intermediate)
+
+// Question 1 ⭐⭐⭐⭐ (break)
+
+// let i = 1;
+// while(i <= 5){
+//     if(i === 4){
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }
+// 1 2 3 
+
+// Question 2 ⭐⭐⭐⭐ (continue)
+// let i = 0;
+// while(i < 5){
+//     i++;             
+//     if(i === 3){
+//         continue;
+//     }
+//     console.log(i);
+// }   
+//  1 2 4 5
+
+// 🧠 Bonus Question (Think Before Answering)
+
+// let i = 1;
+
+// while(i <= 5){
+
+//     if(i === 3){
+//         continue;
+//     }
+
+//     console.log(i);
+
+//     i++;
+// }
+                        // ye smjh nhi aya mujhe
+// // 1 2 4 5
+
+
