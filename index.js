@@ -2779,3 +2779,137 @@
 //     console.log(total);
 // }
 // 1 3 6 10 15
+
+//          🟡 JavaScript for Loop - Set 2 (Intermediate)
+
+// Question 1 ⭐⭐⭐
+// for(let i = 1; i <= 10; i += 3){
+//     console.log(i);
+// }
+// 1 4 7 10
+
+// Question 2 ⭐⭐⭐
+// let sum = 0;
+
+// for(let i = 2; i <= 10; i += 2){
+//     sum += i;
+// }
+
+// console.log(sum);
+// sum = 2   i = 2
+// sum = 6   i = 4   bhoot time laga
+// sum = 12  i = 6
+// sum  = 20  i= 8
+// sum =  30  i = 10
+
+// Question 3 ⭐⭐⭐
+// let x = 20;
+
+// for(let i = 1; i <= 4; i++){
+//     x -= 3;
+// }
+
+// console.log(x);
+// // i = 1  20 - 3  = 17
+// // i = 2  18 - 3  = 14  
+// // i = 3  15 - 3  =  11
+// // i = 4  12 - 3  =  8
+
+// Question 4 ⭐⭐⭐⭐
+// for(let i = 1; i <= 5; i++){
+//     console.log(i);
+
+//     if(i === 3){
+//         break;
+//     }
+// }
+// 1 2 3
+
+// Question 5 ⭐⭐⭐⭐
+// for(let i = 1; i <= 5; i++){
+
+//     if(i === 3){
+//         continue;
+//     }
+
+//     console.log(i);
+// }
+// 1 2 4 5
+
+// Question 6 ⭐⭐⭐⭐
+// let total = 1;
+
+// for(let i = 1; i <= 4; i++){
+//     total *= i;
+// }
+
+// console.log(total);
+
+// // i = 1 total = 1
+// // i = 2 total = 2
+// // i = 3 total = 6
+// // i=  4 total = 24
+
+// Question 7 ⭐⭐⭐⭐⭐
+// for(let i = 10; i >= 1; i -= 3){
+//     console.log(i);
+// }
+// i = 10  print = 10
+// i = 10 -3  print = 7
+// i = 7 -3 print = 4
+// i = 4 -3 print = 1  mujhe abhi esa solve karna pd rha hia
+
+// Question 8 ⭐⭐⭐⭐⭐
+// let a = 1;
+
+// for(let i = 1; i <= 5; i++){
+//     a += i;
+//     console.log(a);
+// }
+// // i = 1 a = 2
+// // i = 2 a = 4
+// // i = 3 a = 7
+// // i = 4 a = 11
+// // i = 5 a = 16
+
+// Question 9 ⭐⭐⭐⭐⭐
+// for(let i = 1; i <= 5; i++){
+
+//     if(i % 2 === 0){
+//         console.log("Even");
+//     }else{
+//         console.log("Odd");
+//     }
+
+// }
+// // 1 % 2 === 0  odd 
+// // 2 % 2 ==== 0 even
+// // 3 odd
+// // 4 even  
+// // 5 odd 
+//  isme ye pta lg gya tha even odd hia but print ho ga ye bhool gaya to console dekha bha print hua hia
+
+// Question 10 ⭐⭐⭐⭐⭐ (Tricky)
+
+// let x = 0;
+
+// for(let i = 1; i <= 5; i++){
+
+//     x += i;
+
+//     if(x > 6){
+//         break;
+//     }
+
+//     console.log(x);
+
+// }
+// i = 1 x = 1
+// i = 2 x = 3
+// i = 3 x = 6
+// i = 4 x = 10 sp greater then six and break no console
+
+// for(let i = 5; i <= 50; i += 5){
+//     console.log(i);
+// }
+// 10 time i just answer it by mistake i count on mey fingure 1st fingure 5 last 50
