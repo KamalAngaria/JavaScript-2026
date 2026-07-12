@@ -2728,7 +2728,8 @@
 // Question 3 ⭐
 // for(let i = 2; i <= 10; i += 2){
 //     console.log(i);
-// }2 4 6 7 8 10
+// }
+// 2 4 6  8 10
 
 // Question 4 ⭐⭐
 // for(let i = 1; i < 10; i += 3){
@@ -2743,8 +2744,8 @@
 // Question 6 ⭐⭐
 // for(let i = 1; i <= 5; i++){
 //     console.log(i * 2);
-// }2 4 6 7 8 10
-
+// }
+// 2 4 6  8 10
 // Question 7 ⭐⭐⭐
 // let sum = 0;
 // for(let i = 1; i <= 5; i++){
