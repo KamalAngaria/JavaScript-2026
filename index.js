@@ -3012,3 +3012,81 @@
 // // 1 2 4 5
 
 
+//                     Day  24 Of learning Javascript
+
+// 🟢 While Loop - Final Practice Set (5 Questions)
+
+// Question 1 ⭐⭐⭐
+
+// let i = 1;
+// let sum = 0;
+
+// while(i <= 4){
+//     sum += i;
+//     console.log(sum);
+//     i++;
+// }
+// i = 1 sum = 1
+// i = 2 sum = 3
+// i = 3 sum = 6
+// i = 4 sum = 10
+
+// Question 2 ⭐⭐⭐⭐
+// let i = 10;
+// while(i > 0){
+//     if(i === 4){
+//         break;
+//     }
+//     console.log(i);
+//     i -= 2;
+// }
+// 10 8 6 
+
+// Question 3 ⭐⭐⭐⭐
+// let i = 0;
+// while(i < 6){ 
+//     i++;
+//     if(i % 2 === 0){
+//         continue;
+//     }
+//     console.log(i);
+// }
+// 1 3 4 5 6
+// my dry run answer is  1 3 5 6 but console have 1 3 5
+// look mena kya kiya i=0 go in while the i++ make it 1
+// means 
+// i = 0 print i = 1
+// i = 1 print i = 2 but skip cause continue 
+// i = 2 cause continue go in condition and i++ make it print = 3
+// i = 3 print i = 4
+// i = 4 print i = 5
+// i = 5 and look the condion i is less then 6 true so i ++ make it 6 and its skip also becuse of conditon 😂😂😂😂
+// i got the answer
+
+// Question 4 ⭐⭐⭐⭐⭐ (Tricky)
+// let i = 1;
+// let x = 0;
+// while(i <= 5){
+//     x += i;
+//     if(x >= 6){
+//         break;
+//     }
+//     console.log(x);
+//     i++;
+// }
+
+// console.log("End");
+// i = 1 x = 0   print x = 1
+// i = 2 x = 3   print x = 3
+// i = 3 x = 6   
+// print = "End"
+
+// Question 5 ⭐⭐⭐⭐⭐ (Interview Style)
+
+// let i = 5;
+// while(i){
+//     console.log(i);
+//     i--;
+// }
+// // 5 4 3 2 1 
+
