@@ -3183,3 +3183,187 @@
 // console.log(x);
 // x = 32 and 6 times it run time lga pr imagination me kiya type kr ke nhi
 
+//          🟢 Nested Loops - Set 1 (Beginner → Intermediate)
+
+
+// Question 1 ⭐
+// for(let i = 1; i <= 2; i++){
+//     for(let j = 1; j <= 3; j++){
+//         console.log(i, j);
+//     }
+// }
+// }outer loop runs  so  i = 1 until the inner is finished
+// so i = 1
+//  i , j
+//  1 , 1
+//  1 , 2
+//  1 , 3
+// now  inner loop finished and i updated i++ so i = 2 and hence i<=2 so i never run after this
+// so i = 2
+//  i , j
+//  2 , 1
+//  2 , 2
+//  2 , 3
+
+// Question 2 ⭐⭐
+// for(let i = 1; i <= 3; i++){
+//     console.log("Outer:", i);
+//     for(let j = 1; j <= 2; j++){
+//         console.log("Inner:", j);
+//     }
+// }
+// smae logic like previous
+// Outter: 1
+// Inner :1
+// Inner "2
+// Outter: 2
+// Inner :1
+// Inner: 2
+// Outter : 3
+// Inner :1
+// Inner :2
+
+// Question 3 ⭐⭐⭐
+// for(let i = 1; i <= 3; i++){
+//     for(let j = 1; j <= 3; j++){
+//         console.log(i * j);
+//     }
+// }
+// 1
+// 2
+// 3
+// 2
+// 4
+// 6
+// 3
+// 6
+// 9
+
+// Question 4 ⭐⭐⭐
+// let count = 0;
+// for(let i = 1; i <= 3; i++){
+//     for(let j = 1; j <= 2; j++){
+//         count++;
+//     }
+// }
+// console.log(count);
+//  1 outer loop
+//  1 inner loop count = 1
+//  2 inner loop count = 2
+//  2 outer loop count value = 2
+//  1 inner loop count =  3 
+//  2 inner loop count =  4
+//  3 outer loop count value = 4
+//  1 inner loop count =  5
+//  2 inner loop count =  6
+//  time lga pr kudh kiya
+
+// Question 5 ⭐⭐⭐⭐ (Logic)
+// for(let i = 1; i <= 2; i++){
+//     for(let j = 3; j >= 1; j--){
+//         console.log(i, j);
+//     }
+// }
+// outer 1 i = 1
+// inner 1 j = 3  1,3
+// inner 1 j = 2  1,2
+// inner 1 j = 1  1,1
+
+// outer 1 i = 2
+// inner 1 j = 3  2,3
+// inner 1 j = 2  2,2
+// inner 1 j = 1  2,1
+
+// Question 6 ⭐⭐⭐⭐ (Very Important)
+// for(let i = 1; i <= 3; i++){
+//     console.log("A");
+//     for(let j = 1; j <= 2; j++){
+//         console.log("B");
+//     }
+//     console.log("C");
+
+// }
+// A 
+// B
+// B
+// C
+// A 
+// B
+// B
+// C
+// A 
+// B
+// B
+// C
+
+// Question 7 ⭐⭐⭐⭐⭐ (Interview)
+// for(let i = 1; i <= 2; i++){
+//     for(let j = 1; j <= 2; j++){
+//         console.log(i + j);
+//     }   
+// }
+// 2
+// 3
+// 3
+// 4
+
+// Question 8 ⭐⭐⭐⭐⭐ (Think)
+// for(let i = 1; i <= 4; i++){
+//     for(let j = 1; j <= 5; j++){
+//         console.log("*");
+//     }
+// }
+// i = 1 outer
+// inner  j = 5 time means
+// * j = 1
+// * j = 2
+// * j = 3
+// * j = 4
+// * j = 5
+// i = 2 outer
+// inner  j = 5 time means
+// *
+// *
+// *
+// *
+// *
+// i = 3 outer
+// inner  j = 5 time means
+// *
+// *
+// *
+// *
+// *
+// i = 4 outer
+// inner  j = 5 time means
+// *
+// *
+// *
+// *
+// *
+// 20 time console.log explation in my pattern 😂
+
+// 🧠 Bonus Challenge
+// 5 time console.log excute inerr is 1 but we have outer which made inner to print 5 time
+// i , j
+// 1 , 1  1
+// 2 , 1  2
+// 3 , 1  3 
+// 4 , 1  4 
+// 5 , 1  5
+// total  =  5
+
+// let pattern;
+// for(let i = 1; i<=5; i++){
+//     pattern = "" ;
+
+//     for(let j = 1; j<=i ; j++){
+//         pattern += "*";
+//     }
+
+//     console.log(pattern);
+// }
+
+//  outer = 1 so inner = 1  patern= *
+//  outer = 2 so inner = 2 patern= ** because patern +="*" concatination j++ fails because condtion fails
+// is it 
