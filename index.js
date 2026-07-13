@@ -3090,3 +3090,96 @@
 // }
 // // 5 4 3 2 1 
 
+//           do...while Practice Set 1 (Easy → Intermediate)
+
+// 🟢 Question 1 ⭐
+// let i = 1;
+
+// do{
+//     console.log(i);
+//     i++;
+// }while(i <= 5);  //very easy
+//  1 2 3 4 5
+
+// 🟢 Question 2 ⭐⭐
+// let i = 5;
+
+// do{
+//     console.log(i);
+//     i--;        // same question reverse
+// }while(i >= 1);
+// 5 4 3 2 1
+
+// 🟢 Question 3 ⭐⭐⭐ (Main Difference)
+// let i = 10;
+
+// do{
+//     console.log(i);
+// }while(i < 5);
+// 10
+
+// 🟢 Question 4 ⭐⭐⭐
+// let sum = 0;
+// let i = 1;
+// do{
+//     sum += i;
+//     i++;
+// }while(i <= 5);
+// console.log(sum);
+// i = 1 sum = 1
+// i = 2 sum = 3
+// i = 3 sum = 6
+// i = 4 sum = 10
+// i = 5 sum = 15 === final answer
+
+// 🟢 Question 5 ⭐⭐⭐⭐
+// let i = 1;
+// do{
+//     if(i === 3){
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }while(i <= 5);
+// 1 2 
+
+// 🟢 Question 6 ⭐⭐⭐⭐
+// let i = 0;
+// do{
+//     i++;
+//     if(i === 3){
+//         continue;
+//     }
+//     console.log(i);
+// }while(i < 5);
+// 1 2 4 5
+
+// 🟢 Question 7 ⭐⭐⭐⭐⭐ (Tricky)
+// let i = 3;
+// do{
+//     console.log(i);
+//     i--;
+// }while(i);
+// 3 2 1      loop stop because when i reached to zero and its a falsy so condition became false and stop
+
+// 🟢 Question 8 ⭐⭐⭐⭐⭐ (Interview)
+// let x = 5;
+// do{
+//     console.log("JavaScript");
+// }while(x < 3);
+// JavaScript  5 < 3 flase stop 
+
+// 🎯 Bonus Challenge
+// let i = 1;
+// let x = 1;
+
+// do{
+
+//     x *= 2;
+//     i++;
+
+// }while(i <= 5);
+
+// console.log(x);
+// x = 32 and 6 times it run time lga pr imagination me kiya type kr ke nhi
+
