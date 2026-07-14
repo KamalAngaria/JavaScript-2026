@@ -3400,3 +3400,43 @@
 // let arr = [];
 // console.log(arr.length);
 // 0 pr ye to index hua na ?
+
+
+//                          JavaScript Arrays
+
+// Phase 1 Practice (10 Questions)
+
+// 1 What is an array in JavaScript?
+// Array is a spectial type of obect in javascript used to store multiple values of differ data types in a sigle varible and having a index start from 0
+
+// 2 Why do we use arrays instead of many variables?
+// we use arrays instead of many varivble because its time consuming and we can not handel the large data
+//  ie 10000 students detials
+
+// 3 Which brackets are used to create an array?
+// [] square brackets
+
+// 4 Create an array of five colors.
+// let colors =["red","green","blue","black","yellow"];
+
+// 5 Create an array of five numbers.
+// let numbers =[1,2,3,4,5];
+
+// 6 Create an empty array.
+// let arr = [];
+
+// 7 Create an array containing a string, a number, a boolean, null, and undefined
+// let differ = [1,"a",true,null,undefined];
+
+// 8 Is this valid? Why?
+// let arr = [10, "Hello", false];
+// yes  
+
+// 9 Create a nested array with two inner arrays.
+// let arr = [
+//     [1,2,3],
+//     [4,5,6]
+// ]
+
+// 10 What is the main advantage of using arrays over separate variables?
+// can store differ data in same varible and lesstime consuming then array 
