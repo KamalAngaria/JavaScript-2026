@@ -3367,3 +3367,36 @@
 //  outer = 1 so inner = 1  patern= *
 //  outer = 2 so inner = 2 patern= ** because patern +="*" concatination j++ fails because condtion fails
 // is it 
+
+//              Day 25 of Learning Javascript
+
+// 📝 Practice Set 1 (10 Questions)
+
+
+// 1 .Create an array of 5 fruits and print the first fruit.
+// let fruits = ["Apple","Mango","Banana","Grapes","Orange"];
+// console.log(fruits[0]);
+
+// 2.Create an array of 5 numbers and print the last number using length.
+// let numbers = [1,2,3,4,5];
+// console.log(numbers[numbers.length-1]);
+
+// 3.Change the third element of ["A", "B", "C", "D"] to "Z" and print the array.
+// let element = ["A", "B", "C", "D"];
+// element[2]="Z";
+// console.log(element);
+
+//4 . What is the output?
+// let arr = [10, 20, 30];
+// console.log(arr[1]);
+// 20
+
+// 5.What is the output?
+// let arr = [5, 10];
+// console.log(arr[5]);
+// undefined
+
+//6 Create an empty array and print its length.
+// let arr = [];
+// console.log(arr.length);
+// 0 pr ye to index hua na ?
