@@ -3489,3 +3489,30 @@
 
 // console.log(arr[-1]);
 // undefined
+
+
+// Part C – Write the Code
+
+// 11 Create an array of five cities and print the first city.
+
+// let city = ["Delhi","Jaipur","Mubai","Shimla","Hydrabad"];
+// console.log(city[0]);
+
+// 12 Create an array of four fruits and print the last fruit using its index (don't use length yet).
+// let fruits = ["Appel","Mango","Grapes","Banana"];
+// console.log(fruits[3]);
+
+// 13 Create an array of three numbers and print the middle number.
+// let number = [1,2,3];
+// console.log(number[1]);
+
+// 14 Create a nested array:
+// let arr =[
+//   ["HTML", "CSS"],
+//   ["JavaScript", "React"]
+// ];
+// console.log(arr[1][1]);
+
+// 15 Create an array:
+// let arr = ["A" ,"B" ,"C" ,"D"];
+// console.log(arr[2]);
