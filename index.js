@@ -3516,3 +3516,105 @@
 // 15 Create an array:
 // let arr = ["A" ,"B" ,"C" ,"D"];
 // console.log(arr[2]);
+
+//              Phase 3 Practice (15 Questions)
+
+// Part A – Theory
+
+// 1 What does updating an array mean?
+//  Updating a array means give them a new value using the index position its means we are just replacing the old value using the assignement operator
+// ie : let arr =[1,2,3,4];
+// arr[0]=0;
+// now  new updated value of the array is 0 2 3 4
+
+// 2 Write the syntax for updating an array element.
+// arrnayname[index]=newvalue;
+
+// 3 Does updating add a new element or replace the existing one?
+// updating means the replace the existing one not add a new value 
+
+// 4 What happens if you assign a value to an index that doesn't exist?
+// its depends on which position are u trying to fit a new array 
+// i.e : if u have the arr = [1,2,3]; and u are tying to add a new value 
+// just after the 3 whic have index 2 means u are trying to add value on index 3
+// let arr = [10,20,40];
+// arr[3] = 100;
+// console.log(arr); javascript just increase the array leght to save the new value
+
+// 5 Can you change a number into a string inside an array?
+// yes 
+
+
+// Part B – Output Prediction
+
+// Q6
+// let arr = [10, 20, 30];
+
+// arr[1] = 100;
+
+// console.log(arr); 
+
+// [ 10 ,100 ,30]
+
+// Q7
+// let fruits = ["Apple", "Banana"];
+
+// fruits[0] = "Orange";
+
+// console.log(fruits);
+// ["Orange", "Banana"]
+
+// Q8
+// let arr = [1, 2];
+// arr[3] = 10;
+// console.log(arr);
+// [1, 2,emepty, 10]
+
+// Q9
+// let arr = [5, 10, 15];
+// arr[2] = true;
+// console.log(arr);
+// [5, 10, true]
+
+// Q10
+// let arr = [
+//     ["A", "B"],
+//     ["C", "D"]
+// ];
+// arr[1][0] = "X";
+// console.log(arr);
+//   ["A", "B"],
+//   ["X", "D"]
+
+// Part C – Coding
+
+
+// 11 Create an array of five colors and replace the third color with "Black".
+// let colors = ["red","blue", "green","yellow","orange"];
+// colors[2]="Black";
+// console.log(colors);
+
+// 12 Create an array of four numbers and change the first number to 100.
+// let number = [1,2,3,4];
+// number[0]=100;
+// console.log(number);
+
+// 13 Create a nested array:
+// let arr =[
+//   ["HTML", "CSS"],
+//   ["JavaScript", "React"]
+// ];
+// arr[0][1]="Tailwind";
+// console.log(arr);
+
+// 14 Create an array:
+// let arr = ["A", "B"];
+// arr[4]="Z";
+// console.log(arr);
+
+// 15 Create an array:
+// let arr = [10, 20, 30];
+// arr[0]=100;
+// arr[1]=200;
+// arr[2]=300;
+// console.log(arr);
