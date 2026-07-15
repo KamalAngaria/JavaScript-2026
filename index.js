@@ -3440,3 +3440,52 @@
 
 // 10 What is the main advantage of using arrays over separate variables?
 // can store differ data in same varible and lesstime consuming then array 
+
+
+//                  Day 26 of Learning Javascript
+
+// Phase 2 Practice (15 Questions)
+
+
+// Part A – Basic
+
+// 1 What is an index?
+// An index is the position number of an item in an array it starts
+// from 0 because it showas how far that item is from the starting point
+
+// 2 Why does array indexing start from 0?
+// An array indes is start form 0 because it does not represent the rank of an item
+// but rather its distansce from the startin point of the array
+
+// 3 Which operator is used to access an array element?
+// [] brackets are used to acces the arrary ie : console.log(arr[0]);
+
+// 4 What is the index of the first element?
+// index of the first elemt is 0 becuse its very its the dtarting poit of the array and elment is near it
+
+// 5 What happens if you access an index that doesn't exist?
+//  its shows undefined 
+
+
+// Part B – Output Prediction
+
+// 6 let fruits = ["Apple", "Banana", "Mango"];
+// console.log(fruits[0]); 
+// ["Apple"]
+
+// Q7 let fruits = ["Apple", "Banana", "Mango"];
+// console.log(fruits[2]);
+// Mango 
+
+// Q8 let numbers = [10, 20, 30];
+// console.log(numbers[1]);
+// 20
+
+// Q9 let colors = ["Red", "Green", "Blue"];
+// console.log(colors[3]);
+// undefined
+
+// Q10 let arr = [100, 200, 300];
+
+// console.log(arr[-1]);
+// undefined
