@@ -3644,3 +3644,54 @@
 // length=higherindex +1
 
 
+//                   Part B – Output Prediction
+
+// Q6 let arr = [10,20,30];
+// console.log(arr.length);
+// 3
+
+// Q7  let arr = [];
+// console.log(arr.length);
+// 0
+
+// Q8 let arr = [100];
+// console.log(arr.length);
+// 1
+
+// Q9 let arr = [10,20,30];
+// console.log(arr[arr.length - 1]);
+// 30
+
+// Q10 let arr = [10,20,30];
+// arr.length = 2;
+// console.log(arr);
+// 10,20
+
+// Q11 let arr = [10,20];
+// arr.length = 5;
+// console.log(arr);
+// 10 , 20 emeptey*3
+
+// Q12 let arr = [];
+// arr[4] = "A";
+// console.log(arr.length);
+// 5 because length = higherindex+1
+
+// Q13 
+// let arr = [1,2,3];
+// console.log(arr[3]);
+// undefined
+
+// Q14 
+// let arr = ["A","B","C"];
+// console.log(arr[arr.length - 2]);
+// B because arr[arr.length - 2] =  arr[3-2] = arr[1] then console.log(arr[1])
+// B 
+
+// Q15 
+// let arr = [10,20,30];
+// console.log(arr.length());
+// TypeError 
+
+
+
