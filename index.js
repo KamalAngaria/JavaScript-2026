@@ -3693,5 +3693,31 @@
 // console.log(arr.length());
 // TypeError 
 
+//                          Part C – Coding
 
+// Create an array of five fruits and print its length.
+// let fruits = ["apple","mango","grapes","banana","lichy"];
+// console.log(fruits.length);
+// 5
+
+// Create an empty array and print its length.
+// let arr = [];
+// console.log(arr.length);
+// 0
+
+// Create an array of four numbers and print the last element using length.
+// let numbers = [1,2,3,4];
+// console.log(numbers[numbers.length-1]);
+
+// Create an array [10,20,30,40], change its length to 2, and print it.
+// let arr = [10,20,30,40];
+// arr.length = 2 ;  1st way
+// arr.length=arr.length-2; 2nd way
+// console.log(arr);
+
+// Create an empty array, assign "JavaScript" to index 6, then print the array and its length.
+// let arr =[];
+// arr[5]= "JavaScript";
+// console.log(arr);
+// ye kuch smj nhi aya just yha pucha tha 6 me print kro index to mena -1 krke 5 likh diya
 
