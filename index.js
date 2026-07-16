@@ -3618,3 +3618,29 @@
 // arr[1]=200;
 // arr[2]=300;
 // console.log(arr);
+
+
+//                  Day 27 of Learning Javascript
+
+//              JavaScript Arrays – Phase 4: Array Length
+
+
+
+//               Phase 4 Practice (20 Questions)
+
+// 1 What is the length property?
+// lenght is the special property in javascript used to chek the array lenght,increase array ,decrease array
+
+// 2 Is length a property or a method?
+// lenght is the property and directely attahed with the variable names to read the objects where the method is the function () envoke with the parenthessis
+
+// 3 Write the syntax for getting the length of an array.
+// arrayname.length
+
+// 4 What is the formula for finding the last index?
+// lastindex =length - 1
+
+// 5 What is the formula JavaScript uses to calculate length?
+// length=higherindex +1
+
+
