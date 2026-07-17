@@ -3831,7 +3831,7 @@
 
 // Create an array of five fruits and print every fruit using a for loop.
 // let fruits = ["Apple", "Mango", "Banana","Pears","Papaya"];
-// for(let i = 1; i <fruits.length;i++){
+// for(let i = 0; i <fruits.length;i++){
 //     console.log(fruits[i]);
 // }
 
@@ -3866,3 +3866,80 @@
 //     }
    
 // }
+
+//  Basic Practice
+
+// Q1. What is the purpose of a conditional statement in JavaScript? Name two conditional statements.
+// Ans The purpose of conditinal statement is excuting different condition block which
+// used to check the condition is true and false 
+// Two conditinal statments are -
+// if and else if
+
+// Q2. What is the difference between if, else if, and else?
+// if is a conditional block only use to check the condition is true
+// else if is use to check the multiple conditions 
+// else it is a default parameter used to give default value or output
+
+// Q3 When would you use a switch statement instead of an if...else statement?
+// switch statment is used when you need to test a single variable against many fixed conditions,exact values
+
+// Q4. What is a for loop? Explain its three parts.
+// A for loop is a programing tool that repeates a blcok of code a set number of times
+// initilization : This sets up a starting point and runs only once before the loop begins
+// coditions this checks if the loop should keep running if this test is true the code runs if it is false , the loops stops
+// update this changes the counter at the end of each run ,bringing it closer to the stoppinf point
+
+// Q5. What is the difference between a while loop and a do...while loop?
+// while loop is the block of code used to check the condition is true when the condtion is flase its end 
+// where the do...while loop has a differt working first it always print the code or run the code once after that it checks the condtions
+
+// Q6.
+
+// How many times will the following loop execute, and why?
+
+// let i = 1;
+
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+// Ans 5 times .5 time to print the number loop reach to 5<=5 its print 5 then update i++ 6 and its chek with condition and its flase
+
+// Q7. What is a nested loop? Give one practical example where it is useful.
+// Nested loop is for loop inside for loop . Practical Example: A Cinema Seating Grid
+// outer loop run 1 time until the inner loop is finished
+
+// Q8. What happens if you forget to update the loop variable inside a while loop?
+// it repeate the same condition again and again
+
+// Q9.what is the difference between these two conditions?
+// if (x == 5) equal its check only the same thing when comparing ie:5=="5";
+
+// and
+
+// if (x === 5) strict equal its chek every thig including the data type 
+
+
+// Q10.
+
+// Which loop would you choose for each of the following situations, and why?
+
+// Print numbers from 1 to 100.
+// Keep asking the user for input until they enter "exit".
+// Run a block of code at least one time, regardless of the condition.
+// Print every combination of rows and columns in a 3×3 grid.
+
+// Print numbers from 1 to 100.
+// i use for loop because i have starting and ending direction
+
+// Keep asking the user for input until they enter "exit".
+// i would like to use nested if else  and also we can use do ... while
+// i dont know exact answer
+
+// Run a block of code at least one time, regardless of the condition
+// do ... while it allow us to run inner code atleast one time then check the conditions
+
+// Print every combination of rows and columns in a 3×3 grid.
+// nested for loop because outer loop work as a row and inner work as a colum
+
+// Outer loop handles the 3 rows
