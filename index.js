@@ -3825,3 +3825,44 @@
 // for(let i = 1; i < arr.length; i += 2){
 //     console.log(arr[i]);
 // }1 3 5
+
+
+//                       Part C – Coding
+
+// Create an array of five fruits and print every fruit using a for loop.
+// let fruits = ["Apple", "Mango", "Banana","Pears","Papaya"];
+// for(let i = 1; i <fruits.length;i++){
+//     console.log(fruits[i]);
+// }
+
+// Create an array of four cities and print them using a while loop.
+// let cities = ["Delhi","Banglore","Pune","Shimla"];
+// let i = 0;
+// while(i<cities.length){
+//     console.log(cities[i]);
+//     i++;
+// }
+
+// Create an array of three colors and print them using a do...while loop.
+// let colors = ["Red","Green","Blue"];
+// let i = 0;
+// do{
+//     console.log(colors[i]);
+//     i++;
+// }
+// while( i <colors.length);
+
+// Create an array of six numbers and print them in reverse order.
+// let numbers = [1,2,3,4,5,6];
+// for(let i = numbers.length-1; i >=0; i--){
+//     console.log(numbers[i]);
+// }
+
+// Create an array of eight numbers and print only the elements at even indexes (0, 2, 4, 6).
+// let numbers = [1,2,3,4,5,6,7,8];
+// for(let i = 0; i<numbers.length ; i++){
+//     if(i%2===0){
+//         console.log(numbers[i]);
+//     }
+   
+// }
