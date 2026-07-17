@@ -3721,3 +3721,38 @@
 // console.log(arr);
 // ye kuch smj nhi aya just yha pucha tha 6 me print kro index to mena -1 krke 5 likh diya
 
+
+//                   Day 28 of Learning Javascript
+
+//                  Phase 5 Travering Array 
+
+//                      Part A – Theory
+
+// What does traversing an array mean?
+// Traversing array means visitng or accesing every elemts of the  array one by one
+
+// Why do we use loops with arrays?
+// loops are commanly used with the arrays brcause we can not acces huge amout of elements one by one
+
+// Which loop is most commonly used for traversing arrays?
+// for loop becuase for loop have a starting point ending point and condition
+
+// Why do we write i < arr.length instead of i <= arr.length?
+// according to me i is index for me and the < arr.length = length-1
+// is used formula highest index = array length-1 so its right 
+// if i used <= so its print extra like
+// let arr = [1,2,3];
+// index    length
+// 0           1
+// 1           2
+// 2           3
+// 2 = 3-1 is used to belive this formula
+
+// How do you traverse an array in reverse order?
+// for(let i = arr.length - 1; i >= 0; i--)
+// here is used same formula again and i assign to i no i check the is i >=0 because i is greater then 0 i print until the i = 0
+// let arr = [1,2,3];
+// for(let i = arr.length - 1; i >=0 ; i--){
+//     console.log(arr[i]);
+// }
+
