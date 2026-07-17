@@ -3942,4 +3942,101 @@
 // Print every combination of rows and columns in a 3×3 grid.
 // nested for loop because outer loop work as a row and inner work as a colum
 
-// Outer loop handles the 3 rows
+//          Outer loop handles the 3 rows
+
+// Q1
+// for (let i = 1; i <= 3; i++) {
+//   console.log(i);
+// }
+// 1 2 3
+
+// Q2
+// let i = 1;
+
+// while (i <= 3) {
+//   console.log(i);
+//   i++;
+// }
+// 1 2 3
+
+// Q3
+// let i = 5;
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 5);
+// 5
+
+// Q4
+// if (10 > 5) {
+//   console.log("A");
+// } else {
+//   console.log("B");
+// }
+// A 
+
+// Q5
+// let x = 5;
+
+// if (x === "5") {
+//   console.log("Yes");
+// } else {
+//   console.log("No");
+// }
+// NO
+
+// Q6
+// let day = 2;
+
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   default:
+//     console.log("Unknown");
+// }
+// Tuesday
+
+// Q7
+// for (let i = 1; i <= 2; i++) {
+//   for (let j = 1; j <= 2; j++) {
+//     console.log(i, j);
+//   }
+// }
+// 1,1
+// 1,2
+// 2,1
+// 2,2
+
+// Q8
+// let i = 3;
+
+// while (i > 0) {
+//   console.log(i);
+//   i--;
+// }
+// 3 2 1
+
+// Q9
+// let num = 0;
+
+// if (num) {
+//   console.log("True");
+// } else {
+//   console.log("False");
+// }
+// False 
+
+// Q10
+// for (let i = 1; i <= 5; i++) {
+//   if (i === 3) {
+//     console.log("Three");
+//   } else {
+//     console.log(i);
+//   }
+// }
+// 1 2 Three 4 5
