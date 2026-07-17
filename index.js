@@ -3756,3 +3756,72 @@
 //     console.log(arr[i]);
 // }
 
+//                      Part B – Output Prediction
+
+// let arr = [10,20,30];
+
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+// 10 20 30
+
+// let arr = [5,10,15];
+// for(let i = 1; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+// // 10 15
+
+// let arr = [1,2,3];
+// for(let i = 0; i <= arr.length; i++){
+//     console.log(arr[i]);
+// }
+// 1 2 3 undefined
+
+
+// let arr = [100,200,300];
+// for(let i = arr.length - 1; i >= 0; i--){
+//     console.log(arr[i]);
+// }
+// 300 200 100
+
+// let arr = [10,20,30,40,50];
+// for(let i = 0; i < arr.length; i += 2){
+//     console.log(arr[i]);
+// }
+// 10 30 50
+
+// let arr = [10,20,30];
+// let i = 0;
+// while(i < arr.length){
+//     console.log(arr[i]);
+//     i++;
+// }
+// 10 20 30
+
+// let arr = [10,20];
+// let i = 0;
+// do{
+//     console.log(arr[i]);
+//     i++;
+// }
+// while(i < arr.length);
+// 10 20
+
+// let arr = ["A","B","C"];
+
+// for(let i = 0; i < arr.length; i++){
+//     console.log(i);
+// }
+// 0 1 2
+
+// let arr = [2,4,6,8];
+
+// for(let i = arr.length; i >= 0; i--){
+//     console.log(arr[i]);
+// } 8 6 4 2
+
+// let arr = [1,2,3,4,5];
+
+// for(let i = 1; i < arr.length; i += 2){
+//     console.log(arr[i]);
+// }1 3 5
