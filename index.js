@@ -4197,12 +4197,12 @@
 // let arr = [10,20];
 // arr.unshift(5);
 // console.log(arr);
-// [10,20,5] 
+// [5,10,20] 
 
 // Q12
 // let arr = [10,20,30];
 // console.log(arr.shift());
-// 30
+// 10
 
 // Q13
 // let arr = [1];
@@ -4246,6 +4246,12 @@
 // console.log(numbers);
 
 // Create an empty array and use push() three times to add 10, 20, and 30.
-let arr = [];
-arr.push(10,20,30);;
-console.log(arr);
+// let arr = [];
+// arr.push(10,20,30);;
+// console.log(arr);
+
+//                  Phase 7: Searching & Utility Methods
+// includes()
+// indexOf()
+// lastIndexOf()
+// join()
