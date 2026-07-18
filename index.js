@@ -4221,3 +4221,31 @@
 // console.log(arr.unshift(10));
 // 3
 
+//                       Part C – Coding
+
+// Create an array of three fruits and add "Orange" using push().
+
+// let fruits = ["Apple","Mango"]
+// fruits.push("Orange");
+// console.log(fruits);
+
+// Create an array of four numbers and remove the last number using pop().
+// let numbers =[1,2,3,4];
+// numbers.pop();
+// console.log(numbers);
+
+// Create an array ["B", "C"] and add "A" at the beginning using unshift().
+// let array = ["B","C"];
+// array.unshift("A");
+// console.log(array);
+
+
+// Create an array [10,20,30], remove the first element using shift(), and print the array.
+// let numbers = [10,20,30];
+// numbers.shift();
+// console.log(numbers);
+
+// Create an empty array and use push() three times to add 10, 20, and 30.
+let arr = [];
+arr.push(10,20,30);;
+console.log(arr);
