@@ -4255,3 +4255,27 @@
 // indexOf()
 // lastIndexOf()
 // join()
+
+//                      Part A – Theory 
+
+
+// What does includes() return?
+// include always return bolean value true or false according to condition
+
+// What does indexOf() return?
+// index of return the  first index of specific element according to what we are trying to fing if elements are duplicate it always return 1st index and if elemet is not present it always returns -1
+
+// What does lastIndexOf() return?
+// lastIndex of returns last index same as index of but start from last and -1 return if value not found and if double same values are present return 1st one from the last 
+
+// What does join() do?
+// join() is used to convert the any array elemntes into a single string by using sepreaters.it returns the string not any impact on original array
+
+// Which method returns -1 if an element is not found?
+// indexof() and lastIndexof ()
+
+// Does join() change the original array?
+// join() is used to convert the any array elemntes into a single string by using sepreaters.it returns the string not any impact on original array
+
+// Is includes() case-sensitive?
+// avaScript is entirely case-sensitive so yes it also 
