@@ -4324,3 +4324,25 @@
 // let result = arr.join("");
 // console.log(result);
 // ABC 
+
+//                       Part C – Coding
+
+// Create an array of five fruits and check whether "Mango" exists using includes().
+// let fruits = ["Mango","Apple","Kiwi","Banana","Mango"];
+// console.log(fruits.includes("Mango"));
+
+// Create an array of four cities and print the index of "Delhi" using indexOf().
+// let cities = ["Delhi","Patana","Shimal","Bnaglore"];
+// console.log(cities.indexOf("Delhi"));
+
+// Create an array [10,20,30,20,40] and print the last index of 20.
+// let numbers = [10,20,30,20,40];
+// console.log(numbers.lastIndexOf(20));
+
+// Create an array ["JavaScript","is","awesome"] and join it into a sentence using spaces.
+// let arr = ["JavaScript","is","awesome"];
+// console.log(arr.join( " "));
+
+// Create an array ["A","B","C"], join it using "*", and print the result.
+// let arr = ["A","B","C"];
+// console.log(arr.join( "*"));
