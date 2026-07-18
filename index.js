@@ -4040,3 +4040,92 @@
 //   }
 // }
 // 1 2 Three 4 5
+
+//               Phase 3 – Coding Question 1 (Easy)
+//Q1 Print the numbers from 1 to 10 using a for loop.
+// for(let i = 1; i <= 10;i++){
+//     console.log(i);
+// }
+
+
+// Day 29 of Learning Javascript
+
+// Print the numbers from 10 down to 1 using a while loop.
+
+// let i = 10;
+// while(i>=1){
+//     console.log(i);
+//     i--;
+// }
+
+// Print all even numbers from 1 to 20 using a for loop.
+
+// for(let i = 2; i<=20; i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+// }
+
+// Print all odd numbers from 1 to 20 using a while loop.
+// let i = 1;
+// while(i<=20){
+//   if(i%2!==0){
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// Print the multiplication table of 5 from 1 to 10 using a for loop.
+// let number = 5;
+// for(let i = 1; i<=10; i++){
+//     console.log(`${number} x ${i} = ${number*i}`);
+// }
+
+// Print the following 3 × 3 square using nested for loops.
+
+// let pattern ;
+// for(let i = 1; i <= 3 ; i++){
+//     pattern = "";
+//     for(let j = 1; j<=3; j++){
+//         pattern +="*";
+//     }
+//     console.log(pattern);
+// }
+
+// Print the following right triangle pattern using nested for loops.
+// let pattern ;
+// for(let i = 1; i<=5; i++){
+//     pattern = "";
+//     for(let j = 1; j <= i; j++){
+//         pattern += "* " ;
+//     }
+//     console.log(pattern);
+// }
+
+// Print the following inverted triangle using nested for loops.
+// for(let i = 5; i >= 1; i--){
+//     let pattern = "";
+//     for(let j = 1; j<=i; j++){
+//         pattern += "* ";
+//     }
+//     console.log(pattern);
+// }
+
+// Print the following number pattern using nested for loops.
+// for(let i = 1; i<=5; i++){
+//     let number = "";
+//     for(let j = 1; j<=i; j++ ){
+//         number += j;
+//     }
+//     console.log(number);
+// }
+
+// Print the following pattern using nested for loops.
+
+// for(let i = 1; i<=5; i++){
+//     let number = "";
+//     for(let j = 1; j<=i; j++ ){
+//         number += i;
+//     }
+//     console.log(number);
+// }
