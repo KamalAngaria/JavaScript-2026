@@ -4279,3 +4279,48 @@
 
 // Is includes() case-sensitive?
 // avaScript is entirely case-sensitive so yes it also 
+
+
+//                      Part B – Output Prediction
+
+
+// Q8
+// let arr = ["Apple","Mango"];
+// console.log(arr.includes("Apple"));
+// True 
+
+// Q9
+// let arr = ["Apple","Mango"];
+// console.log(arr.includes("apple"));
+// False 
+
+// Q10
+// let arr = [10,20,30];
+// console.log(arr.indexOf(20));
+// 1
+
+// Q11
+// let arr = [10,20,30];
+// console.log(arr.indexOf(50));
+// -1
+
+// Q12
+// let arr = [1,2,3,2,4];
+// console.log(arr.lastIndexOf(2))
+// 3
+
+// Q13
+// let arr = ["A","B","C"];
+// console.log(arr.join("-"));
+// A-B-C 
+
+// Q14
+// let arr = ["I","Love","JS"];
+// console.log(arr.join(" "));
+// I love Js 
+
+// Q15
+// let arr = ["A","B","C"];
+// let result = arr.join("");
+// console.log(result);
+// ABC 
