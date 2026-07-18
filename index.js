@@ -4143,12 +4143,34 @@
 // both
 
 // Q: Which methods return the new length?
-// push() front
-// unshift() end
+// push() end
+// unshift() front
 // both 
 
 // Q: Which methods return the removed element?
-// pop() fornt
-// shift() end
+// pop() end
+// shift() font
 // both
 
+//                      Part A – Theory
+
+// What is an array method?
+// Array Methods are built in function in javascript used to performe specific operation on array
+
+// Which method adds an element at the end?
+// push() methode 
+
+// Which method removes the last element?
+// pop() methode 
+
+// Which method adds an element at the beginning?
+// unshift()
+
+// Which method removes the first element?
+// shift()
+
+// Which methods return the new length?
+// push() and unshift ()
+
+// Which methods return the removed element?
+// pop () and shift()
