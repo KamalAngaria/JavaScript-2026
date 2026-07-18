@@ -4346,3 +4346,100 @@
 // Create an array ["A","B","C"], join it using "*", and print the result.
 // let arr = ["A","B","C"];
 // console.log(arr.join( "*"));
+
+
+
+//                  Day 31 Of Learning Javascript
+
+//                      Basic Logic (1–10)
+
+// Q1. Create an array of 5 numbers and print all the elements.
+// let numbers = [1,2,3,4,5];
+// for(let i = 0; i < numbers.length;i++){
+//     console.log(numbers[i]);
+// }
+
+// Q2. Create an array of numbers and print the sum of all elements.
+// let numbers = [10,20,30,30,20,10];
+// let sum = 0;
+// for(let i = 0; i<numbers.length; i++){
+//     sum = sum + numbers[i];
+// }
+// console.log(sum);
+
+// Q3. Find the average of all elements in an array.
+// let numbers =[10,5,20,30,55,40]
+// let sum = 0;
+// for(let i = 0; i<numbers.length; i++){
+//     sum = sum + numbers[i];
+// }
+// console.log((sum/numbers.length).toFixed(2));
+
+
+// Q4. Count how many elements are present in the array without using length inside console.log().
+
+// let numbers = [1,2,3,4];
+// let total = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     total += 1;
+// }
+// console.log(total)
+
+
+// Q5. Find the largest element in an array.
+
+// let numbers = [1,10,3,4];
+// let greater = numbers[0] ;
+// for(let i = 0; i < numbers.length; i++){
+//    if( numbers[i]>=greater){
+//     greater = numbers[i];
+// }
+// }
+// console.log(greater);
+
+// Q6. Find the smallest element in an array.
+
+// let numbers = [12,10,3,4];
+// let smallest = numbers[0] ;
+// for(let i = 0; i < numbers.length; i++){
+//    if( numbers[i] <= smallest){
+//     smallest =numbers[i];
+// }
+// }
+// console.log(smallest);
+
+// Q7. Print only the even numbers from the array.
+// let numbers = [1,2,8,7,5,3,4,9,10];
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%2===0){
+//         console.log(numbers[i]);
+//     }
+// }
+
+// Q8. Print only the odd numbers from the array.
+// let numbers = [1,2,8,7,5,3,4,9,10];
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%2!==0){
+//         console.log(numbers[i]);
+//     }
+// }
+
+// Q9. Count the total number of even elements.
+// let numbers = [1,2,8,7,5,3,4,9,10];
+// let total = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%2===0){
+//         total++;
+//     }
+// }
+// console.log(total);
+
+// Q10. Count the total number of odd elements.
+// let numbers = [1,2,8,7,5,3,4,9,10];
+// let total = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%2!==0){
+//       total++;
+//     }
+// }
+// console.log(total);
