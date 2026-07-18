@@ -4129,3 +4129,26 @@
 //     }
 //     console.log(number);
 // }
+
+//                  Phase 6: Array Methods
+
+// Q: Which methods add elements?
+// push() end
+// unshift()  front
+// both
+
+// Q: Which methods remove elements?
+// pop() end 
+// shift() ftont
+// both
+
+// Q: Which methods return the new length?
+// push() front
+// unshift() end
+// both 
+
+// Q: Which methods return the removed element?
+// pop() fornt
+// shift() end
+// both
+
