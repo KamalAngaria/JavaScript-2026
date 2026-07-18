@@ -4443,3 +4443,81 @@
 //     }
 // }
 // console.log(total);
+
+//                  Level 2 – Intermediate Logic (11–20)
+
+// Q11. Find the sum of only even numbers.
+// let numbers = [1,8,5,6,7,4,9,10];
+// let sum = 0;
+// for(let i = 0; i<numbers.length; i++ ){
+//     if(numbers[i]%2===0){
+//         sum +=numbers[i];     
+//     }
+// }
+// console.log(sum);
+
+// Q12. Find the sum of only odd numbers.
+// let numbers = [1,2,4,7,6,9,1,0];
+// let sum = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%2!==0){
+//         sum +=numbers[i];
+//     }
+// }
+// console.log(sum);
+
+// Q13. Count how many positive numbers are in the array.
+// Q16. Print all positive numbers.
+// let numbers = [-5, 10, 0, -8, 15, 22, -1, 7, -9, 30];
+// count = 0;
+// for(let i = 0;i<numbers.length;i++){
+//     if(numbers[i]>0){
+//         count++;
+//         console.log(numbers[i]);
+//     }
+// }
+// console.log(`Total +ve numbers = ${count}`);
+
+// Q14. Count how many negative numbers are in the array.
+// Q17. Print all negative numbers.
+// let numbers = [-5, 10, 0, -8, 15, 22, -1, 7, -9, 30];
+// count = 0;
+// for(let i = 0;i<numbers.length;i++){
+//     if(numbers[i]<0){
+//         count++;
+//         console.log(numbers[i]);
+//     }
+// }
+// console.log(`Total -ve numbers = ${count}`);
+
+// Q15. Count how many zeros are present.
+// let numbers = [-5, 10, 0, -8, 15, 22, -1, 7, -9, 30];
+// count = 0;
+// for(let i = 0;i<numbers.length;i++){
+//     if(numbers[i]===0){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+// Q18. Print all numbers that are greater than 50.
+// Q20. Count how many numbers are greater than 50.
+// let numbers = [-5, 10, 0, -8, 15, 22, -1, 7, -9, 30, 50 ,65 ,68];
+// count = 0;
+// for(let i = 0; i<numbers.length; i++){
+//     if(numbers[i] > 50){
+//         count++;
+//         console.log(numbers[i]);
+//     }
+// }
+// console.log(count);
+
+// Q19. Print all numbers that are less than 100.
+// let numbers = [-5, 10, 0, -8, 15, 22, -1, 7, -9, 30, 50 ,65 ,68];
+// count = 0;
+// for(let i = 0; i<numbers.length; i++){
+//      if(numbers[i] < 100 && numbers[i] >= 0){
+//         count++;
+//     }
+// }
+// console.log(count);
