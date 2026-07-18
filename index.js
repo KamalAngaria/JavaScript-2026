@@ -4174,3 +4174,50 @@
 
 // Which methods return the removed element?
 // pop () and shift()
+
+//                  Part B – Output Prediction
+
+// Q8
+// let arr = [10,20];
+// arr.push(30);
+// console.log(arr)
+// [10, 20, 30]
+
+// Q9
+// let arr = [10,20];
+// console.log(arr.push(30));
+// 3
+
+// Q10
+// let arr = [10,20,30];
+// console.log(arr.pop());
+// 30
+
+// Q11
+// let arr = [10,20];
+// arr.unshift(5);
+// console.log(arr);
+// [10,20,5] 
+
+// Q12
+// let arr = [10,20,30];
+// console.log(arr.shift());
+// 30
+
+// Q13
+// let arr = [1];
+// arr.push(2,3);
+// console.log(arr);
+// [1,2,3]
+
+// Q14
+// let arr = [10,20,30];
+// arr.pop();
+// console.log(arr);
+// [10,20] 
+
+// Q15
+// let arr = [20,30];
+// console.log(arr.unshift(10));
+// 3
+
