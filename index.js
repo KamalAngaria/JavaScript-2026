@@ -4784,3 +4784,51 @@
 // for(let i = 0; i<arr.length; i += 2){
 //     console.log(arr[i]);
 // }
+
+// 🟡 Level 2 – push(), pop(), shift(), unshift() (11–20)
+
+// Q11. Add "Orange" to the end using push().
+// let fruits = ["Apple","Mango","Banana"];
+// fruits.push("Orange");
+// console.log(fruits);
+
+// Q12. Add "Apple" and "Banana" together using one push().
+// let fruits = ["Mango"];
+// fruits.push("Apple","Banana");
+// console.log(fruits);
+
+// Q13. Store the return value of push() and print it.
+// let fruits = ["Mango"];
+// let copy = fruits.push("Apple","Banana");
+// console.log(copy);
+
+// Q14. Remove the last element using pop().
+// Q15. Store the removed element returned by pop().
+// let arr = [1,2,4];
+// let copy = arr.pop();
+// console.log(copy);
+// console.log(arr);
+
+// Q16. Add "Kiwi" at the beginning using unshift().
+// let arr = [1,2,3,4,5];
+// arr.unshift("Kiwi");
+// console.log(arr);
+
+// Q17. Remove the first element using shift().
+// Q18. Store the value returned by shift().
+// let arr = [1,2,3,4,5];
+// let copy = arr.shift();
+// console.log(arr);
+// console.log(copy);
+
+// Q19. Perform: push(), pop(), unshift(), shift() on the same array.
+// Q20. After each operation, print the array.
+// let arr = [1,2,3,4,5,6];
+// arr.push("Kamal");
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+// arr.unshift("Kamal");
+// console.log(arr);
