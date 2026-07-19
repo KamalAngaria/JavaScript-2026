@@ -4832,3 +4832,58 @@
 // console.log(arr);
 // arr.unshift("Kamal");
 // console.log(arr);
+
+//                 🟠 Level 3 – Searching Methods (21–30)
+
+// Q21. Check whether "Apple" exists using includes().
+// Q22. Check whether "Grapes" exists.
+// let fruits = ["Apple","Mango"];
+// let ReturnVal = fruits.includes("Apple");
+// let ReturnVale = fruits.includes("Grapes");
+// console.log(ReturnVal);
+// console.log(ReturnVale);
+
+// Q23. Find the index of "Banana".
+// Q24. Find the index of an element that doesn't exist.
+// let fruits = ["Apple","Mango","Banana"];
+// let = returnVal=fruits.indexOf("Banana");
+// let = returnVale=fruits.indexOf("Grapes");
+// console.log(returnVal);
+// console.log(returnVale);
+
+// Q25. Find the first index of 10 in an array containing duplicates.
+// Q26. Find the last index of 10.
+// let arr = [1,2,3,4,10,8,9,10];
+// let value = arr.indexOf(10);
+// let lastvalue = arr.lastIndexOf(10);
+// console.log(value);
+// console.log(lastvalue);
+
+// Q27. Print "Found" if "Mango" exists; otherwise print "Not Found".
+// let fruits = ["Apple","Mango","Banana"];
+// if(fruits.includes("Mango")){
+//     console.log("Found");
+// }else{
+//     console.log("Not Found");
+// }
+
+// Q28. Print "Available" if "Orange" exists.
+// let fruits = ["Apple","Mango","Banana","Orange"];
+// if(fruits.includes("Orange")){
+//     console.log("Available");
+// }else{
+//     console.log("Not Available");
+// }
+
+// Q29. Print "Missing" if "Kiwi" does not exist.
+// let fruits = ["Apple","Mango","Banana","Orange"];
+// if(fruits.includes("Kiwi")){
+//     console.log("exist");
+// }else{
+//     console.log("does not exist.");
+// }
+
+// Q30. Create an array with duplicate strings and use lastIndexOf().
+// let fruits = ["Apple","Mango","Banana","Orange","Banana"];
+// let value = fruits.lastIndexOf("Banana");
+// console.log(value);
