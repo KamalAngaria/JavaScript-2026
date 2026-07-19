@@ -4521,3 +4521,104 @@
 //     }
 // }
 // console.log(count);
+
+//              🟠 Level 3 – Mixed Logic (21–30)
+//Q21. Find the largest even number.
+// let numbers = [1,4,8,7,10,9,4,55,30,33,34]
+// let even = numbers[0];
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i]%2===0){
+//         if(numbers[i]> even){
+//             even = numbers[i];
+//         }
+//     }
+// }
+// console.log(even);
+
+// Q22. Find the smallest odd number.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let Smallest = numbers[0];
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i]%2!==0){
+//        if( numbers[i] < Smallest){
+//             Smallest = numbers[i];
+//        }
+//     }
+// }
+// console.log(Smallest);
+
+// Q23. Find the sum of positive numbers only.
+// let numbers = [10,4,-8,7,-10,9,4,-55,1,-30,-33,34]
+// let sum = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i] > 0){
+//         sum = sum +numbers[i];
+//     }
+// }
+// console.log(sum);
+
+// Q24. Find the sum of negative numbers only.
+// let numbers = [10,4,-8,7,-10,9,4,-55,1,-30,-33,34]
+// let sumofNegative = 0;
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i] < 0){
+//         sumofNegative = sumofNegative +numbers[i];
+//     }
+// }
+// console.log(sumofNegative);
+
+// Q25. Find the product (multiplication) of all array elements.
+//  let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+//  let product = 1;
+//  for(let i = 0; i<numbers.length; i++){
+//          product*=numbers[i];
+//  }
+//  console.log(product);
+
+// Q26. Count how many elements are divisible by 3.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let count = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%3===0){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+// Q27. Count how many elements are divisible by both 3 and 5.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let count = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%3===0 && numbers[i]%5===0){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+// Q28. Print numbers that are multiples of 7.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let count = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]%7===0 ){
+//         count += numbers[i];
+//     }
+// }
+// console.log(count);
+
+// Q29.Print numbers that are between 20 and 50 (inclusive).
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]>=20 && numbers[i]<=50 ){
+//         console.log(numbers[i]);
+//     }
+// }
+
+// Q30. Count how many numbers are between 20 and 50.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let count = 0;
+// for(let i = 0; i<numbers.length;i++){
+//     if(numbers[i]>20 && numbers[i]<50 ){
+//         count++
+//     }
+// }
+// console.log(count);
