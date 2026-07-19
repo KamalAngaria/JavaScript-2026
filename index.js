@@ -4684,3 +4684,50 @@
 // for(let i = 1; i<numbers.length; i+=2){
 // console.log(numbers[i]);
 // }
+
+//                  📘 Phase 9 – Advanced Array Methods
+
+//                              Slice()
+// let arr =[1,2,3,4,5,6]
+// let copy = arr.slice(-2);
+// console.log(copy);
+// console.log(arr);
+
+//                              Splice()
+
+// let arr =[1,2,3,4,5,6];
+// let copy = arr.splice(1,2);
+// console.log(arr);                    remove the array
+// console.log(copy);
+
+
+// let arr = [10,20,30];
+// arr.splice(0,0,20);                 Adding the new value
+// console.log(arr);
+
+
+// let arr = [10,2,3,4];
+// arr.splice(2,2,1,2,3,4);               replacing the value
+// console.log(arr);
+
+
+
+//                          concat()
+
+// let a = [10,2];
+// let b = [20,4];
+// let c = [30,6];
+// let abc =a.concat(b,c);
+// console.log(abc);
+
+
+//                          reverse()
+// let arr = [1,2,3];
+// arr.reverse();
+// console.log(arr);
+
+//                          sort()
+
+// let arr = [30,5,100];
+// arr.sort();
+// console.log(arr);
