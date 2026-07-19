@@ -4731,3 +4731,56 @@
 // let arr = [30,5,100];
 // arr.sort();
 // console.log(arr);
+
+//                   🟢 Level 1 – Basics (1–10)
+
+// Q1. Create an array of 5 fruits and print the entire array.
+// let fruits = ["Apple","Mango","Banana","Orange","Kiwi"];
+// console.log(fruits);
+
+// Q2. Print the first element of an array.
+// let arr = [1,2,3,4];
+// console.log(arr[0]);
+
+// Q3. Print the last element of an array.
+// let arr = [1,2,3,4];
+// console.log(arr[arr.length-1]);
+
+// Q4. Replace the third element with "Mango".
+// let arr = [1,2,3,4];
+// arr[2]="Mango";
+// console.log(arr);
+
+// Q5. Print the total number of elements using length.
+// let arr = [1,2,3,4];
+// console.log(arr.length);
+
+// Q6. Traverse the array using a for loop.
+// let arr = [0,2,3,4];
+// for(let i = 0; i<arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// Q7. Traverse the array in reverse order.
+// let arr = [0,2,3,4];
+// for(let i = arr.length -1; i>=0 ;i--){
+//     console.log(arr[i]);
+// }
+
+// Q8. Print only elements at even indexes.
+// let arr = [1,2,3,4,5,6];
+// for(let i = 0; i <arr.length; i += 2){
+//     console.log(arr[i]);
+// }
+
+// Q9. Print only elements at odd indexes.
+// let arr = [1,2,3,4,5,6];
+// for(let i = 1; i<arr.length; i +=2){
+//     console.log(arr[i]);
+// }
+
+// Q10. Print every alternate element starting from index 0.
+// let arr = [1,2,3,4,5,6];
+// for(let i = 0; i<arr.length; i += 2){
+//     console.log(arr[i]);
+// }
