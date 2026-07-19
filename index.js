@@ -4606,7 +4606,7 @@
 // console.log(count);
 
 // Q29.Print numbers that are between 20 and 50 (inclusive).
-// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
 // for(let i = 0; i<numbers.length;i++){
 //     if(numbers[i]>=20 && numbers[i]<=50 ){
 //         console.log(numbers[i]);
@@ -4614,7 +4614,7 @@
 // }
 
 // Q30. Count how many numbers are between 20 and 50.
-// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34]
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
 // let count = 0;
 // for(let i = 0; i<numbers.length;i++){
 //     if(numbers[i]>20 && numbers[i]<50 ){
@@ -4622,3 +4622,65 @@
 //     }
 // }
 // console.log(count);
+
+//          🔵 Level 4 – Reverse & Position Logic (31–40)
+
+// Q31. Print the array in reverse order.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// for(let i = numbers.length  -1; i>=0; i--){
+//         console.log(numbers[i]);
+// }
+
+// Q32. Print elements from last to first, one per line.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// for(let i = numbers.length  -1; i>=0; i--){
+//         console.log(`${numbers[i]}`);
+// }
+
+// Q33. Print elements at even indexes.
+// Q35. Find the sum of elements at even indexes.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// let sum =0;
+// for(let i = 0; i < numbers.length ; i++){
+//         if(i%2===0){
+//             console.log(numbers[i]);
+//             sum +=numbers[i];
+//         }
+// }
+// console.log(sum);
+
+// Q34. Print elements at odd indexes.
+// Q36. Find the sum of elements at odd indexes
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// let sum =0;
+// for(let i = 0; i < numbers.length ; i++){
+//         if(i%2!==0){
+//             console.log(numbers[i]);
+//             sum +=numbers[i];
+//         }
+// }
+// console.log(sum);
+
+// Q37. Print the first half of the array.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// for(let i = 0; i< numbers.length /2 ; i++){
+//    console.log(numbers[i]);
+// }
+
+// Q38. Print the second half of the array.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// for(let i = numbers.length /2 ; i < numbers.length ; i++){
+//    console.log(numbers[i]);
+// }
+
+// Q39. Print every alternate element starting from index 0.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// for(let i = 0; i<numbers.length; i+=2){
+// console.log(numbers[i]);
+// }
+
+// Q40. Print every alternate element starting from index 1.
+// let numbers = [10,4,8,7,10,9,4,55,1,30,33,34];
+// for(let i = 1; i<numbers.length; i+=2){
+// console.log(numbers[i]);
+// }
