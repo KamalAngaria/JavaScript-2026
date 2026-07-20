@@ -4887,3 +4887,16 @@
 // let fruits = ["Apple","Mango","Banana","Orange","Banana"];
 // let value = fruits.lastIndexOf("Banana");
 // console.log(value);
+
+//                  Day 31 of learning javascript
+
+// Operators
+// Array Basics & Indexing
+// Array Traversal (for, while, do...while)
+// Array Methods (push, pop, shift, unshift)
+// Search Methods (includes, indexOf, lastIndexOf)
+// join(), concat()
+// slice() vs splice()
+// reverse() and sort()
+// Conditional Statements (if, else, switch, ternary`)
+// Array Logic (coding-focused)
