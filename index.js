@@ -4900,3 +4900,15 @@
 // reverse() and sort()
 // Conditional Statements (if, else, switch, ternary`)
 // Array Logic (coding-focused)
+
+
+//                  Day 32 of learning javascript
+// let arr = [
+//     {name:"kamal"},
+//     {name:"rahul"}
+// ];
+
+// let arr1 = structuredClone(arr);
+// arr1[1].name = "RAHUL";
+// console.log(arr1);
+// console.log(arr);
