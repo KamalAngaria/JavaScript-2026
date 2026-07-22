@@ -4915,11 +4915,11 @@
 
 //                  Day 33 of learning javascript
 
-let matrix = [
-    [10, 20, 30],
-    [40, 50, 60],
-    [70, 80, 10]
-];
+// let matrix = [
+//     [10, 20, 30],
+//     [40, 50, 60],
+//     [70, 80, 10]
+// ];
 
 // 🟢 Level 1 – Basic Logic
 
@@ -5002,3 +5002,127 @@ let matrix = [
 //     }
 // }
 // console.log(`Total odd numbers are : ${count}`);
+
+
+//                          🟡 Level 2 – Row Wise
+
+let matrix = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 10]
+];
+
+// Q11. Print each row on a separate line.
+// let row ;
+// for(let i = 0 ; i<matrix.length; i++){
+//     row = "";
+//     for(let j = 0; j <matrix[i].length; j++){
+//         row += matrix[i][j] + " ";
+//     }
+//     console.log(row);
+// } 
+
+// Q12. Find the sum of the first row.
+// let sum = 0;
+// for(let i = 0; i < matrix.length;i++){
+//     for(let j = 0; j<matrix[i].length; j++){
+//         if(i===0){
+//             sum += matrix[i][j];
+//         }
+//     }
+// }
+// console.log(sum);
+
+// Q13. Find the sum of the second row.
+// let sum = 0;
+// for(let i = 0; i < matrix.length;i++){
+//     for(let j = 0; j<matrix[i].length; j++){
+//         if(i===1){
+//             sum += matrix[i][j];
+//         }
+//     }
+// }
+// console.log(sum);
+
+// Q14. Find the sum of the third row.
+// let sum = 0;
+// for(let i = 0; i < matrix.length;i++){
+//     for(let j = 0; j<matrix[i].length; j++){
+//         if(i===matrix.length-1){
+//             sum += matrix[i][j];
+//         }
+//     }
+// }
+// console.log(sum);
+
+// Q15. Print the largest element from each row.
+// let largest; 
+// for(let i = 0; i <matrix.length;i++){
+//      largest = matrix[i][0];
+//     for(let j = 0; j<matrix[i].length; j++){
+//         if(matrix[i][j] > largest){
+//             largest = matrix[i][j];
+//         }
+//     }
+//     console.log(largest);
+// }
+
+// Q16. Print the smallest element from each row.
+// let smallest;
+// for(let i = 0; i<matrix.length;i++){
+//     smallest = matrix[i][0];
+//     for(let j = 0; j<matrix[i].length;j++){
+//         if(matrix[i][j] < smallest){
+//             smallest=matrix[i][j];
+//         }
+//     }
+//     console.log(smallest);
+// }
+
+// Q17. Count the even numbers in each row.
+// for(let i = 0; i<matrix.length; i++){
+//     let count = 0;
+//     for(let j = 0; j<matrix[i].length;j++){
+//         if(matrix[i][j]%2===0){
+//             count++;
+//         }
+//     }
+//     console.log(`Row ${i+1} Have ${count} Even Numbers`);
+// }
+
+// Q18. Count the odd numbers in each row.
+// for(let i = 0; i<matrix.length; i++){
+//     let count = 0;
+//     for(let j = 0; j<matrix[i].length;j++){
+//         if(matrix[i][j]%2!==0){
+//             count++;
+//         }
+//     }
+//     console.log(`Row ${i+1} Have ${count} odd Numbers`);
+// }
+
+// Q19. Find the average of each row.
+// for(let i = 0; i<matrix.length; i++){
+//     let total = 0;
+//     for(let j = 0; j<matrix[i].length;j++){
+//         total +=matrix[i][j];
+//     }
+//     let average = total/matrix[i].length;
+//     console.log(average.toFixed());
+// }
+
+// Q20. Print the row number whose sum is maximum.
+// let max = 0;
+// let maxRow = 0;
+// for(let i = 0; i<matrix.length;i++){
+//     let sum = 0;
+//     for(let j = 0; j < matrix[i].length;j++){
+//         sum+= matrix[i][j];
+//     }
+//      if(sum > max){
+//             max = sum;
+//             maxRow = i
+//         }
+// }
+// console.log(max);
+// console.log(maxRow);
