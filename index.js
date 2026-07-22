@@ -4912,3 +4912,93 @@
 // arr1[1].name = "RAHUL";
 // console.log(arr1);
 // console.log(arr);
+
+//                  Day 33 of learning javascript
+
+let matrix = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 10]
+];
+
+// 🟢 Level 1 – Basic Logic
+
+// Q1. Print every element of the matrix.
+// for(let i = 0; i <matrix.length; i++){
+//     for(let j = 0; j <matrix[i].length; j++){
+//         console.log(matrix[i][j]);
+//     }
+// }
+
+// Q2. Find the sum of all elements.
+// let sum = 0;
+// for(let i = 0; i < matrix.length ; i++){
+//     for(let j = 0; j<matrix[i].length; j++){
+//         sum += matrix[i][j];
+//     }
+// }
+//  console.log(sum);
+
+// Q3. Find the average of all elements.
+// Q6. Count the total number of elements.
+// let sum = 0;
+// let count = 0;
+// let average ;
+// for(let i = 0; i < matrix.length ; i++){
+//     for(let j = 0; j<matrix[i].length; j++){
+//         sum += matrix[i][j];
+//         count++;
+//     }
+// }
+//  console.log(sum);
+//  console.log(count);
+//  average = sum/count;
+//  console.log(average);
+
+// Q4. Find the largest element.
+// let largest = matrix[0][0] ;
+// for(let i = 0; i<matrix.length; i++){
+//     for(let j = 0 ; j<matrix[i].length; j++){
+//         if(matrix[i][j]> largest){
+//             largest = matrix[i][j];
+//         }
+//     }
+// }
+// console.log(largest);
+
+// Q5. Find the smallest element.
+// let smallest = matrix[0][0] ;
+// for(let i = 0; i<matrix.length; i++){
+//     for(let j = 0 ; j<matrix[i].length; j++){
+//         if(matrix[i][j] < smallest){
+//             smallest = matrix[i][j];
+//         }
+//     }
+// }
+// console.log(smallest);
+
+// Q9. Count the even numbers.
+// Q7. Print only the even numbers.
+// let count = 0
+// for(let i = 0; i < matrix.length; i++){
+//     for(let j = 0; j <matrix[i].length; j++){
+//         if(matrix[i][j]%2===0){
+//             console.log(matrix[i][j]);
+//             count++;
+//         }
+//     }
+// }
+// console.log(`Total even numbers are : ${count}`);
+
+// Q8. Print only the odd numbers.
+// Q10. Count the odd numbers.
+// let count = 0
+// for(let i = 0; i < matrix.length; i++){
+//     for(let j = 0; j <matrix[i].length; j++){
+//         if(matrix[i][j]%2!==0){
+//             console.log(matrix[i][j]);
+//             count++;
+//         }
+//     }
+// }
+// console.log(`Total odd numbers are : ${count}`);
