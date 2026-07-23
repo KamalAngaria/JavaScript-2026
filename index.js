@@ -5006,11 +5006,11 @@
 
 //                          🟡 Level 2 – Row Wise
 
-let matrix = [
-    [10, 20, 30],
-    [40, 50, 60],
-    [70, 80, 10]
-];
+// let matrix = [
+//     [10, 20, 30],
+//     [40, 50, 60],
+//     [70, 80, 10]
+// ];
 
 // Q11. Print each row on a separate line.
 // let row ;
@@ -5126,3 +5126,91 @@ let matrix = [
 // }
 // console.log(max);
 // console.log(maxRow);
+
+//                      Day 34 Of Learning Javascript
+
+//                        🟠 Level 3 – Column Wise
+
+// let matrix = [
+//     [10, 20, 30],
+//     [40, 50, 60],
+//     [70, 80, 10]
+// ];
+
+// Q21. Print the first column.
+// Q22. Print the second column.
+// Q23. Print the third column.
+// for(let i = 0; i < matrix.length; i++){
+//     for(let j = 0; j < matrix[i].length;j++){
+//         if(j===0){ 
+//             console.log(matrix[i][j]);
+//         }
+        
+//     }
+// }
+// for second column j===1 ,for third column j===2
+
+// Q24. Find the sum of the first column.
+// Q25. Find the sum of the second column.
+// Q26. Find the sum of the third column.
+// let sum = 0;
+// for(let i = 0; i < matrix.length;i++){
+//     for(let j = 0; j <matrix[i].length;j++){
+//         if(j===0){
+//             sum+=matrix[i][j];
+//         }
+//     }
+// }
+// console.log(sum);
+// for second column j===1 ,for third column j===2
+
+// Q27. Find the largest element in each column.
+// for(j = 0; j < matrix.length; j++){
+//     let largest = matrix[0][j];
+//     for(let i = 0; i < matrix.length; i++){
+//         if(matrix[i][j] > largest){
+//             largest = matrix[i][j];
+//         }
+//     }
+//     console.log(largest);
+// }
+// Q28. Find the smallest element in each column.
+// for(j = 0; j < matrix.length; j++){
+//     let smallest = matrix[0][j];
+//     for(let i = 0; i < matrix.length; i++){
+//         if(matrix[i][j] < smallest){
+//             smallest = matrix[i][j];
+//         }
+//     }
+//     console.log(smallest);
+// }
+
+
+// let matrix = [
+//     [10, 23, 30],
+//     [40, 50, 60],
+//     [70, 80, 10]
+// ];
+// Q29. Count even numbers in each column.
+// for(let j = 0; j < matrix.length; j++){
+//     let count = 0;
+//     for(let i = 0; i <matrix.length;i++){
+//         if(matrix[i][j]%2===0){
+//             // console.log(matrix[i][j]);
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+
+// Q30. Count odd numbers in each column.
+// for(let j = 0; j < matrix.length; j++){
+//     let count = 0;
+//     for(let i = 0; i <matrix.length;i++){
+//         if(matrix[i][j]%2!==0){
+//             // console.log(matrix[i][j]);
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
