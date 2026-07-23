@@ -5214,3 +5214,90 @@
 //     }
 //     console.log(count);
 // }
+
+
+//                    🔵 Level 4 – Diagonal Logic
+// let matrix = [
+//     [10, 20, 30],
+//     [40, 50, 60],
+//     [70, 80, 90]
+// ];
+// Q31. Print the main diagonal.
+// for(let i = 0; i <matrix.length; i++){
+//     for(let j = 0; j<matrix[i].length; j++){
+//         if(j===i){
+//             console.log(matrix[i][j]);
+//         }
+//     }
+// }
+
+// Q32. Find the sum of the main diagonal.
+// let count = 0;
+// for(let i = 0; i < matrix.length; i++){
+//     count += matrix[i][i];
+// }
+// console.log(count);
+
+// Q33. Print the secondary diagonal.
+
+// for(let i = 0;i<matrix.length; i++){
+//   console.log(matrix[i][matrix.length-1-i]);
+// }  
+
+// Q34. Find the sum of the secondary diagonal.
+// let sum = 0; 
+// for(let i = 0; i<matrix.length;i++){ 
+//     sum+= matrix[i][matrix.length-1-i];
+// }console.log(sum)
+
+// Q35. Count even numbers on the main diagonal.
+// let count = 0;
+// for(let i = 0; i < matrix.length; i++){
+//    if(matrix[i][i]%2===0){
+//     count++
+//    }
+// }
+// console.log(count);
+
+// // Q36. Count odd numbers on the main diagonal.
+// let count = 0;
+// for(let i = 0; i < matrix.length; i++){
+//    if(matrix[i][i]%2!==0){
+//     count++
+//    }
+// }
+// console.log(count);
+
+// Q37. Count even numbers on the secondary diagonal.
+// let count = 0;
+// for(let i = 0; i < matrix.length; i++){
+//     if(matrix[i][matrix.length-1-i]%2===0){
+//         count++
+//     }
+// }console.log(count);
+
+// Q38. Count odd numbers on the secondary diagonal.
+// let count = 0;
+// for(let i = 0; i < matrix.length; i++){
+//     if(matrix[i][matrix.length-1-i]%2!==0){
+//         count++
+//     }
+// }console.log(count);
+
+// Q39. Find the largest number on the main diagonal.
+// let largest =matrix[0][0];
+// for(let i = 0; i < matrix.length; i++){
+//     if( matrix[i][i]>largest){
+//         largest = matrix[i][i];
+//     }
+// }
+// console.log(largest);
+
+// Q40. Find the smallest number on the secondary diagonal.
+// let smallest = Infinity;
+// for(let i = 0; i < matrix.length; i++){
+//     if(matrix[i][matrix.length-1-i] < smallest){
+//         smallest = matrix[i][matrix.length-1-i]
+//     }
+// }
+// console.log(smallest);
