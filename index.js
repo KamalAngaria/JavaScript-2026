@@ -5301,3 +5301,26 @@
 //     }
 // }
 // console.log(smallest);
+
+//                   Day 35 Of Learning Javascript
+
+// function student(name,age,coure){
+//     console.log(name,age,coure);
+// }
+// student("Kamal",21,"Bca")
+
+// function multiply(a,b){
+//     console.log(a*b);
+// }
+// multiply(5,4);
+
+// function greet(name = "Guest") {
+//     console.log("Hello", name);
+// }
+
+// greet();
+
+// function welcome(name = "user"){
+//     console.log("Welcome",name);
+// }
+// welcome("Kamal");
