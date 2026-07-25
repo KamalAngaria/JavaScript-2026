@@ -5411,3 +5411,54 @@
 // return a + b;
 // Don't just say "it returns the value." Describe the complete flow
 // when the return a+b; located the data of a+b ,i.e : 5+5 =10 ,now retuen become 10 and return to where it is called and imedetialy ends the fuctions
+
+
+//                    Returning Different Data Types
+
+// Q1
+// Predict the output.
+// function getAge() {
+//     return 21;
+// }
+// console.log(getAge());
+// 21
+
+// Q2
+// Predict the output.
+// function isEven(n) {
+//     return n % 2 === 0;
+// }
+// console.log(isEven(8));
+// console.log(isEven(5));
+// true
+// false 
+
+// Q3
+// Predict the output.
+// function colors() {
+//     return ["Red", "Green", "Blue"];
+// }
+// let arr = colors();
+// console.log(arr[2]);
+// Blue 
+
+// Q4
+// Predict the output.
+// function person() {
+//     return {
+//         name: "Rahul",
+//         age: 22
+//     };
+// }
+// console.log(person().name);
+// Rahul
+
+// Q5 ⭐⭐⭐ (Most Important)
+// Predict the output carefully.
+// function test() {
+//     return console.log("Hello");
+// }
+// let x = test();
+// console.log(x);
+// Hello
+// undefiined because in return we use console.log("Hello") and its print and return have nothing and when nothing is return to the where from its called and its print undefined beuacse it have no nothing valuse or the data
