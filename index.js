@@ -5462,3 +5462,59 @@
 // console.log(x);
 // Hello
 // undefiined because in return we use console.log("Hello") and its print and return have nothing and when nothing is return to the where from its called and its print undefined beuacse it have no nothing valuse or the data
+
+
+//              Returning Expressions vs Returning Variables
+
+// Q1
+// Predict the output.
+// function add(a,b){
+//     return a+b;
+// }
+// console.log(add(5,10));
+// 15
+
+// Q2
+// Predict the output.
+// function add(a,b){
+//     let sum=a+b;
+//     return sum;
+// }
+// console.log(add(5,10));
+// 15
+
+// Q3
+// Predict the output.
+
+// function test(){
+//     return 5*5;
+// }
+// console.log(test());
+// 25
+
+// Q4
+// Predict the output.
+// function even(n){
+//     return n%2===0;
+// }
+// console.log(even(8));
+// true
+
+
+// Q5 ⭐⭐⭐
+// Are these two functions different?
+
+// function area(l,w){
+//     return l*w;
+// }
+
+// and
+
+// function area(l,w){
+    // let result=l*w;
+    // return result;
+// }
+// If they produce the same output, explain when you would still prefer the second version.
+
+// i prefer seconde version all though they give same output but 2nd fuction make more sense and look cleaner 
+
