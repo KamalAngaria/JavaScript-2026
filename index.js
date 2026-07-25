@@ -5324,3 +5324,90 @@
 //     console.log("Welcome",name);
 // }
 // welcome("Kamal");
+
+
+//                    Day 36 of Learning Javascript 
+
+//                   🧠 Practice Set 1
+// Q1
+// Predict the output.
+// function add(a,b){
+//     console.log(a+b);
+// }
+// let x = add(5,10);
+// console.log(x);
+// 15
+// undefined
+
+// Q2
+// Will this work?
+// function square(n){
+//     console.log(n*n);
+// }
+// let ans = square(5) + 10;
+// If not, why?  becuase function just print the values not returing to the fuction where is called
+// 25
+// NaN
+
+// Q3
+// Which one is reusable?
+// console.log(20);
+// or
+// return 20;
+// Explain why.
+
+// return 20 ; because it return where the fuction is called where the console.log used to just print the values 
+
+// Q4
+// Why can't console.log() replace return in most real programs?
+// because console.log just used to display the value where the return use to return value save the value resuse the value or data 
+
+// Q5
+// True or False:
+// Every function automatically returns undefined if no explicit return statement is used.
+// true 
+
+//                      🧠 Practice Set 2
+// Q1
+// Predict the output.
+// function test() {
+//     console.log("A");
+//     return 10;
+//     console.log("B");
+// }
+// console.log(test());
+// A
+// 10
+
+// Q2
+// Predict the output.
+// function square(n) {
+//     return n * n;
+// }
+// let x = square(4);
+// console.log(x);
+// 16
+
+// Q3
+// Predict the output.
+// function demo() {
+//     return "JavaScript";
+// }
+// demo();
+// nothing we return to the back where we called but we never store and printed or used
+
+// Q4
+// Predict the output.
+// function hello() {
+//     console.log("Hello");
+//     return;
+//     console.log("World");
+// }
+// hello();
+// Hello  and in return nothing but after return word every code down to it skip
+
+// Q5
+// Explain, in your own words, what happens from the moment JavaScript executes:
+// return a + b;
+// Don't just say "it returns the value." Describe the complete flow
+// when the return a+b; located the data of a+b ,i.e : 5+5 =10 ,now retuen become 10 and return to where it is called and imedetialy ends the fuctions
