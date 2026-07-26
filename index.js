@@ -5518,3 +5518,81 @@
 
 // i prefer seconde version all though they give same output but 2nd fuction make more sense and look cleaner 
 
+
+//                             Early Return
+// Q1
+// Predict the output.
+
+// function test(x){
+//     if(x>10){
+//         return "Big";
+//     }
+//     return "Small";
+// }
+// console.log(test(15));
+
+// Big 
+
+// Q2
+// Predict the output.
+
+// function check(age){
+//     if(age<18){
+//         return "Minor";
+//     }
+//     return "Adult";
+// }
+// console.log(check(12));
+// Minor 
+
+// Q3
+// Predict the output.
+
+// function login(user){
+//     if(!user){
+//         return "Login Required";
+//     }
+//     return "Welcome";
+// }
+// console.log(login(""));
+// Login Required
+
+// Q4
+// Rewrite this function using Early Return.
+
+// function divide(a,b){
+//     if(b!==0){
+//         return a/b;
+//     }else{
+//         return "Cannot Divide";
+//     }
+// }
+
+// function divide(a,b){
+//     if(b!==0){
+//         return a/b ;
+//     }
+//     return "Cannot Divide";
+// }
+// console.log(divide(10,5));
+
+// Q5 ⭐⭐⭐
+// Why is this version generally preferred?
+
+// function validate(age){
+//     if(age<18){
+//         return "Not Allowed";
+//     }
+//     return "Allowed";
+// }
+// // instead of
+// function validate(age){
+//     if(age>=18){
+//         return "Allowed";
+//     }else{
+//         return "Not Allowed";
+//     }
+// }
+// Think in terms of readability and maintainability, not just whether both produce the same result.
+// in term of readability and maintainability return is much better it is clearly clearner cod the if else and also
+// and aslo return skip the if the condition is matched 
