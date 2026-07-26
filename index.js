@@ -5688,3 +5688,29 @@
 // Dehli 
 // Kamal
 
+//                      Fuction Expression 
+
+// Q1 What is the difference between these?
+// fuction greet(){} this is the fuction declaration used to create a normal fuction performt the task and not hoisted 
+// const greet = function(){} this is a function expression in which a function stored in a variable and whenever we need it be just call it using variable name these are basicaly hoiseted bescuase these are store in the varibles
+
+// Q2
+// Predict the output.
+
+// const sayHi = function () {
+//     console.log("Hi");
+// };
+// sayHi(); Hi 
+
+
+// Q3
+// Why is a semicolon usually written here?
+// const test = function () {
+
+// }; we did not call it actualy so nothing and test is worst name
+
+// Q4
+// True or False:
+// In a function expression, the variable stores a reference to the function.
+// true 
+
