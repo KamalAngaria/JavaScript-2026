@@ -5637,3 +5637,54 @@
 // True or False:
 // A global variable can be accessed inside a function.
 // True 
+
+
+// Q1
+// Predict the output.
+// function demo(){
+//     let x=50;
+//     console.log(x);
+// }
+// demo();
+// 50
+
+// Q2
+// Predict the output.
+
+// function demo(){
+//     let x=50;
+// }
+// demo();
+// console.log(x);
+// x is not defined 
+
+// Q3
+// Predict the output.
+
+// function one(){
+//     let value=10;
+//     console.log(value);
+
+// }
+// function two(){
+//     let value=20;
+//     console.log(value);
+
+// }
+// one();
+// two();
+// 10
+// 20
+
+// Q4
+// Predict the output.
+// let city="Delhi";
+// function show(){
+//     let name="Kamal";
+//     console.log(city);
+//     console.log(name);
+// }
+// show();
+// Dehli 
+// Kamal
+
