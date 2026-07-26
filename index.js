@@ -5596,3 +5596,44 @@
 // Think in terms of readability and maintainability, not just whether both produce the same result.
 // in term of readability and maintainability return is much better it is clearly clearner cod the if else and also
 // and aslo return skip the if the condition is matched 
+
+// Q1
+// Predict the output.
+
+// let name = "Kamal";
+// function show() {
+//     console.log(name);
+// }
+// show();
+// Kamal
+
+// Q2
+// Predict the output.
+
+// let x = 10;
+// function test() {
+//     x = 20;
+// }
+// test();
+// console.log(x);
+// 20
+
+// Q3
+// Predict the output.
+
+// let city = "Delhi";
+// function one() {
+//     console.log(city);
+// }
+// function two() {
+//     console.log(city);
+// }
+// one();
+// two();
+// Dehli
+// Dehli
+
+// Q4
+// True or False:
+// A global variable can be accessed inside a function.
+// True 
