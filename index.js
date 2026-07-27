@@ -5714,3 +5714,113 @@
 // In a function expression, the variable stores a reference to the function.
 // true 
 
+//        Day 38 Practice Day : 🟢 Round 1 — Easy (Output Prediction)
+
+// 🟢 Round 1 (10 Questions)
+
+// Q1
+// let arr = [10, 20, 30];
+// function test(a) {
+//     console.log(a[1]);
+// }
+// test(arr);
+// 20 
+// what we do here we made an array with the variable name arr and store the numbers in it
+// then we made a function test very bad name and pass a parameter (a) in it and then print the value of a[1],
+// now we pass arr in the argument in test fuction now a =[10,20,30]; so print is 20
+
+// Q2
+// function greet() {
+//     return "Hello";
+// }
+// console.log(greet());
+// Hello is output lets see why we made a duction greet and retun "Hello" string in it
+// and the after fuction closed we use console.log and call the fuction in it means it print and call the fuction at same time
+// so fuction return hello which also get print 
+
+// Q3
+// let nums = [1, 2, 3];
+// function change(arr) {
+//     arr[0] = 100;
+// }
+// change(nums);
+// console.log(nums);
+// output is  [100,2,3] but first i think the the output is [1,2,3] what then i checked the my browser console
+// and then i google it why this happend actually what we do we made a array and save into nums 
+// then  create a fuction called change and pass the parameter with the name of arr
+// then the logic for change and close the fuction when the fuction is called with the argument off nums
+// so parameter becomes array and chane the 0 index into 100 using the parameter name 
+// fuctions end now memorey has [100,2,3] in the heap but the pointer remain safe so when we do console.log(nums) it prints[100,2,3]
+
+// Q4
+// function add(a, b) {
+//     return a + b;
+// }
+// let result = add(5, 10);
+// console.log(result);
+// simple use return to use the value of of a+b which is 15 so if we see the let result = 15 is valid 
+
+// Q5
+// let arr = [5, 10, 15];
+// function show(array) {
+//     console.log(array.length);
+// }
+// show(arr);
+// 3
+
+// Q6
+// function demo() {
+//     console.log("A");
+// }
+// let x = demo();
+// console.log(x);
+// A and then undefined actually this is good question lest see why my outpust is correct
+// we declare a fuction with name demo and print A in it and ends the fuction 
+// now we call a fuction and same time we use the x variable ans assign the demo()
+// A  is print becuase its fuction execution and and console.log just print does not allow
+// us to use the value so demo() is just undefined so x = undefined
+
+// Q7
+// let arr = [2, 4, 6, 8];
+// function printLast(a) {
+//     console.log(a[a.length - 1]);
+// }
+// printLast(arr);
+// 8 simple 
+
+// Q8
+// let arr = [1, 2];
+// function update(a) {
+//     a.push(3);
+// }
+// update(arr);
+// console.log(arr);
+// [1,2,3] smae logic in early question just we here use a.push to push 3 at last thats its work anyway
+
+// Q9
+// function test(a) {
+//     return a * 2;
+// }
+// let arr = [5];
+// console.log(test(arr[0]));
+// trying to confuse me but not so simple bro , ohh i just going to overconfident 
+// its simple but looks consfusing les see the answer using dry run we made a simple fuction 
+// with name test pass parameter (a) and do return a * 2 and closed the function 
+// now  we made a variable and assign the array to arr
+// now in console.log part we call the function and pass the array but with zero index technicaly and logicaly
+// arr[0]===5  so argument goes in now a===[5] so [5] *2 =10 and return 10 so its print 10 
+
+// Q10 ⭐
+// function fun(arr) {
+//     arr[1] = arr[1] + 5;
+//     return arr;
+// }
+// let nums = [10, 20, 30];
+// console.log(fun(nums));
+// console.log(nums);
+// we makes a simple fuction with the name fun and pass the parameter(arr)
+// the the logic and closed the function now we make a array and assign to nums 
+// now we print and calling the function and passing the arrgumnet at same time
+// console.log(fun(nums)); this  give use  [10,25,30];
+// and console.log(nums); give use [10,20,30] because the fuction conatain memory till then and hold it but after the fuction and we have array in variable so its print this
+// i google it i am  wrong please explain me it easy why the let num become [10,25,30] at last at time of console.log(nums);
