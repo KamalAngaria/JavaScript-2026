@@ -5961,3 +5961,138 @@
 // arr.push(100);
 // kiya, to original array change hoga ya nahi? Kyun?
 // 100% hoga direct heap me change hua hia isliya
+
+//             🔥 Round 3: Reference vs Reassignment Challenge
+
+// Q1 ⭐
+// let arr = [1, 2, 3];
+// function test(a) {
+//     a = [100, 200];
+// }
+// test(arr);
+// console.log(arr);
+// [1,2,3] because there is no sense and logic that change array in [100,200] 
+
+// Q2 ⭐⭐
+// let arr = [10, 20];
+// // function update(a) { [10,20] stays here always
+//     a = [50, 60]; new variable new heap
+//     return a;
+// }
+// let result = update(arr);
+// console.log(arr);
+// console.log(result);
+// simple in 1st question new array is destroyed after the fuction finis but in this fuction we use return to carry the new array
+// lets see deeply what happend we make a array named as arr
+// we made a function named as update and pass the parameter(a) and logic in the fuction
+// now  we make new variable result and assign the update(arr) which is calling the fuction 
+// now arr = [10,20] goes in parameter a =[10,20] for the time it pass in paramerter
+// but in logic we do a = [50,60] now this is completely new array and return a to return it there from where it is call
+// means  let result = [50,60] new addres but [50,60] already store in heap with new location 
+// which maeks the [10,20] completely safe 
+// so when we do console.log(arr) so its print [10,20]
+// and console.log(result); prints [50,60]
+
+// Q3 ⭐⭐
+// let arr = [5, 10];
+// function demo(a) {
+//     a[0] = 100;
+//     a = [1, 2];
+// }
+// demo(arr);
+// console.log(arr);
+// this is just mixed to previous questions with new a[0] =100 
+// output is 100,10 cause heap changed and it stores it and a = [1,2]; this is comletely new array which is destoryed when the fuction finished
+
+// Q4 ⭐⭐⭐
+// let nums = [1, 2];
+// function fun(a) {
+    // a.push(3); old array [1,2,3]
+    // a = [10, 20]; new array 
+    // a.push(30);
+    // return a; [10,20,30]
+// }
+// let x = fun(nums); return a here 
+// console.log(nums);[1,2,3]
+// console.log(x);[10,20,30]
+
+// Q5 ⭐⭐⭐
+// function change(arr) { old array here 
+    // arr = [99]; new array 
+    // return arr; return good 
+// }
+// let nums = [1, 2, 3];
+// change(nums); its just calling and catch return array but no medium or varible to store return thing 
+// console.log(nums); [1,2,3]
+
+// Q6 ⭐⭐⭐⭐
+// let arr = [10];
+// function one(a) { [10] 
+    // a.push(20); [10,20]
+    // two(a); 10,20 passed as argument in in fuction named as two in parameter (b)
+// }
+// function two(b) {
+    // b.push(30);  
+// }
+// one(arr);
+// console.log(arr); [10,20,30]
+
+// Q7 ⭐⭐⭐⭐
+// let arr = [1];
+// function first(a) {
+//     second(a);[1] passed as argument in fuction named as second having a(b) parameter
+// }
+// function second(b) {
+//     b.push(2);
+// }
+// first(arr); calling first fuction passing array named as arr
+// console.log(arr); [1,2]
+
+// Q8 ⭐⭐⭐⭐
+// let arr = [5];
+// function test(a) {
+//     a.push(10); [5,10]
+
+//     a = [100]; new array 
+
+//     a.push(200); [100,200] destroyed after function finished
+// }
+// test(arr);calling and passing the array
+// console.log(arr);[5,10]
+
+// Q9 ⭐⭐⭐⭐⭐
+// let arr = [1, 2];
+// function fun(a) { [1,2] arrya 
+    // let b = a; refrence of array assigned to b
+    // b.push(3); push 3
+    // return b;[1,2,3]
+// }
+// let result = fun(arr);4 work here calling the function passing array in parameter take return and asign to variable
+// console.log(arr);[1,2,3]
+// console.log(result);[1,2,3] 
+
+// Q10 💀 (Boss Fight)
+// let arr = [10];
+// function one(a) {
+    // a.push(20);[10,20]
+
+    // a = [100]; new array 
+
+    // two(a); [100] passed as argument in the function named as two in his parameter
+// }
+// function two(b) {
+    // b.push(200);  [100,200] useless and destryoed after function finish
+// }
+// one(arr); calling fuction and passing the array arr in the parameter
+// console.log(arr);[10,20]
+
+// Bonus Q1
+// Ek line me answer do:
+// Modification aur Reassignment me kya difference hai?
+// simple modfifiy = change in smae Thing 
+// reassignment = compeletely new thing
+
+// Bonus Q2
+// A 
+// C 
+// D 
