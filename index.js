@@ -6096,3 +6096,135 @@
 // A 
 // C 
 // D 
+
+
+//                   🧠 Round 4: Function Logic Builder
+
+// Q1 ⭐ Sum of Array
+// let nums = [10,20,30,40];
+// function sumArray(arr){
+//     let sum =0;
+//     for(let i=0; i < arr.length; i++){
+//         sum += arr[i];
+//     }
+//     return sum;
+// }
+// console.log(sumArray(nums));
+
+// Q2 ⭐ Count Even Numbers
+// let nums = [2, 5, 8, 11, 14, 17];
+
+// function countEven(arr) {
+//     let count = 0
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i]%2===0){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countEven(nums));
+
+// Q3 ⭐ Find Largest Number
+// let nums = [12, 55, 8, 91, 37];
+
+// function largest(arr) {
+//     let largest = [0];
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] >largest){
+//             largest = arr[i];
+//         }
+//     }
+//     return largest;
+// }
+
+// console.log(largest(nums));
+
+// 🟡 Level 2 — Intermediate
+// Q4 ⭐⭐ Reverse Array (Without reverse())
+// let nums = [1, 2, 3, 4];
+// function reverseArray(arr) {
+//     let reverse = [];
+//    for(let i=arr.length-1;i>=0;i--){
+//          reverse.push(arr[i]);
+//     }
+//     return reverse;
+// }
+// console.log(reverseArray(nums));
+
+// 5 ⭐⭐ Count Positive & Negative
+// let nums = [-5, 10, -2, 8, 0, -1];
+
+// function countPN(arr) {
+//     let positive = 0;
+//     let negative = 0;
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i]>0){
+//             positive ++;
+//         }else if(arr[i] <0){
+//             negative++;
+//         }
+//     }
+//     return {
+//         positive : positive,
+//         negative : negative
+//     };
+// }
+// console.log(countPN(nums));
+
+// Q6 ⭐⭐ Find Average
+// let nums = [10, 20, 30, 40];
+// function average(arr) {
+//     let total = 0;
+//     let average;
+//     for(let i = 0; i < arr.length; i++){
+//         total += arr[i];
+//     }
+//     average = total/arr.length;
+//     return average;
+// }
+
+// console.log(average(nums));
+
+// 🟠 Level 3 — Thinking Required
+// Q7 ⭐⭐⭐ Check If Number Exists
+// let nums = [5, 10, 15, 20];
+
+// function contains(arr, value) {
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i]===value){
+//             return true;
+//         } 
+//     }  return false;
+// }
+
+// console.log(contains(nums, 15));
+
+// Q8 ⭐⭐⭐ Double Every Element
+// let nums = [2, 4, 6];
+// function doubleArray(arr) {
+//     let newArray = [ ];
+//     for(let i = 0; i < arr.length; i++){
+//         newArray.push(arr[i]*2);
+//     }
+//     return newArray;
+// }
+
+// console.log(doubleArray(nums));
+
+// Q9 ⭐⭐⭐ Find Smallest Number
+// let nums = [22, 9, 45, 3, 18];
+
+// function smallest(arr) {
+//     let smallest = Infinity
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] < smallest){
+//             smallest = arr[i];
+//         }
+//     }
+//     return smallest;
+// }
+
+// console.log(smallest(nums));
+
