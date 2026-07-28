@@ -5824,3 +5824,140 @@
 // console.log(fun(nums)); this  give use  [10,25,30];
 // and console.log(nums); give use [10,20,30] because the fuction conatain memory till then and hold it but after the fuction and we have array in variable so its print this
 // i google it i am  wrong please explain me it easy why the let num become [10,25,30] at last at time of console.log(nums);
+
+//              Day 39 😈 Round 2 me Arrays + Functions + Loops
+
+// Q1 ⭐
+// let arr = [10, 20, 30];
+// function update(a) {
+//     a[0] = a[0] + a[2];
+// }
+// update(arr);
+// console.log(arr);
+// simple first we made a array name as arr and store the numbers in it 
+// second we declare a fuction named as update with the parameter(a) then the intern logic for that fuction need when we call the fuction
+// third we call the function and pass the arr array as a argument in it so according to the logic
+// now the exsting array in heap memory change to [40,20,30] and then we use console.log to print the array named as a also pointing on the same array which is resentely changed
+
+// Q2 ⭐ 
+// function demo(a) {
+//     return a.length;
+// }
+// console.log(demo(["A", "B", "C", "D"]));
+// 4 simple we pass the array sting which have length 4 in argument and fuction return the length
+// and it prints
+
+// Q3 ⭐⭐
+// let nums = [5, 10];
+// function add(arr) {
+//     arr.push(15);
+//     return arr.length;
+// }
+// console.log(add(nums));
+// console.log(nums);
+// smae question like first one we create a array called nums ,then we made a function 
+// called add then its internal logic , call and print function same time and pass nums as a argument 
+// console.log(add(nums)); print 3 new length of the array then now heap have [5,10,15] so nums print this
+
+// Q4 ⭐⭐
+// function test(a) {
+//     console.log(a);
+//     return a * 2;
+// }
+// let x = test(6)
+// console.log(x);
+// simple i just write the output 
+// 6 then 12
+
+// Q5 ⭐⭐
+// let arr = [2, 4, 6];
+// function sum(array) {
+//     let total = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         total += array[i];
+//     }
+//     return total;
+// }
+// console.log(sum(arr));
+// i take 5 min what i solve it lets see hows it works
+// we made a array named as arr 
+// then made a fuction named as sum and pass the parrameter(array)
+// lets dry run the internal logic of the fuction 
+// let total = 0 make a variable and set assign the value 0 because we are doing sum so variable must have value
+// then use simple for loop to add the values and assign the values to the total variable without reseting the toal every time until the loop finish
+// and return total 
+// now we use console.log and calling fuction at same time and pass the argument arr which is array
+// now the array goes in the function and loops run it add 2+4+6 according to the condition
+// and store in the total and return total return to the arr so output is 12
+// here i understand we made a simple number which is store in stack now 
+// array [2,4,6] exist but just up to the function 
+
+// Q6 ⭐⭐⭐
+// let arr = [1, 2, 3];
+// function change(a) {
+//     a[2] = 100;
+// }
+// change(arr); //1st call 
+// change(arr); //2nd call 
+// console.log(arr); //[1,2,100]
+// actual i first consfuse how  [1,2,100] ,there is no return any way so how then i check the console my old answer was[1,2,3]
+// cause i was trying to found return what there is no return what this is array and i made chages in it whcih reflect in heap
+// so there is no need of return and its print[1,2,100] two calls to confuse me anyway
+
+// Q7 ⭐⭐⭐
+// function printFirst(array) {
+//     return array[0];
+// }
+// let numbers = [50, 60, 70];
+// let ans = printFirst(numbers);
+// console.log(ans);
+// simple 50
+
+// Q8 ⭐⭐⭐
+// let arr = [5];
+// function fun(a) {
+//     a.push(10);
+//     a.push(20);
+//     return a;
+// }
+// let result = fun(arr);
+// console.log(result);
+// console.log(arr);
+// [5,10,20] both 
+
+// Q9 ⭐⭐⭐⭐
+// function calc(arr) {
+//     let sum = 0;
+
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+
+//     return sum;
+// }
+// let nums = [2, 4, 6];
+// let answer = calc(nums);
+// console.log(answer * 2);
+// simple 24
+
+// Q10 ⭐⭐⭐⭐⭐ (Logic Check)
+// let arr = [10, 20];
+// function demo(a) {
+//     a[1] = 99;
+
+//     return a;
+// }
+// let x = demo(arr);
+// x[0] = 500;
+// console.log(arr);
+// console.log(x);
+// [500,99] both 
+
+// Bonus Q1
+// Array ko function me pass karne par JavaScript copy bhejti hai ya reference?
+// refrence always 
+// Bonus Q2
+// Agar function ke andar:
+// arr.push(100);
+// kiya, to original array change hoga ya nahi? Kyun?
+// 100% hoga direct heap me change hua hia isliya
