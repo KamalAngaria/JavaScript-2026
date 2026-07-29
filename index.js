@@ -6228,3 +6228,113 @@
 
 // console.log(smallest(nums));
 
+// let nums = [50,40,45,47,90,100];
+// let firstLargest = -Infinity;
+// let SecondLargest = -Infinity;
+// function second(arr){
+//     for(let i =0; i<arr.length;i++){
+//         let currentNum = arr[i];
+//         if(currentNum>firstLargest){
+//             SecondLargest = firstLargest;
+//             firstLargest = currentNum;
+//         }else if(currentNum >SecondLargest && currentNum!== firstLargest){
+//             SecondLargest=currentNum;
+//         }
+//     }
+//     return SecondLargest
+// }
+
+// console.log(second(nums));
+
+//           Day 40 🔥 Round 5: Nested Logic & Function Challenges
+
+// Q1 ⭐ Manual includes()
+// let nums = [10, 20, 30, 40];
+
+// function includesValue(arr, value) {
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i]===value){
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+// console.log(includesValue(nums, 30));
+
+// Q2 ⭐ Manual indexOf()
+// let nums = [5, 10, 15, 20];
+
+// function indexOfValue(arr, value) {
+//     for(let i=0; i<arr.length;i++){
+//         if(arr[i]===value){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
+
+// console.log(indexOfValue(nums, 15));
+
+// Q3 ⭐ Count Odd Numbers
+// let nums = [1,2,3,4,5,6,7];
+
+// function countOdd(arr){
+//     let count = 0;
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i]%2!==0){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countOdd(nums));
+
+// Q4 ⭐⭐ Check if Array is Sorted
+// let nums = [10,20,30,40];
+
+// function isSorted(arr){
+//     for(let i=0; i<arr.length-1; i++){
+//         if(arr[i+1] < arr[i] ){
+//             return false;
+//         }
+//     } 
+//     return true;
+// }
+
+// console.log(isSorted(nums));
+
+// Q5 ⭐⭐ Count Frequency
+// let nums = [2,4,2,6,2,8,2];
+
+// function frequency(arr,value){
+//     let count = 0;
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i]===value){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(frequency(nums,2));
+
+// Q6 ⭐⭐ Compare Two Arrays
+// let a=[1,2,3];
+// let b=[1,2,3];
+
+// function isEqual(arr1,arr2){
+//     if(arr1.length!==arr2.length){
+//         return false;
+//     }
+//     for(let i=0; i<arr1.length; i++){
+//         if(arr1[i]!==arr2[i]){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// console.log(isEqual(a,b));
+
