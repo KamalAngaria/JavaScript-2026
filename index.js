@@ -6338,3 +6338,83 @@
 
 // console.log(isEqual(a,b));
 
+
+
+//                       Day 41 Of Learning  CallBack
+// Q1
+// Predict the output.
+// function hello() {
+//     console.log("Hello");
+// }
+// function run(fn) {
+//     fn();
+// }
+// run(hello);
+// Hello 
+
+// Q2
+// Predict the output.
+// function hello() {
+//     console.log("Hello");
+// }
+// function run(fn) {
+//     console.log(fn);
+// }
+// run(hello);
+// f hello(){
+//     console.log("Hello")
+// }
+
+// Q3
+// Predict the output.
+// function hello() {
+//     console.log("Hello");
+// }
+// function run(fn) {
+//     console.log(fn);
+// }
+// run(hello());
+// Hello 
+// undefined
+
+// Q4
+// Explain the difference:
+// run(hello);
+// vs
+// run(hello());
+// run(hello); in this expresion we pass the fuction as a argument in anoter fuction 
+// run(hello()); in this expression we we paa the function call dircectley as an argument so first function called and run() in undefinde or empty in argument then so it send undefined
+
+// function payByCard() {
+//     console.log("Paid by Card");
+// }
+
+// function checkout(paymentMethod) {
+//     paymentMethod();
+// }
+
+// checkout(payByCard);
+
+
+
+// Which is better for a reusable calculator?
+// function add(a, b) {}
+// function subtract(a, b) {}
+// function multiply(a, b) {}
+
+// or
+
+// function calculate(a, b, operation) {}
+
+// Explain why.
+
+// function calculate(a, b, operation) {} is the reusable in thin function we can ssimply change the value and change the operator and time instead of maual like those fuction 
+
+// Suppose you're building a website.
+// Tomorrow the client wants a new payment method.
+// Which design would require less code to change?
+// A separate checkout function for every payment method.
+// One checkout() function that accepts different callback functions.
+// Explain your reasoning based on reusability and flexibility.
+
+// i use one checkout() function  instead of multiple chekout in this fution i give condition so user have also fexible as well as me also
