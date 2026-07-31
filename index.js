@@ -6418,3 +6418,195 @@
 // Explain your reasoning based on reusability and flexibility.
 
 // i use one checkout() function  instead of multiple chekout in this fution i give condition so user have also fexible as well as me also
+
+
+// function multiply(a, b) {
+//     return a * b;               
+// // first fuction which is return a * b from where it is called
+// }
+// function calculate(a, b, operation) {
+//     return operation(a, b);
+    
+//} second fuction 
+// console.log(calculate(4, 5, multiply));
+// here we are calling the fuction second name as calculate and passing arugment 4 , 5 and pasing the fuction first name as multipy
+
+// Explain:
+
+// What is passed?
+// Ans  calling the calculate fuction and pasing the argument 4,5 with the function multiply
+// What does operation receive?
+// Ans operation recived the function multiply
+// Why does operation(a, b) call multiply?
+// Why is the final answer 20?
+// Ans so when the multiply fuction is passed in argument named as operation 
+// so then fuction multipy execute first
+//  fuction multiply(a,b){
+    // return a*b;
+// }
+// and then  return(a,b); in whic 4,5 is include so it retun from where it is called
+// means is function multipy and then in multiply function return a*b means return 20
+// from where it called meas  in console.log(20);
+// thats why 
+
+
+
+//                   Day 42 Of Practice Section
+
+// Q1 ⭐ Restaurant Bill
+// let menu = [120, 80, 250, 100];
+
+// function totalBill(Bill){
+//     let total = 0;
+//     for(let i=0; i<Bill.length;i++){
+//         total += Bill[i];
+//     }
+//     return total;
+// }
+// console.log(totalBill(menu));
+
+// Q2 ⭐⭐ Shopping Cart
+// let cart = [
+//   "Shoes",
+//   "Watch",
+//   "Bag",
+//   "Cap",
+// ];
+
+// function checkCart(item){
+//     for(let i=0; i<item.length;i++){
+//         if(item[i]==="Watch"){
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+// console.log(checkCart(cart));
+
+// Q3 ⭐⭐ Student Attendance
+// let attendance = [true, false, true, true, false, true];
+// function days(count){
+//     let DayCount =0;
+//     for(let i=0; i<count.length;i++){
+//         if(count[i]===true){
+//             DayCount++;
+//         }
+//     }
+//     return {
+//         TotalAttendance: DayCount };
+
+// }
+// console.log(days(attendance));
+
+// Q4 ⭐⭐⭐ Bank Transaction
+
+// let transactions = [500, -200, 1000, -300, 700];
+
+// function CheckBalance(money){
+//     let credit = 0;
+//     let debit = 0;
+//     for(let i=0; i<money.length;i++){
+//         if(money[i] > 0){
+//             credit += money[i];
+//         }else if(money[i]<0){
+//             debit += money[i];
+//         }
+//     }
+//    return credit + debit;
+// }
+// console.log(CheckBalance(transactions));
+
+// Q5 ⭐⭐⭐ Food Delivery
+// let orders = [
+// "Pizza",
+// "Burger",
+// "Pizza",
+// "Momos",
+// "Pizza",
+// "Burger"
+// ];
+// function menu(items){
+//     let Pizza = 0;
+//     let Burger = 0;
+//     let Momos = 0;
+//     for(let i=0;i<items.length;i++){
+//         if(items[i]==="Pizza"){
+//             Pizza++;
+//         }
+//         else if(items[i]==="Burger"){
+//             Burger++;
+//         }
+//         else{
+//             Momos++
+//         }
+//     }
+//     return `Pizza : ${Pizza}\nBurger : ${Burger}\nMomos : ${Momos}`;
+// }
+// console.log(menu(orders));
+
+// Q6 ⭐⭐⭐ Callback Question
+// Complete the code.
+// function greet(name, callback){
+//    return sayBye(name);
+// }
+// function sayBye(name){
+//    console.log("Bye " + name);
+// }
+// greet("Kamal", sayBye);
+
+// Q7 ⭐⭐⭐⭐ Delivery App
+// let cities = [
+// "Delhi",
+// "Mumbai",
+// "Pune",
+// "Jaipur",
+// "Goa"
+// ];
+// function Delivery(City,CityName){
+//     for(let i=0; i<CityName.length;i++){
+//         if(City===CityName[i]){
+//             return "Avilable";
+//         }
+//     }
+//     return "Not Available";
+// }
+
+// console.log(Delivery("Delhi",cities));
+
+// Q8 ⭐⭐⭐⭐ Interview Level
+// Predict the output.
+
+// function test(a, b){
+//     console.log(a);
+//     return b;
+// }
+
+// let x = test(10, 20);
+
+// console.log(x);
+// 10
+// 20
+
+// 🎯 Bonus Challenge (Logic Building)
+
+// let prices = [100, 250, 400, 150, 600];
+// function  recipte(inventery){
+//     let total = 0;
+//     let highest = -Infinity;
+//     let lowest = Infinity;
+//     for(let i=0; i<inventery.length;i++){
+//         total +=inventery[i];
+//         if(inventery[i] > highest){
+//             highest = inventery[i];
+//         }
+//         if(inventery[i] < lowest){
+//             lowest = inventery[i];
+//         }
+//     }
+//    return`   Total Price : ${total}
+//    Highest Price : ${highest}
+//    Lowest Price : ${lowest}
+//    Average Price : ${total/inventery.length}`
+// }
+// console.log(recipte(prices));
