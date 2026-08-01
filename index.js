@@ -6610,3 +6610,28 @@
 //    Average Price : ${total/inventery.length}`
 // }
 // console.log(recipte(prices));
+
+//               Day 43 SetTimeout() and SetInterval() function
+
+// What is the difference between setTimeout() and setinterval() ? 
+// setTimeout is a fuction in javascript used to execute a callback function once after a specified delay
+// setinterval is a function in javascript used to execute a callback fuction at fixed intervals until it is sttoped using clearInterval()
+
+// Explain what this code does:
+
+// const id = setInterval(() => {
+//     console.log("Running");
+// }, 1000);
+
+// setTimeout(() => {
+//     clearInterval(id);
+// }, 5000);
+
+// What id stores.
+// it stores a random number but mostly it start with 1 and next i be made another variable then it predicatble then the number is next
+// Why setInterval() repeats.
+// setInterval() is used to repeat the callback function it repeates beaucesd it designed for repeatation task 
+// Why clearInterval(id) stops it.
+// clearInterval(id) stops the setinterval becuase this is used to make stop the repreative task imediately and used with setTimeout so we have the approx number how many time setinterval run and when it stops 
+// Approximately how many times "Running" will be printed. 
+// it print Running 5 times because we use 1sec in running and where we use setTimeout at 5sec and cleariNTERVAL RUN AFTER 5 SEC SO THIS IS WHAT  IS IN MY MIND 
