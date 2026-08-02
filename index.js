@@ -6634,4 +6634,40 @@
 // Why clearInterval(id) stops it.
 // clearInterval(id) stops the setinterval becuase this is used to make stop the repreative task imediately and used with setTimeout so we have the approx number how many time setinterval run and when it stops 
 // Approximately how many times "Running" will be printed. 
-// it print Running 5 times because we use 1sec in running and where we use setTimeout at 5sec and cleariNTERVAL RUN AFTER 5 SEC SO THIS IS WHAT  IS IN MY MIND 
+// it print Running 5 times because we use 1sec in running and where we use setTimeout at 5sec and cleariNTERVAL RUN AFTER 5 SEC SO THIS IS WHAT  IS IN MY MIND
+
+
+//            Day 44 Synchronous vs Asynchronous Callbacks
+
+// What is the difference between synchronous and asynchronous execution?
+// In synchronus execution Javascript completes on task before moving to another task 
+//  in asynchronous execution javascripts cna start operation ,continue executing other code and run the call back later 
+// when the operation is ready 
+
+// Q5 ⭐⭐⭐ (Most Important)
+
+// Explain step by step what happens in this code:
+
+// console.log("Start");
+
+// setTimeout(() => {
+//     console.log("A");
+// }, 2000);
+
+// console.log("Middle");
+
+// console.log("End");
+
+// Your explanation should include:
+
+// Which statements execute immediately.
+// Start synchronus
+// Middle synchronus
+// End synchronus
+// A  Asynchronus
+// What setTimeout() does.
+// it is used exexute callback after or at a fixed time
+// Why "A" prints last.
+// Asynchronus and had a setTimeout function 
+
+
