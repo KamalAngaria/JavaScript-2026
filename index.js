@@ -6670,4 +6670,147 @@
 // Why "A" prints last.
 // Asynchronus and had a setTimeout function 
 
+//                      Day 44 Higher-Order Function
+
+// Q1
+// Identify the callback.
+
+// function hello() {}
+// function run(fn) {
+//     fn();
+// }
+// run(hello);
+
+// hello is the callback 
+
+// Q2
+// Identify the Higher-Order Function.
+
+// function hello() {}
+// function run(fn) {
+//     fn();
+// }
+// run(hello);
+// function run is the higher order function when it aceppt the argument as a callback 
+
+// Q3
+// Is this a Higher-Order Function?
+// function greet() {
+//     console.log("Hello");
+// }
+// Why?
+// no this is a just a function declaration 
+
+// Q4
+// True or False
+// Every callback function is a Higher-Order Function.
+// Explain.
+// every call back function is not a higher order function because 
+// to be a higher order function call back function need to aceppt function as a argument
+
+
+// Q5 ⭐⭐⭐ (Most Important)
+// Explain the difference between:
+// Callback Function
+// and
+// Higher-Order Function
+// in your own words.
+// Don't just repeat the definitions.
+// Explain their roles in this code:
+// function greet() {
+//     console.log("Hello");
+// }
+// function execute(callback) {
+//     callback();
+// }
+// execute(greet);
+// Who gives the function? 
+// function greet gives the function 
+// Who receives it?
+// execute passing the function greet as a argument  ot function execute 
+// Who executes it?
+// function execute 
+
+//               JavaScript function return another function?
+
+// Q1
+// Predict the output.
+
+// function outer(){
+//     return function(){
+//         console.log("Hi");
+//     };
+// }
+// console.log(outer());
+// this return whole function 
+
+// Q2
+// Predict the output.
+
+// function outer(){
+//     return function(){
+//         console.log("Hi");
+//     };
+// }
+// outer()();
+// hi 
+
+// Q3
+// Complete the code.
+
+// function outer(){
+//     return function(){
+//         console.log("JavaScript");
+//     };
+// }
+// const fn = outer();
+// fn()
+
+// Q4
+// True or False
+// A function returned from another function executes automatically.
+// Explain. false ie : if we call the outer function so it return inner function but inner function does not executes directly
+
+// Q5 ⭐⭐⭐ (Most Important)
+// Explain why these two lines behave differently:
+
+// outer();
+// and
+// outer()();
+
+// Don't just say "one has extra parentheses."
+// Explain:
+
+// What outer() returns. 
+// outer return just inner function but inner function does not execute directly  
+// What the second () is doing.
+// outer()(); second parathese execute the inner function  outer fuction recive inner function and second paranteses work like calling for inner function and execute second function 
+// Why JavaScript needs both steps.
+// one for take returning function second for exectue the fuction iner function
+
+
+// function createAdder(value) {
+//     return function(num) {
+//         return num + value;
+//     };
+// }
+
+// let add2 = createAdder(2);
+// let add10 = createAdder(10);
+
+// console.log(add2(8));
+// console.log(add10(8));
+
+// first we made a fucnction creatAdder
+// which is returning a function and at its inner code returning the logic vlaues
+
+// in let add2 we assign the function and calling the createAdder and pass 2 as aargument
+// so now 
+// let add2 = function num(){
+//             return num + 2;
+//                          }
+// then we do console.log(add2(8)) here we cal and pritn same time and pass 8 as argument
+// now we call add2 means add2(2){
+// return 8 +2 }
+// and it return from where it is called means it gives 10
 
