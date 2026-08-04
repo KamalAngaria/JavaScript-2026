@@ -17,6 +17,8 @@
 // decalration is the process of creating a variable in js and give it a name
 // Exammple -----
 
+const { use } = require("react");
+
 // var a; // this is how we decalre a variable in js whaat this decalartion only
 // work with let and var
 // what is intialiazation ?
@@ -6935,3 +6937,82 @@
 // });
 // console.log(totalChar);
 
+//                          Map()
+
+// Q1. Double every number
+// const nums = [1, 2, 3, 4];
+// const double = nums.map(num=>num*2);
+// console.log(double);
+
+// Q2. Square every number
+// const nums = [2, 3, 4, 5];
+// const square = nums.map(value=>value*value);
+// console.log(square);
+
+// Q3. Add 10 to every number
+// const nums = [5, 10, 15];
+// let ten = nums.map(val=>val+10);
+// console.log(ten);
+
+// Q4. Convert to negative
+// const nums = [5, 8, 10];
+// let negative = nums.map(val=>val*-1);
+// console.log(negative);
+
+// Q5. Convert all names to uppercase
+// const names = ["rahul", "amit", "rohit"];
+// let uppercase = names.map(val=>{
+//     return val.toUpperCase();
+// });
+// console.log(uppercase);
+
+// Q6. Add "Mr. " before every name
+// const names = ["Rahul", "Amit", "Rohit"];
+// let arr = names.map(value=>{
+//     return `Mr .${value}`;
+// });
+// console.log(arr);
+
+// Q7. Find length of every word
+// const words = ["HTML", "CSS", "JavaScript"];
+// let value = words.map(val=>val.length);
+// console.log(value);
+
+// Q8. Convert all words to lowercase
+// const words = ["HTML", "CSS", "JavaScript"];
+// const lowercase = words.map(val=>val.toLowerCase());
+// console.log(lowercase);
+
+// Q9. Add "!" after every word
+// const words = ["Hello", "Hi", "Welcome"];
+// let arr = words.map(val=>`${val}!`);
+// console.log(arr);
+
+// Q10. First letter only
+// const names = ["Rahul", "Amit", "Rohit"];
+// let letters = names.map(val=>{
+//     return val[0];
+// });
+// console.log(letters);
+
+// Q11. Get only names
+// const users = [
+//   { name: "Rahul", age: 20 },
+//   { name: "Amit", age: 22 },
+//   { name: "Rohit", age: 25 }
+// ];
+// const newArr = users.map(val=>{
+//     return val.name;
+// });
+// console.log(newArr);
+
+// Q12. Get only ages
+// const users = [
+//   { name: "Rahul", age: 20 },
+//   { name: "Amit", age: 22 },
+//   { name: "Rohit", age: 25 }
+// ];
+// let num = users.map(val=>{
+//     return val.age;
+// });
+// console.log(num);
