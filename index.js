@@ -6814,3 +6814,124 @@
 // return 8 +2 }
 // and it return from where it is called means it gives 10
 
+
+//                  Day 46  Modern Array Methods Roadmap
+
+//                          forEach() 
+// Q1. Print all fruits
+// const fruits = ["Apple", "Banana", "Mango", "Orange"];
+// fruits.forEach(fruit=>{
+//     console.log(fruit);
+// })
+
+// // Q2. Print all numbers
+// const nums = [5, 10, 15, 20, 25];
+// nums.forEach(num=>console.log(num));
+
+// Q3. Print with index
+// const colors = ["Red", "Green", "Blue"];
+// colors.forEach((color,index)=>{
+//     console.log(index,color);
+// });
+
+// Q4. Print square of every number
+// const nums = [2, 3, 4, 5];
+// nums.forEach((num)=>{
+//     num = num * num;
+//     console.log(num);
+// });
+
+// Q5. Print only even numbers
+// const nums = [1,2,3,4,5,6,7,8];
+// nums.forEach(num=>{
+//     if(num%2===0){
+//         console.log(num);
+//     }
+// });
+
+// Q6. Find sum
+// const nums = [10,20,30,40];
+// let sum = 0;
+// nums.forEach(num=>{
+//     sum += num;
+// })
+// console.log(sum);
+
+// Q7. Count even numbers
+// const nums = [2,5,8,11,14,19];
+// let count=0;
+// nums.forEach(num=>{
+//     if(num%2===0){
+//         count++;
+//     }
+// })
+// console.log(count);
+
+// Q8. Count odd numbers
+// const nums = [2,5,8,11,14,19];
+// let count = 0;
+// nums.forEach(num=>{ if(num%2!==0){count++}});
+// console.log(count);
+
+// Q9. Find largest number
+// const nums = [15,90,34,120,56];
+// let largest = -Infinity;
+// nums.forEach(num=>{
+//     if(num>largest){
+//         largest = num;
+//     }
+// });
+// console.log(largest);
+
+// Q10. Find smallest number
+// const nums = [15,90,34,120,56];
+// let smallest = Infinity;
+// nums.forEach(num=>{
+//     if(smallest>num){
+//         smallest = num;
+//     }
+// });
+// console.log(smallest);
+
+// Q11. Add "Mr." before every name while printing
+// const names = ["Rahul","Amit","Rohit"];
+// names.forEach(name=>{
+//     console.log(`Mr. ${name}`);
+// });
+
+// Q12. Print only names starting with "A"
+// const names = ["Rahul","Amit","Akash","Rohit","Ankit"];
+// names.forEach(name=>{
+//     if(name.includes("A")){
+//         console.log(name);
+//     }
+// });
+
+// Q13. Print string length
+// const words = ["JavaScript","HTML","CSS","React"];
+// words.forEach(word=>{
+//     console.log(word.length);
+// })
+
+// Q14. Count vowels in all words
+// const words = ["Apple","Banana","Mango"];
+// let vowels = ["a","e","i","o","u"];
+// words.forEach((word)=>{
+//     let count = 0;
+//     const lowerWord = word.toLowerCase();
+//    for(let i = 0; i<lowerWord.length;i++){
+//         if(vowels.includes(lowerWord[i])){
+//             count++;
+//         }
+//    }
+//    console.log(`${word} : ${count}`);
+// });
+
+// Q15. Calculate total characters
+// const words = ["HTML","CSS","JavaScript"];
+// let totalChar = 0;
+// words.forEach(word=>{
+//     totalChar +=word.length;
+// });
+// console.log(totalChar);
+
