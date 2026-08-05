@@ -7016,3 +7016,4 @@ const { use } = require("react");
 //     return val.age;
 // });
 // console.log(num);
+//                  Day  47 Practice
