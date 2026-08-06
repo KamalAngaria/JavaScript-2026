@@ -17,7 +17,7 @@
 // decalration is the process of creating a variable in js and give it a name
 // Exammple -----
 
-const { use } = require("react");
+// const { use } = require("react");
 
 // var a; // this is how we decalre a variable in js whaat this decalartion only
 // work with let and var
@@ -7017,3 +7017,141 @@ const { use } = require("react");
 // });
 // console.log(num);
 //                  Day  47 Practice
+//             Day 48 Filter(), find(),some(),every(),reduce()
+
+// Q1 ⭐ (forEach)
+// const nums = [10, 20, 30];
+// nums.forEach(num => {
+//     console.log(num);
+// });
+// 10
+// 20
+// 30
+
+// Q2 ⭐
+// const nums = [1, 2, 3];
+// const result = nums.forEach(num => num * 2);
+// console.log(result);
+// undefined 
+
+// Q3 ⭐⭐ (map)
+// const nums = [2, 4, 6];
+// const result = nums.map(num => num + 1);
+// console.log(result);
+// [3,5,7]
+
+// Q4 ⭐⭐
+// const nums = [5, 10, 15];
+// const result = nums.map(num => {
+//     return num / 5;
+// });
+// console.log(result);
+// [1,2,3]
+
+// Q5 ⭐⭐⭐ (Missing return)
+// const nums = [1, 2, 3];
+// const result = nums.map(num => {
+//     num * 10;
+// });
+// console.log(result);
+// [undefined,undefined,undefined]
+
+// Q6 ⭐⭐ (filter)
+// const nums = [5, 10, 15, 20];
+// const result = nums.filter(num => num > 10);
+// console.log(result);
+// [15,20]
+
+// Q7 ⭐⭐
+// const nums = [1, 2, 3, 4, 5];
+// const result = nums.filter(num => num % 2 !== 0);
+// console.log(result);
+// [1,3,5]
+
+// Q8 ⭐⭐⭐ (find)
+// const nums = [12, 18, 25, 30];
+// const result = nums.find(num => num > 20);
+// console.log(result);
+// 25
+
+// Q9 ⭐⭐⭐
+// const nums = [2, 4, 6, 8];
+// const result = nums.find(num => num % 2 !== 0);
+// console.log(result);
+// undefined
+
+// Q10 ⭐⭐ (some)
+// const nums = [3, 5, 7, 8];
+// const result = nums.some(num => num % 2 === 0);
+// console.log(result);
+// true
+
+// Q11 ⭐⭐
+// const nums = [1, 3, 5];
+// const result = nums.some(num => num > 10);
+// console.log(result)
+// false 
+
+// Q12 ⭐⭐ (every)
+// const nums = [10, 20, 30];
+// const result = nums.every(num => num > 5);
+// console.log(result);
+// true
+
+// Q13 ⭐⭐⭐
+// const nums = [10, 20, 2, 40];
+// const result = nums.every(num => num > 5);
+// console.log(result);
+// false 
+
+// Q14 ⭐⭐⭐ (reduce)
+// const nums = [10, 20, 30];
+// const result = nums.reduce((acc, current) => {
+//     return acc + current;
+// }, 0);
+// console.log(result);
+// 60
+
+// Q15 ⭐⭐⭐⭐
+// const nums = [2, 3, 4];
+// const result = nums.reduce((acc, current) => {
+//     return acc * current;
+// }, 1);
+// console.log(result);
+// 24
+
+// Q16 ⭐⭐⭐⭐ (Method Chaining)
+// const nums = [1, 2, 3, 4, 5];
+// const result = nums
+//     .filter(num => num > 2)
+//     .map(num => num * 2);
+// console.log(result);
+// [6,8,10]
+
+// Q17 ⭐⭐⭐⭐
+// const nums = [2, 5, 8, 7];
+// const result = nums
+//     .filter(num => num % 2 === 0)
+//     .reduce((acc, current) => acc + current, 0);
+// console.log(result);
+// 10
+
+// Q18 ⭐⭐⭐⭐⭐ (Tricky)
+// const nums = [];
+// const result = nums.every(num => num > 0);
+// console.log(result);
+// true
+
+// Q19 ⭐⭐⭐⭐⭐ (Tricky)
+// const nums = [];
+// const result = nums.some(num => num > 0);
+// console.log(result);
+// false 
+
+// Q20 ⭐⭐⭐⭐⭐ (Very Important)
+// const nums = [10, 20, 30];
+// const result = nums
+//     .find(num => num > 15)
+//     .map(num => num * 2);
+// console.log(result);
+// TypeError
