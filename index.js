@@ -7239,3 +7239,31 @@
 //    return gstval+currentval
 // },0);
 // console.log(`Total after GST :${totalGstCount}`);
+
+//              📂 Project 3 — Password Checker
+// const passwords = [
+//   "hello123",
+//   "admin",
+//   "secret123",
+//   "abcd"
+// ];
+
+// // Password length > 8
+// const lengthChecker = passwords.filter(password => password.length > 8);
+// console.log("Password length > 8 :", lengthChecker);
+
+// // Strong Passwords
+// const strongPasswords = passwords.filter(password => password.length > 8);
+// console.log("Strong Passwords :", strongPasswords);
+
+// // Weak Passwords
+// const weakPasswords = passwords.filter(password => password.length <= 8);
+// console.log("Weak Passwords :", weakPasswords);
+
+// // Any Strong Password?
+// const anyStrongPassword = passwords.some(password => password.length > 8);
+// console.log("Any Strong Password? :", anyStrongPassword);
+
+// // Are all passwords strong?
+// const allPasswordsStrong = passwords.every(password => password.length > 8);
+// console.log("Are all passwords strong? :", allPasswordsStrong);
