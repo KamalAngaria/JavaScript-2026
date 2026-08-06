@@ -7155,3 +7155,42 @@
 //     .map(num => num * 2);
 // console.log(result);
 // TypeError
+
+//              📂 Project 1 — Student Marks Analyzer
+
+// const marks = [45, 82, 67, 23, 91, 38, 55];
+// //                  Total Marks
+// const totalMarks = marks.reduce((acc,val)=>{
+//     return acc+val ;
+// },0);
+// console.log(`Total Marks : ${totalMarks}`);
+// //                  Average Marks
+// console.log(`Average Marks : ${(totalMarks/marks.length).toFixed(2)}`);
+// //                  Passed Student
+// const pass = marks.filter(studentMarks=>studentMarks>=33)
+// console.log(`Passed Student : ${pass}`);
+// //                  Fail Student
+// const fail = marks.filter(studentMarks=>studentMarks<33)
+// console.log(`Fail Student : ${fail}`);
+// //                  Higest Marks
+// const highMarks = marks.reduce((acc,currentval)=>{
+//     if(currentval>acc){
+//         return currentval;
+//     }
+//     return acc;
+// },marks[0]);
+// console.log(`Highest Marks : ${highMarks}`);
+// //                  Lowest Marks
+// const lowestMarks = marks.reduce((acc,currentval)=>{
+//     if(currentval<acc){
+//         return currentval;
+//     }
+//     return acc;
+// },marks[0]);
+// console.log(`Lowest Marks : ${lowestMarks}`);
+// //              Kya sab pass hain?
+// const student = marks.every(num=>num>=33);
+// console.log(`All Student Pass ? : ${student}`);
+// //             Kya koi 90+ scorer hai?
+// const topper = marks.some(num=>num>=90);
+// console.log(`Any one With 90+ Score : ${topper}`);
