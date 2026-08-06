@@ -7194,3 +7194,48 @@
 // //             Kya koi 90+ scorer hai?
 // const topper = marks.some(num=>num>=90);
 // console.log(`Any one With 90+ Score : ${topper}`);
+
+//              📂 Project 2 — Expense Tracker
+
+// const expenses = [500, 1200, 250, 900, 150];
+
+// //                        Total Expenses 
+// const totalExpenses = expenses.reduce((expenses,currentval)=>expenses+currentval,0);
+// console.log(`Total Expenses : ${totalExpenses}`);
+// //                         Highest Expense
+// const highestExpense = expenses.reduce((highval,currentval)=>{
+//     if(currentval>highval){
+//         return currentval;
+//     }
+//     return highval;
+// },expenses[0]);
+// console.log(`Highest Expense : ${highestExpense}`);
+
+// //                           Lowest Expense
+// const lowestExpense = expenses.reduce((lowval,currentval)=>{
+//     if(currentval<lowval){
+//         return currentval;
+//     }
+//     return lowval;
+// },expenses[0]);
+// console.log(`Lowest Expense : ${lowestExpense}`);
+
+// //                              Expenses >500
+// const HighExpenseVal =expenses.filter((val)=>{
+//         if(val>500){
+//             return true;
+//         }
+// });
+// console.log(`Expenses >500 : ${HighExpenseVal}`);
+// //                  18% GST add using map()
+
+// const gstCount = expenses.map(val=>{
+//     let gst = val*18/100;
+//    return val += gst;
+// });
+// console.log(`All With Gst : ${gstCount}`);
+// //              Total after GST
+// const totalGstCount = gstCount.reduce((gstval,currentval)=>{
+//    return gstval+currentval
+// },0);
+// console.log(`Total after GST :${totalGstCount}`);
