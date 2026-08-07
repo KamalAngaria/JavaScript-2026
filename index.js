@@ -7267,3 +7267,30 @@
 // // Are all passwords strong?
 // const allPasswordsStrong = passwords.every(password => password.length > 8);
 // console.log("Are all passwords strong? :", allPasswordsStrong);
+
+//              Day 49 Object From Biginer to Advance
+
+// const student = {
+//   class : "10th",
+//   class11 : {
+//     name : "kamal",
+//     rollno : {
+//         classRoll :14,
+//         Universitiy : 52,
+//         "Major Roll" : 45
+//     }
+//   }  ,
+//   profile :{
+//     name : "rhaul"
+//   }
+// };
+
+// student.class11.rollno.Universitiy = 187;
+// console.log(student.class11.rollno.Universitiy);
+// delete student.class11.rollno.Universitiy;
+// console.log(student.class11.rollno.Universitiy);
+// console.log(student.class11.rollno["Major Roll"])
+// student.class11.rollno["Major Roll"] =83;
+// console.log(student.class11.rollno["Major Roll"]);
+// delete student.class11.rollno["Major Roll"];
+// console.log(student.class11.rollno["Major Roll"]);
