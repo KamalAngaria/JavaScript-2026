@@ -7294,3 +7294,127 @@
 // console.log(student.class11.rollno["Major Roll"]);
 // delete student.class11.rollno["Major Roll"];
 // console.log(student.class11.rollno["Major Roll"]);
+
+//              Arrays inside Objects and Mixed Nested Structure
+
+// Q1 ⭐ — Access Object → Array
+// const student = {
+//     name: "Kamal",
+//     marks: [78, 85, 92]
+// };
+
+// console.log(student.marks[1]);
+// // 85
+
+// Q2 ⭐ — Access Array → Object
+// const students = [
+//     { name: "Rahul", age: 18 },
+//     { name: "Aman", age: 19 },
+//     { name: "Kamal", age: 20 }
+// ];
+
+// console.log(students[2].name);
+// Kamal 
+
+// Q3 ⭐⭐ — Object → Array → Object
+// const school = {
+//     students: [
+//         { name: "Aman", marks: 80 },
+//         { name: "Kamal", marks: 95 }
+//     ]
+// };
+
+// console.log(school.students[1].marks);
+// 95
+
+// Q4 ⭐⭐ — Array → Object → Array
+// const data = [
+//     {
+//         name: "Kamal",
+//         subjects: ["JavaScript", "CSS", "HTML"]
+//     }
+// ];
+
+// console.log(data[0].subjects[2]);
+// CSS 
+
+// Q5 ⭐⭐ — Change Data
+// const student = {
+//     name: "Kamal",
+//     marks: [70, 80, 90]
+// };
+// student.marks[1]=85;
+
+// Q6 ⭐⭐⭐ — Change Nested Object Data
+// const students = [
+//     { name: "Aman", info: { age: 18, city: "Delhi" } },
+//     { name: "Kamal", info: { age: 20, city: "Shimla" } }
+// ];
+// students[1].info.city="Chandigarh";
+
+// // Q7 ⭐⭐⭐ — Delete Array Element
+// const student = {
+//     name: "Kamal",
+//     skills: ["HTML", "CSS", "JavaScript"]
+// };
+// delete student.skills[1];
+// css become empety now postion remained but data delete
+
+// Q8 ⭐⭐⭐ — Delete Object Property
+// const students = [
+//     {
+//         name: "Kamal",
+//         age: 20,
+//         marks: 95
+//     }
+// ];
+
+// delete students[0].age;
+
+// Q9 ⭐⭐⭐⭐ — Mixed Access
+// const company = {
+//     employees: [
+//         {
+//             name: "Aman",
+//             skills: ["HTML", "CSS"]
+//         },
+//         {
+//             name: "Kamal",
+//             skills: ["JavaScript", "React"]
+//         }
+//     ]
+// };
+
+// console.log(company.employees[1].skills[0]);
+// console.log(company.employees[0].skills[1]);
+// Javscript
+// CSS 
+
+// Q10 🔥 — Final Boss
+// const data = {
+//     users: [
+//         {
+//             name: "Aman",
+//             details: {
+//                 age: 18,
+//                 hobbies: ["Cricket", "Gaming"]
+//             }
+//         },
+//         {
+//             name: "Kamal",
+//             details: {
+//                 age: 20,
+//                 hobbies: ["Coding", "Reading"]
+//             }
+//         }
+//     ]
+// };
+// // console.log(data.users[1].details.hobbies[0]);
+// // data.users[1].details.age=21;
+// // delete data.users[1].details.hobbies[1,1]
+// data.users[0].details.hobbies.splice(0,2);
+// delete data.users[0].details.hobbies
+// console.log(data.users[0].details);
+// data.users[0].details.hobbies =["ram,syam"];
+// console.log(data.users[0].details);
+// data.users[0].details.hobbies.splice(0 ,0,"Apple","Mango");
